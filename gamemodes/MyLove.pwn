@@ -2,14 +2,7 @@
 // uncomment the line below if you want to write a filterscript
 //#define FILTERSCRIPT
 
-
-
-/// DEV NOTES:
-/// SUDAH BISA LOGIN, OTP, DAN CREATE PASSWORD
-/// JADI TINGGAL MENAMBAKAN SISTEM CREARE CHARACTER, DAN SHOW CHARACTER LIST
-// This is a blank gamemode/filterscript template for SA:MP
-
-
+//kontol
 
 #include <a_samp>
 #include <a_mysql>
