@@ -1,0 +1,5624 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:50:24] filterscripts = ""  (string)
+[16:50:24] 
+[16:50:24] Server Plugins
+[16:50:24] --------------
+[16:50:24]  Loading plugin: mysql
+[16:50:24]  >> plugin.mysql: R41-4 successfully loaded.
+[16:50:24]   Loaded.
+[16:50:24]  Loading plugin: pawncmd
+[16:50:24] [Pawn.CMD] plugin v3.4.0 loading...
+[16:50:24] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:50:24]   Loaded.
+[16:50:24]  Loading plugin: sscanf
+[16:50:24]   Failed.
+[16:50:24]  Loading plugin: streamer
+[16:50:24] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[16:50:24]   Loaded.
+[16:50:24]  Loading plugin: crashdetect
+[16:50:24]   Failed.
+[16:50:24]  Loaded 3 plugins.
+
+[16:50:24] 
+[16:50:24] Filterscripts
+[16:50:24] ---------------
+[16:50:24]   Loaded 0 filterscripts.
+
+[16:50:24] [MySQL] Menghubungkan ke database...
+[16:50:24] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[16:50:24] ======================================
+[16:50:24] ========| Ryuji-RP Is started |=======
+[16:50:24] ======================================
+
+[16:50:24] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:50:38] filterscripts = ""  (string)
+[16:50:38] 
+[16:50:38] Server Plugins
+[16:50:38] --------------
+[16:50:38]  Loading plugin: mysql
+[16:50:38]  >> plugin.mysql: R41-4 successfully loaded.
+[16:50:38]   Loaded.
+[16:50:38]  Loading plugin: pawncmd
+[16:50:38] [Pawn.CMD] plugin v3.4.0 loading...
+[16:50:38] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:50:38]   Loaded.
+[16:50:38]  Loading plugin: sscanf
+[16:50:38]   Failed.
+[16:50:38]  Loading plugin: streamer
+[16:50:38] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[16:50:38]   Loaded.
+[16:50:38]  Loading plugin: crashdetect
+[16:50:38]   Failed.
+[16:50:38]  Loaded 3 plugins.
+
+[16:50:38] 
+[16:50:38] Filterscripts
+[16:50:38] ---------------
+[16:50:38]   Loaded 0 filterscripts.
+
+[16:50:38] [MySQL] Menghubungkan ke database...
+[16:50:38] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[16:50:38] ======================================
+[16:50:38] ========| Ryuji-RP Is started |=======
+[16:50:38] ======================================
+
+[16:50:38] Number of vehicle models: 0
+[16:50:53] [connection] incoming connection: 127.0.0.1:60469 id: 0
+[16:50:53] [join] ryujikun has joined the server (0:127.0.0.1)
+[16:51:12] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:10:40] filterscripts = ""  (string)
+[17:10:40] 
+[17:10:40] Server Plugins
+[17:10:40] --------------
+[17:10:40]  Loading plugin: mysql
+[17:10:40]  >> plugin.mysql: R41-4 successfully loaded.
+[17:10:40]   Loaded.
+[17:10:40]  Loading plugin: pawncmd
+[17:10:40] [Pawn.CMD] plugin v3.4.0 loading...
+[17:10:40] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:10:40]   Loaded.
+[17:10:40]  Loading plugin: sscanf
+[17:10:40]   Failed.
+[17:10:40]  Loading plugin: streamer
+[17:10:40] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:10:40]   Loaded.
+[17:10:40]  Loading plugin: crashdetect
+[17:10:40]   Failed.
+[17:10:40]  Loaded 3 plugins.
+
+[17:10:40] 
+[17:10:40] Filterscripts
+[17:10:40] ---------------
+[17:10:40]   Loaded 0 filterscripts.
+
+[17:10:40] [MySQL] Menghubungkan ke database...
+[17:10:40] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:10:40] ======================================
+[17:10:40] ========| Ryuji-RP Is started |=======
+[17:10:40] ======================================
+
+[17:10:40] Number of vehicle models: 0
+[17:10:52] [connection] incoming connection: 127.0.0.1:65058 id: 0
+[17:10:53] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:11:03] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:11:32] filterscripts = ""  (string)
+[17:11:32] 
+[17:11:32] Server Plugins
+[17:11:32] --------------
+[17:11:32]  Loading plugin: mysql
+[17:11:32]  >> plugin.mysql: R41-4 successfully loaded.
+[17:11:32]   Loaded.
+[17:11:32]  Loading plugin: pawncmd
+[17:11:32] [Pawn.CMD] plugin v3.4.0 loading...
+[17:11:32] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:11:32]   Loaded.
+[17:11:32]  Loading plugin: sscanf
+[17:11:32]   Failed.
+[17:11:32]  Loading plugin: streamer
+[17:11:32] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:11:32]   Loaded.
+[17:11:32]  Loading plugin: crashdetect
+[17:11:32]   Failed.
+[17:11:32]  Loaded 3 plugins.
+
+[17:11:32] 
+[17:11:32] Filterscripts
+[17:11:32] ---------------
+[17:11:32]   Loaded 0 filterscripts.
+
+[17:11:32] [MySQL] Menghubungkan ke database...
+[17:11:32] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:11:32] ======================================
+[17:11:32] ========| Ryuji-RP Is started |=======
+[17:11:32] ======================================
+
+[17:11:32] Number of vehicle models: 0
+[17:11:43] [connection] incoming connection: 127.0.0.1:65172 id: 0
+[17:11:43] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:11:56] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:16:20] filterscripts = ""  (string)
+[17:16:20] 
+[17:16:20] Server Plugins
+[17:16:20] --------------
+[17:16:20]  Loading plugin: mysql
+[17:16:20]  >> plugin.mysql: R41-4 successfully loaded.
+[17:16:20]   Loaded.
+[17:16:20]  Loading plugin: pawncmd
+[17:16:20] [Pawn.CMD] plugin v3.4.0 loading...
+[17:16:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:16:20]   Loaded.
+[17:16:20]  Loading plugin: sscanf
+[17:16:20]   Failed.
+[17:16:20]  Loading plugin: streamer
+[17:16:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:16:20]   Loaded.
+[17:16:20]  Loading plugin: crashdetect
+[17:16:20]   Failed.
+[17:16:20]  Loaded 3 plugins.
+
+[17:16:20] 
+[17:16:20] Filterscripts
+[17:16:20] ---------------
+[17:16:20]   Loaded 0 filterscripts.
+
+[17:16:20] [MySQL] Menghubungkan ke database...
+[17:16:20] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:16:20] ======================================
+[17:16:20] ========| Ryuji-RP Is started |=======
+[17:16:20] ======================================
+
+[17:16:20] Number of vehicle models: 0
+[17:16:32] [connection] incoming connection: 127.0.0.1:61536 id: 0
+[17:16:32] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:16:54] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:18:36] filterscripts = ""  (string)
+[17:18:36] 
+[17:18:36] Server Plugins
+[17:18:36] --------------
+[17:18:36]  Loading plugin: mysql
+[17:18:36]  >> plugin.mysql: R41-4 successfully loaded.
+[17:18:36]   Loaded.
+[17:18:36]  Loading plugin: pawncmd
+[17:18:36] [Pawn.CMD] plugin v3.4.0 loading...
+[17:18:36] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:18:36]   Loaded.
+[17:18:36]  Loading plugin: sscanf
+[17:18:36]   Failed.
+[17:18:36]  Loading plugin: streamer
+[17:18:36] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:18:36]   Loaded.
+[17:18:36]  Loading plugin: crashdetect
+[17:18:36]   Failed.
+[17:18:36]  Loaded 3 plugins.
+
+[17:18:36] 
+[17:18:36] Filterscripts
+[17:18:36] ---------------
+[17:18:36]   Loaded 0 filterscripts.
+
+[17:18:36] [MySQL] Menghubungkan ke database...
+[17:18:36] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:18:36] ======================================
+[17:18:36] ========| Ryuji-RP Is started |=======
+[17:18:36] ======================================
+
+[17:18:36] Number of vehicle models: 0
+[17:18:47] [connection] incoming connection: 127.0.0.1:64726 id: 0
+[17:18:48] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:19:16] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:00:03] filterscripts = ""  (string)
+[11:00:03] 
+[11:00:03] Server Plugins
+[11:00:03] --------------
+[11:00:03]  Loading plugin: sscanf
+[11:00:03] 
+[11:00:03]  ===============================
+[11:00:03] 
+[11:00:03]       sscanf plugin loaded.     
+[11:00:03] 
+[11:00:03]          Version: 2.13.8
+[11:00:03] 
+[11:00:03]    (c) 2022 Alex "Y_Less" Cole  
+[11:00:03] 
+[11:00:03]  ===============================
+[11:00:03] 
+[11:00:03]   Loaded.
+[11:00:03]  Loading plugin: mysql
+[11:00:03]  >> plugin.mysql: R41-4 successfully loaded.
+[11:00:03]   Loaded.
+[11:00:03]  Loading plugin: pawncmd
+[11:00:03] [Pawn.CMD] plugin v3.4.0 loading...
+[11:00:03] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:00:03]   Loaded.
+[11:00:03]  Loading plugin: streamer
+[11:00:03] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:00:03]   Loaded.
+[11:00:03]  Loading plugin: crashdetect
+[11:00:03]   Failed.
+[11:00:03]  Loaded 4 plugins.
+
+[11:00:03] 
+[11:00:03] Filterscripts
+[11:00:03] ---------------
+[11:00:03]   Loaded 0 filterscripts.
+
+[11:00:03] [MySQL] Menghubungkan ke database...
+[11:00:03] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:00:03] ======================================
+[11:00:03] ========| Ryuji-RP Is started |=======
+[11:00:03] ======================================
+
+[11:00:03] Number of vehicle models: 0
+[11:00:35] [connection] incoming connection: 127.0.0.1:57829 id: 0
+[11:00:36] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:01:21] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:12:02] filterscripts = ""  (string)
+[11:12:02] 
+[11:12:02] Server Plugins
+[11:12:02] --------------
+[11:12:02]  Loading plugin: sscanf
+[11:12:02] 
+[11:12:02]  ===============================
+[11:12:02] 
+[11:12:02]       sscanf plugin loaded.     
+[11:12:02] 
+[11:12:02]          Version: 2.13.8
+[11:12:02] 
+[11:12:02]    (c) 2022 Alex "Y_Less" Cole  
+[11:12:02] 
+[11:12:02]  ===============================
+[11:12:02] 
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: mysql
+[11:12:02]  >> plugin.mysql: R41-4 successfully loaded.
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: pawncmd
+[11:12:02] [Pawn.CMD] plugin v3.4.0 loading...
+[11:12:02] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: streamer
+[11:12:02] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: crashdetect
+[11:12:02]   Failed.
+[11:12:02]  Loaded 4 plugins.
+
+[11:12:02] 
+[11:12:02] Filterscripts
+[11:12:02] ---------------
+[11:12:02]   Loaded 0 filterscripts.
+
+[11:12:02] [MySQL] Menghubungkan ke database...
+[11:12:02] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:12:02] ======================================
+[11:12:02] ========| Ryuji-RP Is started |=======
+[11:12:02] ======================================
+
+[11:12:02] Number of vehicle models: 0
+[11:12:13] [connection] incoming connection: 127.0.0.1:58026 id: 0
+[11:12:13] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:12:25] sscanf error (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unenclosed specifier parameter."
+[11:12:25] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '/', skipping."
+[11:12:25] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '/', skipping."
+[11:12:25] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '>', skipping."
+[11:12:41] sscanf error (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unenclosed specifier parameter."
+[11:12:41] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '/', skipping."
+[11:12:41] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '/', skipping."
+[11:12:41] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '>', skipping."
+[11:12:45] sscanf error (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unenclosed specifier parameter."
+[11:12:45] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '/', skipping."
+[11:12:45] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '/', skipping."
+[11:12:46] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "Unknown format specifier '>', skipping."
+[11:12:50] [part] ryujikun has left the server (0:2)
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+Console input: if (dialogid == DIALOG_AGE)
+Console input: {
+Console input:     if (response == 0)
+Console input:     {
+Console input:         return ShowCharList(playerid);
+Console input:     }
+Console input:     else if (response == 1)
+Console input:     {
+Console input:         new day, month, year;
+Console input:         new date[11]; // Format DD/MM/YYYY
+Console input:         new query[256];
+Console input:         // Periksa format tanggal
+Console input:         if (IsValidDateFormat(inputtext))
+Console input:         {
+Console input:             // Parsing tanggal menggunakan sscanf
+Console input:             if (sscanf(inputtext, "p<//>ddd", day, month, year) == 3)
+Console input:             {
+Console input:                 // Validasi nilai tanggal
+Console input:                 if (IsValidDate(day, month, year))
+Console input:                 {
+Console input:                     format(date, sizeof(date), "%02d/%02d/%04d", day, month, year);
+Console input:                     mysql_format(handle, query, sizeof(query), "UPDATE `character` SET Age = '%e' WHERE name = '%e'", date, cData[playerid][cName]);
+Console input:                     mysql_query(handle, query);
+Console input:                     ShowDialogGender(playerid);
+Console input:                 }
+Console input:                 else
+Console input:                 {
+Console input:                     SendClientMessage(playerid, COLOR_RED, "ERROR: Nilai tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                     ShowDialogAge(playerid);
+Console input:                 }
+Console input:             }
+Console input:             else
+Console input:             {
+Console input:                 SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:                 ShowDialogAge(playerid);
+Console input:             }
+Console input:         }
+Console input:         else
+Console input:         {
+Console input:             SendClientMessage(playerid, COLOR_RED, "ERROR: Format tanggal tidak valid. Gunakan format DD/MM/YYYY.");
+Console input:             ShowDialogAge(playerid);
+Console input:         }
+Console input:     }
+Console input: }
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:15:29] filterscripts = ""  (string)
+[11:15:29] 
+[11:15:29] Server Plugins
+[11:15:29] --------------
+[11:15:29]  Loading plugin: sscanf
+[11:15:29] 
+[11:15:29]  ===============================
+[11:15:29] 
+[11:15:29]       sscanf plugin loaded.     
+[11:15:29] 
+[11:15:29]          Version: 2.13.8
+[11:15:29] 
+[11:15:29]    (c) 2022 Alex "Y_Less" Cole  
+[11:15:29] 
+[11:15:29]  ===============================
+[11:15:29] 
+[11:15:29]   Loaded.
+[11:15:29]  Loading plugin: mysql
+[11:15:29]  >> plugin.mysql: R41-4 successfully loaded.
+[11:15:29]   Loaded.
+[11:15:29]  Loading plugin: pawncmd
+[11:15:29] [Pawn.CMD] plugin v3.4.0 loading...
+[11:15:29] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:15:29]   Loaded.
+[11:15:29]  Loading plugin: streamer
+[11:15:29] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:15:29]   Loaded.
+[11:15:29]  Loading plugin: crashdetect
+[11:15:29]   Failed.
+[11:15:29]  Loaded 4 plugins.
+
+[11:15:30] 
+[11:15:30] Filterscripts
+[11:15:30] ---------------
+[11:15:30]   Loaded 0 filterscripts.
+
+[11:15:30] [MySQL] Menghubungkan ke database...
+[11:15:30] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:15:30] ======================================
+[11:15:30] ========| Ryuji-RP Is started |=======
+[11:15:30] ======================================
+
+[11:15:30] Number of vehicle models: 0
+[11:15:42] [connection] incoming connection: 127.0.0.1:52718 id: 0
+[11:15:42] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:16:13] [part] ryujikun has left the server (0:2)
+[11:18:00] [connection] incoming connection: 127.0.0.1:54197 id: 0
+[11:18:00] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:18:15] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:18:24] filterscripts = ""  (string)
+[11:18:24] 
+[11:18:24] Server Plugins
+[11:18:24] --------------
+[11:18:24]  Loading plugin: sscanf
+[11:18:24] 
+[11:18:24]  ===============================
+[11:18:24] 
+[11:18:24]       sscanf plugin loaded.     
+[11:18:24] 
+[11:18:24]          Version: 2.13.8
+[11:18:24] 
+[11:18:24]    (c) 2022 Alex "Y_Less" Cole  
+[11:18:24] 
+[11:18:24]  ===============================
+[11:18:24] 
+[11:18:24]   Loaded.
+[11:18:24]  Loading plugin: mysql
+[11:18:24]  >> plugin.mysql: R41-4 successfully loaded.
+[11:18:24]   Loaded.
+[11:18:24]  Loading plugin: pawncmd
+[11:18:24] [Pawn.CMD] plugin v3.4.0 loading...
+[11:18:24] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:18:24]   Loaded.
+[11:18:24]  Loading plugin: streamer
+[11:18:24] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:18:24]   Loaded.
+[11:18:24]  Loading plugin: crashdetect
+[11:18:24]   Failed.
+[11:18:24]  Loaded 4 plugins.
+
+[11:18:24] 
+[11:18:24] Filterscripts
+[11:18:24] ---------------
+[11:18:24]   Loaded 0 filterscripts.
+
+[11:18:24] [MySQL] Menghubungkan ke database...
+[11:18:24] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:18:24] ======================================
+[11:18:24] ========| Ryuji-RP Is started |=======
+[11:18:24] ======================================
+
+[11:18:24] Number of vehicle models: 0
+[11:18:35] [connection] incoming connection: 127.0.0.1:50246 id: 0
+[11:18:35] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:18:49] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:26:23] filterscripts = ""  (string)
+[11:26:23] 
+[11:26:23] Server Plugins
+[11:26:23] --------------
+[11:26:23]  Loading plugin: sscanf
+[11:26:23] 
+[11:26:23]  ===============================
+[11:26:23] 
+[11:26:23]       sscanf plugin loaded.     
+[11:26:23] 
+[11:26:23]          Version: 2.13.8
+[11:26:23] 
+[11:26:23]    (c) 2022 Alex "Y_Less" Cole  
+[11:26:23] 
+[11:26:23]  ===============================
+[11:26:23] 
+[11:26:23]   Loaded.
+[11:26:23]  Loading plugin: mysql
+[11:26:23]  >> plugin.mysql: R41-4 successfully loaded.
+[11:26:23]   Loaded.
+[11:26:23]  Loading plugin: pawncmd
+[11:26:23] [Pawn.CMD] plugin v3.4.0 loading...
+[11:26:23] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:26:23]   Loaded.
+[11:26:23]  Loading plugin: streamer
+[11:26:23] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:26:23]   Loaded.
+[11:26:23]  Loading plugin: crashdetect
+[11:26:23]   Failed.
+[11:26:23]  Loaded 4 plugins.
+
+[11:26:23] 
+[11:26:23] Filterscripts
+[11:26:23] ---------------
+[11:26:23]   Loaded 0 filterscripts.
+
+[11:26:23] [MySQL] Menghubungkan ke database...
+[11:26:23] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:26:23] ======================================
+[11:26:23] ========| Ryuji-RP Is started |=======
+[11:26:23] ======================================
+
+[11:26:23] Number of vehicle models: 0
+[11:26:42] [connection] incoming connection: 127.0.0.1:50857 id: 0
+[11:26:43] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:27:18] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:30:23] filterscripts = ""  (string)
+[11:30:23] 
+[11:30:23] Server Plugins
+[11:30:23] --------------
+[11:30:23]  Loading plugin: sscanf
+[11:30:23] 
+[11:30:23]  ===============================
+[11:30:23] 
+[11:30:23]       sscanf plugin loaded.     
+[11:30:23] 
+[11:30:23]          Version: 2.13.8
+[11:30:23] 
+[11:30:23]    (c) 2022 Alex "Y_Less" Cole  
+[11:30:23] 
+[11:30:23]  ===============================
+[11:30:23] 
+[11:30:23]   Loaded.
+[11:30:23]  Loading plugin: mysql
+[11:30:23]  >> plugin.mysql: R41-4 successfully loaded.
+[11:30:23]   Loaded.
+[11:30:23]  Loading plugin: pawncmd
+[11:30:23] [Pawn.CMD] plugin v3.4.0 loading...
+[11:30:23] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:30:23]   Loaded.
+[11:30:23]  Loading plugin: streamer
+[11:30:23] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:30:23]   Loaded.
+[11:30:23]  Loading plugin: crashdetect
+[11:30:23]   Failed.
+[11:30:23]  Loaded 4 plugins.
+
+[11:30:23] 
+[11:30:23] Filterscripts
+[11:30:23] ---------------
+[11:30:23]   Loaded 0 filterscripts.
+
+[11:30:23] [MySQL] Menghubungkan ke database...
+[11:30:23] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:30:23] ======================================
+[11:30:23] ========| Ryuji-RP Is started |=======
+[11:30:23] ======================================
+
+[11:30:23] Number of vehicle models: 0
+[11:30:38] [connection] incoming connection: 127.0.0.1:54633 id: 0
+[11:30:38] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:30:51] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:30:55] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:31:00] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:31:08] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:31:08] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:31:08] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:31:10] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:35:54] filterscripts = ""  (string)
+[11:35:54] 
+[11:35:54] Server Plugins
+[11:35:54] --------------
+[11:35:54]  Loading plugin: sscanf
+[11:35:54] 
+[11:35:54]  ===============================
+[11:35:54] 
+[11:35:54]       sscanf plugin loaded.     
+[11:35:54] 
+[11:35:54]          Version: 2.13.8
+[11:35:54] 
+[11:35:54]    (c) 2022 Alex "Y_Less" Cole  
+[11:35:54] 
+[11:35:54]  ===============================
+[11:35:54] 
+[11:35:54]   Loaded.
+[11:35:54]  Loading plugin: mysql
+[11:35:54]  >> plugin.mysql: R41-4 successfully loaded.
+[11:35:54]   Loaded.
+[11:35:54]  Loading plugin: pawncmd
+[11:35:54] [Pawn.CMD] plugin v3.4.0 loading...
+[11:35:54] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:35:54]   Loaded.
+[11:35:54]  Loading plugin: streamer
+[11:35:54] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:35:54]   Loaded.
+[11:35:54]  Loading plugin: crashdetect
+[11:35:54]   Failed.
+[11:35:54]  Loaded 4 plugins.
+
+[11:35:54] 
+[11:35:54] Filterscripts
+[11:35:54] ---------------
+[11:35:54]   Loaded 0 filterscripts.
+
+[11:35:54] [MySQL] Menghubungkan ke database...
+[11:35:54] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[11:35:54] ======================================
+[11:35:54] ========| Ryuji-RP Is started |=======
+[11:35:54] ======================================
+
+[11:35:54] Number of vehicle models: 0
+[11:36:05] [connection] incoming connection: 127.0.0.1:55235 id: 0
+[11:36:05] [join] ryujikun has joined the server (0:127.0.0.1)
+[11:36:12] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:36:12] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:36:12] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[11:36:20] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:00:16] filterscripts = ""  (string)
+[17:00:16] 
+[17:00:16] Server Plugins
+[17:00:16] --------------
+[17:00:16]  Loading plugin: sscanf
+[17:00:16] 
+[17:00:16]  ===============================
+[17:00:16] 
+[17:00:16]       sscanf plugin loaded.     
+[17:00:16] 
+[17:00:16]          Version: 2.13.8
+[17:00:16] 
+[17:00:16]    (c) 2022 Alex "Y_Less" Cole  
+[17:00:16] 
+[17:00:16]  ===============================
+[17:00:16] 
+[17:00:16]   Loaded.
+[17:00:16]  Loading plugin: mysql
+[17:00:16]  >> plugin.mysql: R41-4 successfully loaded.
+[17:00:16]   Loaded.
+[17:00:16]  Loading plugin: pawncmd
+[17:00:16] [Pawn.CMD] plugin v3.4.0 loading...
+[17:00:16] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:00:16]   Loaded.
+[17:00:16]  Loading plugin: streamer
+[17:00:16] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:00:16]   Loaded.
+[17:00:16]  Loading plugin: crashdetect
+[17:00:16]   Failed.
+[17:00:16]  Loaded 4 plugins.
+
+[17:00:16] 
+[17:00:16] Filterscripts
+[17:00:16] ---------------
+[17:00:16]   Loaded 0 filterscripts.
+
+[17:00:16] [MySQL] Menghubungkan ke database...
+[17:00:34] [MySQL] Sambungan ke database tidak berhasil.
+[17:00:34] [MySQL] Coba lagi (TTL: 2).
+[17:00:34] [MySQL] Menghubungkan ke database...
+[17:00:34] [MySQL] Sambungan ke database tidak berhasil.
+[17:00:34] [MySQL] Coba lagi (TTL: 1).
+[17:00:34] [MySQL] Menghubungkan ke database...
+[17:00:34] [MySQL] Sambungan ke database tidak berhasil.
+[17:00:34] [MySQL] Silakan periksa Informasi Login MySQL.
+[17:00:34] [MySQL] Mematikan server
+[17:00:34] ======================================
+[17:00:34] ========| Ryuji-RP Is started |=======
+[17:00:34] ======================================
+
+[17:00:34] Number of vehicle models: 0
+[17:00:34] --- Server Shutting Down.
+[17:00:34] MySQL connection closed.
+[17:00:34] 
+[17:00:34]  ===============================
+[17:00:34] 
+[17:00:34]      sscanf plugin unloaded.    
+[17:00:34] 
+[17:00:34]  ===============================
+[17:00:34] 
+[17:00:34] plugin.mysql: Unloading plugin...
+[17:00:34] plugin.mysql: Plugin unloaded.
+[17:00:34] [Pawn.CMD] plugin unloaded
+[17:00:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:01:21] filterscripts = ""  (string)
+[17:01:21] 
+[17:01:21] Server Plugins
+[17:01:21] --------------
+[17:01:21]  Loading plugin: sscanf
+[17:01:21] 
+[17:01:21]  ===============================
+[17:01:21] 
+[17:01:21]       sscanf plugin loaded.     
+[17:01:21] 
+[17:01:21]          Version: 2.13.8
+[17:01:21] 
+[17:01:21]    (c) 2022 Alex "Y_Less" Cole  
+[17:01:21] 
+[17:01:21]  ===============================
+[17:01:21] 
+[17:01:21]   Loaded.
+[17:01:21]  Loading plugin: mysql
+[17:01:21]  >> plugin.mysql: R41-4 successfully loaded.
+[17:01:21]   Loaded.
+[17:01:21]  Loading plugin: pawncmd
+[17:01:21] [Pawn.CMD] plugin v3.4.0 loading...
+[17:01:21] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:01:21]   Loaded.
+[17:01:21]  Loading plugin: streamer
+[17:01:21] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:01:21]   Loaded.
+[17:01:21]  Loading plugin: crashdetect
+[17:01:21]   Failed.
+[17:01:21]  Loaded 4 plugins.
+
+[17:01:21] 
+[17:01:21] Filterscripts
+[17:01:21] ---------------
+[17:01:21]   Loaded 0 filterscripts.
+
+[17:01:21] [MySQL] Menghubungkan ke database...
+[17:01:21] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:01:21] ======================================
+[17:01:21] ========| Ryuji-RP Is started |=======
+[17:01:21] ======================================
+
+[17:01:21] Number of vehicle models: 0
+[17:01:39] [connection] incoming connection: 127.0.0.1:53379 id: 0
+[17:01:39] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:01:51] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:01:51] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:01:51] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:01:56] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:01:56] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:01:56] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:01] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:01] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:01] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:25] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:25] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:25] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:26] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:27] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:27] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:27] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:27] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:27] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:27] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:28] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:28] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:28] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:225): "sscanf specifiers do not require '' before them."
+[17:02:30] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:12:07] filterscripts = ""  (string)
+[17:12:07] 
+[17:12:07] Server Plugins
+[17:12:07] --------------
+[17:12:07]  Loading plugin: sscanf
+[17:12:07] 
+[17:12:07]  ===============================
+[17:12:07] 
+[17:12:07]       sscanf plugin loaded.     
+[17:12:07] 
+[17:12:07]          Version: 2.13.8
+[17:12:07] 
+[17:12:07]    (c) 2022 Alex "Y_Less" Cole  
+[17:12:07] 
+[17:12:07]  ===============================
+[17:12:07] 
+[17:12:07]   Loaded.
+[17:12:07]  Loading plugin: mysql
+[17:12:07]  >> plugin.mysql: R41-4 successfully loaded.
+[17:12:07]   Loaded.
+[17:12:07]  Loading plugin: pawncmd
+[17:12:07] [Pawn.CMD] plugin v3.4.0 loading...
+[17:12:07] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:12:07]   Loaded.
+[17:12:07]  Loading plugin: streamer
+[17:12:07] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:12:07]   Loaded.
+[17:12:07]  Loading plugin: crashdetect
+[17:12:07]   Failed.
+[17:12:07]  Loaded 4 plugins.
+
+[17:12:07] 
+[17:12:07] Filterscripts
+[17:12:07] ---------------
+[17:12:07]   Loaded 0 filterscripts.
+
+[17:12:08] [MySQL] Menghubungkan ke database...
+[17:12:08] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:12:08] ======================================
+[17:12:08] ========| Ryuji-RP Is started |=======
+[17:12:08] ======================================
+
+[17:12:08] Number of vehicle models: 0
+[17:12:29] [connection] incoming connection: 127.0.0.1:54015 id: 0
+[17:12:30] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:12:45] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:46] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:46] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:47] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:47] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:47] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:47] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:47] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:48] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:48] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:48] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:48] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:49] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:49] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:49] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:49] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:50] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:50] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:50] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:53] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:57] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:58] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:59] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:12:59] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:13:00] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "sscanf specifiers do not require '' before them."
+[17:13:01] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:16:08] filterscripts = ""  (string)
+[17:16:08] 
+[17:16:08] Server Plugins
+[17:16:08] --------------
+[17:16:08]  Loading plugin: sscanf
+[17:16:08] 
+[17:16:08]  ===============================
+[17:16:08] 
+[17:16:08]       sscanf plugin loaded.     
+[17:16:08] 
+[17:16:08]          Version: 2.13.8
+[17:16:08] 
+[17:16:08]    (c) 2022 Alex "Y_Less" Cole  
+[17:16:08] 
+[17:16:08]  ===============================
+[17:16:08] 
+[17:16:08]   Loaded.
+[17:16:08]  Loading plugin: mysql
+[17:16:08]  >> plugin.mysql: R41-4 successfully loaded.
+[17:16:08]   Loaded.
+[17:16:08]  Loading plugin: pawncmd
+[17:16:08] [Pawn.CMD] plugin v3.4.0 loading...
+[17:16:08] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:16:08]   Loaded.
+[17:16:08]  Loading plugin: streamer
+[17:16:08] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:16:08]   Loaded.
+[17:16:08]  Loading plugin: crashdetect
+[17:16:08]   Failed.
+[17:16:08]  Loaded 4 plugins.
+
+[17:16:08] 
+[17:16:08] Filterscripts
+[17:16:08] ---------------
+[17:16:08]   Loaded 0 filterscripts.
+
+[17:16:08] [MySQL] Menghubungkan ke database...
+[17:16:08] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:16:08] ======================================
+[17:16:08] ========| Ryuji-RP Is started |=======
+[17:16:08] ======================================
+
+[17:16:08] Number of vehicle models: 0
+[17:16:32] [connection] incoming connection: 127.0.0.1:51618 id: 0
+[17:16:32] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:17:05] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:20:03] filterscripts = ""  (string)
+[17:20:03] 
+[17:20:03] Server Plugins
+[17:20:03] --------------
+[17:20:03]  Loading plugin: sscanf
+[17:20:03] 
+[17:20:03]  ===============================
+[17:20:03] 
+[17:20:03]       sscanf plugin loaded.     
+[17:20:03] 
+[17:20:03]          Version: 2.13.8
+[17:20:03] 
+[17:20:03]    (c) 2022 Alex "Y_Less" Cole  
+[17:20:03] 
+[17:20:03]  ===============================
+[17:20:03] 
+[17:20:03]   Loaded.
+[17:20:03]  Loading plugin: mysql
+[17:20:03]  >> plugin.mysql: R41-4 successfully loaded.
+[17:20:03]   Loaded.
+[17:20:03]  Loading plugin: pawncmd
+[17:20:03] [Pawn.CMD] plugin v3.4.0 loading...
+[17:20:03] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:20:03]   Loaded.
+[17:20:03]  Loading plugin: streamer
+[17:20:03] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:20:03]   Loaded.
+[17:20:03]  Loading plugin: crashdetect
+[17:20:03]   Failed.
+[17:20:03]  Loaded 4 plugins.
+
+[17:20:03] 
+[17:20:03] Filterscripts
+[17:20:03] ---------------
+[17:20:03]   Loaded 0 filterscripts.
+
+[17:20:03] [MySQL] Menghubungkan ke database...
+[17:20:03] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:20:03] ======================================
+[17:20:03] ========| Ryuji-RP Is started |=======
+[17:20:03] ======================================
+
+[17:20:03] Number of vehicle models: 0
+[17:20:18] [connection] incoming connection: 127.0.0.1:56624 id: 0
+[17:20:18] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:20:54] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:30:09] filterscripts = ""  (string)
+[17:30:09] 
+[17:30:09] Server Plugins
+[17:30:09] --------------
+[17:30:09]  Loading plugin: sscanf
+[17:30:09] 
+[17:30:09]  ===============================
+[17:30:09] 
+[17:30:09]       sscanf plugin loaded.     
+[17:30:09] 
+[17:30:09]          Version: 2.13.8
+[17:30:09] 
+[17:30:09]    (c) 2022 Alex "Y_Less" Cole  
+[17:30:09] 
+[17:30:09]  ===============================
+[17:30:09] 
+[17:30:09]   Loaded.
+[17:30:09]  Loading plugin: mysql
+[17:30:09]  >> plugin.mysql: R41-4 successfully loaded.
+[17:30:09]   Loaded.
+[17:30:09]  Loading plugin: pawncmd
+[17:30:09] [Pawn.CMD] plugin v3.4.0 loading...
+[17:30:09] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:30:09]   Loaded.
+[17:30:09]  Loading plugin: streamer
+[17:30:09] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:30:09]   Loaded.
+[17:30:09]  Loading plugin: crashdetect
+[17:30:09]   Failed.
+[17:30:09]  Loaded 4 plugins.
+
+[17:30:09] 
+[17:30:09] Filterscripts
+[17:30:09] ---------------
+[17:30:09]   Loaded 0 filterscripts.
+
+[17:30:09] [MySQL] Menghubungkan ke database...
+[17:30:10] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:30:10] ======================================
+[17:30:10] ========| Ryuji-RP Is started |=======
+[17:30:10] ======================================
+
+[17:30:10] Number of vehicle models: 0
+[17:30:23] [connection] incoming connection: 127.0.0.1:49636 id: 0
+[17:30:24] [join] ryujikun has joined the server (0:127.0.0.1)
+[17:30:32] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:32] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:32] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:36] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:37] sscanf warning (C:\Users\user\Downloads\GTA SAMP ASSET\I Love You Someone\gamemodes\Basic.pwn:226): "String buffer overflow."
+[17:30:39] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:34:35] filterscripts = ""  (string)
+[17:34:35] 
+[17:34:35] Server Plugins
+[17:34:35] --------------
+[17:34:35]  Loading plugin: sscanf
+[17:34:35] 
+[17:34:35]  ===============================
+[17:34:35] 
+[17:34:35]       sscanf plugin loaded.     
+[17:34:35] 
+[17:34:35]          Version: 2.13.8
+[17:34:35] 
+[17:34:35]    (c) 2022 Alex "Y_Less" Cole  
+[17:34:35] 
+[17:34:35]  ===============================
+[17:34:35] 
+[17:34:35]   Loaded.
+[17:34:35]  Loading plugin: mysql
+[17:34:35]  >> plugin.mysql: R41-4 successfully loaded.
+[17:34:35]   Loaded.
+[17:34:35]  Loading plugin: pawncmd
+[17:34:35] [Pawn.CMD] plugin v3.4.0 loading...
+[17:34:35] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[17:34:35]   Loaded.
+[17:34:35]  Loading plugin: streamer
+[17:34:35] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:34:35]   Loaded.
+[17:34:35]  Loading plugin: crashdetect
+[17:34:35]   Failed.
+[17:34:35]  Loaded 4 plugins.
+
+[17:34:35] 
+[17:34:35] Filterscripts
+[17:34:35] ---------------
+[17:34:35]   Loaded 0 filterscripts.
+
+[17:34:35] [MySQL] Menghubungkan ke database...
+[17:34:35] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[17:34:35] ======================================
+[17:34:35] ========| Ryuji-RP Is started |=======
+[17:34:35] ======================================
+
+[17:34:35] Number of vehicle models: 0
+[17:34:47] [connection] incoming connection: 127.0.0.1:63411 id: 0
+[17:34:47] [join] ryujikun has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:29:31] filterscripts = ""  (string)
+[22:29:31] 
+[22:29:31] Server Plugins
+[22:29:31] --------------
+[22:29:31]  Loading plugin: sscanf
+[22:29:31] 
+[22:29:31]  ===============================
+[22:29:31] 
+[22:29:31]       sscanf plugin loaded.     
+[22:29:31] 
+[22:29:31]          Version: 2.13.8
+[22:29:31] 
+[22:29:31]    (c) 2022 Alex "Y_Less" Cole  
+[22:29:31] 
+[22:29:31]  ===============================
+[22:29:31] 
+[22:29:31]   Loaded.
+[22:29:31]  Loading plugin: mysql
+[22:29:31]  >> plugin.mysql: R41-4 successfully loaded.
+[22:29:31]   Loaded.
+[22:29:31]  Loading plugin: pawncmd
+[22:29:31] [Pawn.CMD] plugin v3.4.0 loading...
+[22:29:31] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[22:29:31]   Loaded.
+[22:29:31]  Loading plugin: streamer
+[22:29:31] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:29:31]   Loaded.
+[22:29:31]  Loading plugin: crashdetect
+[22:29:32]   Failed.
+[22:29:32]  Loaded 4 plugins.
+
+[22:29:32] 
+[22:29:32] Filterscripts
+[22:29:32] ---------------
+[22:29:32]   Loaded 0 filterscripts.
+
+[22:29:32] [MySQL] Menghubungkan ke database...
+[22:29:32] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[22:29:32] ======================================
+[22:29:32] ========| Ryuji-RP Is started |=======
+[22:29:32] ======================================
+
+[22:29:32] Number of vehicle models: 0
+[22:30:13] [connection] incoming connection: 127.0.0.1:53073 id: 0
+[22:30:14] [join] ryujikun has joined the server (0:127.0.0.1)
+[22:30:40] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:34:11] filterscripts = ""  (string)
+[22:34:11] 
+[22:34:11] Server Plugins
+[22:34:11] --------------
+[22:34:11]  Loading plugin: sscanf
+[22:34:11] 
+[22:34:11]  ===============================
+[22:34:11] 
+[22:34:11]       sscanf plugin loaded.     
+[22:34:11] 
+[22:34:11]          Version: 2.13.8
+[22:34:11] 
+[22:34:11]    (c) 2022 Alex "Y_Less" Cole  
+[22:34:11] 
+[22:34:11]  ===============================
+[22:34:11] 
+[22:34:11]   Loaded.
+[22:34:11]  Loading plugin: mysql
+[22:34:13]  >> plugin.mysql: R41-4 successfully loaded.
+[22:34:13]   Loaded.
+[22:34:13]  Loading plugin: pawncmd
+[22:34:13] [Pawn.CMD] plugin v3.4.0 loading...
+[22:34:13] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[22:34:13]   Loaded.
+[22:34:13]  Loading plugin: streamer
+[22:34:13] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[22:34:13]   Loaded.
+[22:34:13]  Loading plugin: crashdetect
+[22:34:13]   Failed.
+[22:34:13]  Loaded 4 plugins.
+
+[22:34:13] 
+[22:34:13] Filterscripts
+[22:34:13] ---------------
+[22:34:13]   Loaded 0 filterscripts.
+
+[22:34:13] [MySQL] Menghubungkan ke database...
+[22:34:13] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[22:34:13] ======================================
+[22:34:13] ========| Ryuji-RP Is started |=======
+[22:34:13] ======================================
+
+[22:34:13] Number of vehicle models: 0
+[22:34:28] [connection] incoming connection: 127.0.0.1:52287 id: 0
+[22:34:28] [join] ryujikun has joined the server (0:127.0.0.1)
+[22:34:48] [part] ryujikun has left the server (0:1)
+[22:36:05] [connection] incoming connection: 127.0.0.1:59291 id: 0
+[22:36:05] [join] ryujikun has joined the server (0:127.0.0.1)
+[22:37:11] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:05:24] filterscripts = ""  (string)
+[23:05:24] 
+[23:05:24] Server Plugins
+[23:05:24] --------------
+[23:05:24]  Loading plugin: sscanf
+[23:05:24] 
+[23:05:24]  ===============================
+[23:05:24] 
+[23:05:24]       sscanf plugin loaded.     
+[23:05:24] 
+[23:05:24]          Version: 2.13.8
+[23:05:24] 
+[23:05:24]    (c) 2022 Alex "Y_Less" Cole  
+[23:05:24] 
+[23:05:24]  ===============================
+[23:05:24] 
+[23:05:24]   Loaded.
+[23:05:24]  Loading plugin: mysql
+[23:05:24]  >> plugin.mysql: R41-4 successfully loaded.
+[23:05:24]   Loaded.
+[23:05:24]  Loading plugin: pawncmd
+[23:05:24] [Pawn.CMD] plugin v3.4.0 loading...
+[23:05:24] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[23:05:24]   Loaded.
+[23:05:24]  Loading plugin: streamer
+[23:05:24] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[23:05:24]   Loaded.
+[23:05:24]  Loading plugin: crashdetect
+[23:05:24]   Failed.
+[23:05:24]  Loaded 4 plugins.
+
+[23:05:24] 
+[23:05:24] Filterscripts
+[23:05:24] ---------------
+[23:05:24]   Loaded 0 filterscripts.
+
+[23:05:24] [MySQL] Menghubungkan ke database...
+[23:05:24] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[23:05:24] ======================================
+[23:05:24] ========| Ryuji-RP Is started |=======
+[23:05:24] ======================================
+
+[23:05:24] Number of vehicle models: 0
+[23:05:41] [connection] incoming connection: 127.0.0.1:63468 id: 0
+[23:05:41] [join] ryujikun has joined the server (0:127.0.0.1)
+[23:06:26] [part] ryujikun has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:22:29] filterscripts = ""  (string)
+[14:22:29] 
+[14:22:29] Server Plugins
+[14:22:29] --------------
+[14:22:29]  Loading plugin: sscanf
+[14:22:29] 
+[14:22:29]  ===============================
+[14:22:29] 
+[14:22:29]       sscanf plugin loaded.     
+[14:22:29] 
+[14:22:29]          Version: 2.13.8
+[14:22:29] 
+[14:22:29]    (c) 2022 Alex "Y_Less" Cole  
+[14:22:29] 
+[14:22:29]  ===============================
+[14:22:29] 
+[14:22:29]   Loaded.
+[14:22:29]  Loading plugin: mysql
+[14:22:29]  >> plugin.mysql: R41-4 successfully loaded.
+[14:22:29]   Loaded.
+[14:22:29]  Loading plugin: pawncmd
+[14:22:29] [Pawn.CMD] plugin v3.4.0 loading...
+[14:22:29] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:22:29]   Loaded.
+[14:22:29]  Loading plugin: streamer
+[14:22:29] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:22:29]   Loaded.
+[14:22:29]  Loading plugin: crashdetect
+[14:22:29]   CrashDetect must be loaded before 'streamer.DLL'
+[14:22:29]   Failed.
+[14:22:29]  Loaded 4 plugins.
+
+[14:22:29] 
+[14:22:29] Filterscripts
+[14:22:29] ---------------
+[14:22:29]   Loaded 0 filterscripts.
+
+[14:22:29] [MySQL] Menghubungkan ke database...
+[14:22:29] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[14:22:29] ======================================
+[14:22:29] ========| Ryuji-RP Is started |=======
+[14:22:29] ======================================
+
+[14:22:29] Number of vehicle models: 0
+[14:23:00] [connection] incoming connection: 127.0.0.1:53535 id: 0
+[14:23:00] [join] Lolicon has joined the server (0:127.0.0.1)
+[14:23:06] [part] Lolicon has left the server (0:1)
+[14:23:31] [connection] incoming connection: 127.0.0.1:59381 id: 0
+[14:23:31] [join] ryujikun has joined the server (0:127.0.0.1)
+[14:23:58] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:25:30] filterscripts = ""  (string)
+[14:25:30] 
+[14:25:30] Server Plugins
+[14:25:30] --------------
+[14:25:30]  Loading plugin: sscanf
+[14:25:30] 
+[14:25:30]  ===============================
+[14:25:30] 
+[14:25:30]       sscanf plugin loaded.     
+[14:25:30] 
+[14:25:30]          Version: 2.13.8
+[14:25:30] 
+[14:25:30]    (c) 2022 Alex "Y_Less" Cole  
+[14:25:30] 
+[14:25:30]  ===============================
+[14:25:30] 
+[14:25:30]   Loaded.
+[14:25:30]  Loading plugin: mysql
+[14:25:30]  >> plugin.mysql: R41-4 successfully loaded.
+[14:25:30]   Loaded.
+[14:25:30]  Loading plugin: pawncmd
+[14:25:30] [Pawn.CMD] plugin v3.4.0 loading...
+[14:25:30] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:25:30]   Loaded.
+[14:25:30]  Loading plugin: streamer
+[14:25:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:25:30]   Loaded.
+[14:25:30]  Loading plugin: crashdetect
+[14:25:30]   CrashDetect must be loaded before 'streamer.DLL'
+[14:25:30]   Failed.
+[14:25:30]  Loaded 4 plugins.
+
+[14:25:30] 
+[14:25:30] Filterscripts
+[14:25:30] ---------------
+[14:25:30]   Loaded 0 filterscripts.
+
+[14:25:30] [MySQL] Menghubungkan ke database...
+[14:25:30] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[14:25:30] ======================================
+[14:25:30] ========| Ryuji-RP Is started |=======
+[14:25:30] ======================================
+
+[14:25:30] Number of vehicle models: 0
+[14:26:00] [connection] incoming connection: 127.0.0.1:64085 id: 0
+[14:26:00] [join] ryujikun has joined the server (0:127.0.0.1)
+[14:26:22] [part] ryujikun has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:00:21] filterscripts = ""  (string)
+[15:00:21] 
+[15:00:21] Server Plugins
+[15:00:21] --------------
+[15:00:21]  Loading plugin: sscanf
+[15:00:21] 
+[15:00:21]  ===============================
+[15:00:21] 
+[15:00:21]       sscanf plugin loaded.     
+[15:00:21] 
+[15:00:21]          Version: 2.13.8
+[15:00:21] 
+[15:00:21]    (c) 2022 Alex "Y_Less" Cole  
+[15:00:21] 
+[15:00:21]  ===============================
+[15:00:21] 
+[15:00:21]   Loaded.
+[15:00:21]  Loading plugin: mysql
+[15:00:21]  >> plugin.mysql: R41-4 successfully loaded.
+[15:00:21]   Loaded.
+[15:00:21]  Loading plugin: pawncmd
+[15:00:21] [Pawn.CMD] plugin v3.4.0 loading...
+[15:00:21] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:00:21]   Loaded.
+[15:00:21]  Loading plugin: streamer
+[15:00:21] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:00:21]   Loaded.
+[15:00:21]  Loading plugin: crashdetect
+[15:00:21]   CrashDetect must be loaded before 'streamer.DLL'
+[15:00:21]   Failed.
+[15:00:21]  Loaded 4 plugins.
+
+[15:00:21] 
+[15:00:21] Filterscripts
+[15:00:21] ---------------
+[15:00:21]   Loaded 0 filterscripts.
+
+[15:00:21] [MySQL] Menghubungkan ke database...
+[15:00:21] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:00:21] ======================================
+[15:00:21] ========| Ryuji-RP Is started |=======
+[15:00:21] ======================================
+
+[15:00:21] Number of vehicle models: 0
+[15:00:41] [connection] incoming connection: 127.0.0.1:56587 id: 0
+[15:00:41] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:00:54] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:05:14] filterscripts = ""  (string)
+[15:05:14] 
+[15:05:14] Server Plugins
+[15:05:14] --------------
+[15:05:14]  Loading plugin: sscanf
+[15:05:14] 
+[15:05:14]  ===============================
+[15:05:14] 
+[15:05:14]       sscanf plugin loaded.     
+[15:05:14] 
+[15:05:14]          Version: 2.13.8
+[15:05:14] 
+[15:05:14]    (c) 2022 Alex "Y_Less" Cole  
+[15:05:14] 
+[15:05:14]  ===============================
+[15:05:14] 
+[15:05:14]   Loaded.
+[15:05:14]  Loading plugin: mysql
+[15:05:14]  >> plugin.mysql: R41-4 successfully loaded.
+[15:05:14]   Loaded.
+[15:05:14]  Loading plugin: pawncmd
+[15:05:14] [Pawn.CMD] plugin v3.4.0 loading...
+[15:05:14] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:05:14]   Loaded.
+[15:05:14]  Loading plugin: streamer
+[15:05:14] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:05:14]   Loaded.
+[15:05:14]  Loading plugin: crashdetect
+[15:05:14]   CrashDetect must be loaded before 'streamer.DLL'
+[15:05:14]   Failed.
+[15:05:14]  Loaded 4 plugins.
+
+[15:05:14] 
+[15:05:14] Filterscripts
+[15:05:14] ---------------
+[15:05:14]   Loaded 0 filterscripts.
+
+[15:05:14] [MySQL] Menghubungkan ke database...
+[15:05:14] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:05:14] ======================================
+[15:05:14] ========| Ryuji-RP Is started |=======
+[15:05:14] ======================================
+
+[15:05:14] Number of vehicle models: 0
+[15:05:28] [connection] incoming connection: 127.0.0.1:49541 id: 0
+[15:05:28] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:05:46] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:07:33] filterscripts = ""  (string)
+[15:07:33] 
+[15:07:33] Server Plugins
+[15:07:33] --------------
+[15:07:33]  Loading plugin: sscanf
+[15:07:33] 
+[15:07:33]  ===============================
+[15:07:33] 
+[15:07:33]       sscanf plugin loaded.     
+[15:07:33] 
+[15:07:33]          Version: 2.13.8
+[15:07:33] 
+[15:07:33]    (c) 2022 Alex "Y_Less" Cole  
+[15:07:33] 
+[15:07:33]  ===============================
+[15:07:33] 
+[15:07:33]   Loaded.
+[15:07:33]  Loading plugin: mysql
+[15:07:33]  >> plugin.mysql: R41-4 successfully loaded.
+[15:07:33]   Loaded.
+[15:07:33]  Loading plugin: pawncmd
+[15:07:33] [Pawn.CMD] plugin v3.4.0 loading...
+[15:07:33] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:07:33]   Loaded.
+[15:07:33]  Loading plugin: streamer
+[15:07:33] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:07:33]   Loaded.
+[15:07:33]  Loading plugin: crashdetect
+[15:07:33]   CrashDetect must be loaded before 'streamer.DLL'
+[15:07:33]   Failed.
+[15:07:33]  Loaded 4 plugins.
+
+[15:07:33] 
+[15:07:33] Filterscripts
+[15:07:33] ---------------
+[15:07:33]   Loaded 0 filterscripts.
+
+[15:07:33] [MySQL] Menghubungkan ke database...
+[15:07:33] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:07:33] ======================================
+[15:07:33] ========| Ryuji-RP Is started |=======
+[15:07:33] ======================================
+
+[15:07:33] Number of vehicle models: 0
+[15:07:46] [connection] incoming connection: 127.0.0.1:52024 id: 0
+[15:07:46] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:07:57] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:09:31] filterscripts = ""  (string)
+[15:09:31] 
+[15:09:31] Server Plugins
+[15:09:31] --------------
+[15:09:31]  Loading plugin: sscanf
+[15:09:31] 
+[15:09:31]  ===============================
+[15:09:31] 
+[15:09:31]       sscanf plugin loaded.     
+[15:09:31] 
+[15:09:31]          Version: 2.13.8
+[15:09:31] 
+[15:09:31]    (c) 2022 Alex "Y_Less" Cole  
+[15:09:31] 
+[15:09:31]  ===============================
+[15:09:31] 
+[15:09:31]   Loaded.
+[15:09:31]  Loading plugin: mysql
+[15:09:31]  >> plugin.mysql: R41-4 successfully loaded.
+[15:09:31]   Loaded.
+[15:09:31]  Loading plugin: pawncmd
+[15:09:31] [Pawn.CMD] plugin v3.4.0 loading...
+[15:09:31] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:09:31]   Loaded.
+[15:09:31]  Loading plugin: streamer
+[15:09:31] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:09:31]   Loaded.
+[15:09:31]  Loading plugin: crashdetect
+[15:09:31]   CrashDetect must be loaded before 'streamer.DLL'
+[15:09:31]   Failed.
+[15:09:31]  Loaded 4 plugins.
+
+[15:09:31] 
+[15:09:31] Filterscripts
+[15:09:31] ---------------
+[15:09:31]   Loaded 0 filterscripts.
+
+[15:09:31] [MySQL] Menghubungkan ke database...
+[15:09:31] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:09:31] ======================================
+[15:09:31] ========| Ryuji-RP Is started |=======
+[15:09:31] ======================================
+
+[15:09:31] Number of vehicle models: 0
+[15:09:44] [connection] incoming connection: 127.0.0.1:57334 id: 0
+[15:09:45] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:09:59] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:14:20] filterscripts = ""  (string)
+[15:14:20] 
+[15:14:20] Server Plugins
+[15:14:20] --------------
+[15:14:20]  Loading plugin: sscanf
+[15:14:20] 
+[15:14:20]  ===============================
+[15:14:20] 
+[15:14:20]       sscanf plugin loaded.     
+[15:14:20] 
+[15:14:20]          Version: 2.13.8
+[15:14:20] 
+[15:14:20]    (c) 2022 Alex "Y_Less" Cole  
+[15:14:20] 
+[15:14:20]  ===============================
+[15:14:20] 
+[15:14:20]   Loaded.
+[15:14:20]  Loading plugin: mysql
+[15:14:20]  >> plugin.mysql: R41-4 successfully loaded.
+[15:14:20]   Loaded.
+[15:14:20]  Loading plugin: pawncmd
+[15:14:20] [Pawn.CMD] plugin v3.4.0 loading...
+[15:14:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:14:20]   Loaded.
+[15:14:20]  Loading plugin: streamer
+[15:14:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:14:20]   Loaded.
+[15:14:20]  Loading plugin: crashdetect
+[15:14:20]   CrashDetect must be loaded before 'streamer.DLL'
+[15:14:20]   Failed.
+[15:14:20]  Loaded 4 plugins.
+
+[15:14:20] 
+[15:14:20] Filterscripts
+[15:14:20] ---------------
+[15:14:20]   Loaded 0 filterscripts.
+
+[15:14:20] [MySQL] Menghubungkan ke database...
+[15:14:20] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:14:20] ======================================
+[15:14:20] ========| Ryuji-RP Is started |=======
+[15:14:20] ======================================
+
+[15:14:20] Number of vehicle models: 0
+[15:14:48] [connection] incoming connection: 127.0.0.1:57519 id: 0
+[15:14:48] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:14:58] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:16:38] filterscripts = ""  (string)
+[15:16:38] 
+[15:16:38] Server Plugins
+[15:16:38] --------------
+[15:16:38]  Loading plugin: sscanf
+[15:16:38] 
+[15:16:38]  ===============================
+[15:16:38] 
+[15:16:38]       sscanf plugin loaded.     
+[15:16:38] 
+[15:16:38]          Version: 2.13.8
+[15:16:38] 
+[15:16:38]    (c) 2022 Alex "Y_Less" Cole  
+[15:16:38] 
+[15:16:38]  ===============================
+[15:16:38] 
+[15:16:38]   Loaded.
+[15:16:38]  Loading plugin: mysql
+[15:16:38]  >> plugin.mysql: R41-4 successfully loaded.
+[15:16:38]   Loaded.
+[15:16:38]  Loading plugin: pawncmd
+[15:16:38] [Pawn.CMD] plugin v3.4.0 loading...
+[15:16:38] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:16:38]   Loaded.
+[15:16:38]  Loading plugin: streamer
+[15:16:38] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:16:38]   Loaded.
+[15:16:38]  Loading plugin: crashdetect
+[15:16:38]   CrashDetect must be loaded before 'streamer.DLL'
+[15:16:38]   Failed.
+[15:16:38]  Loaded 4 plugins.
+
+[15:16:38] 
+[15:16:38] Filterscripts
+[15:16:38] ---------------
+[15:16:38]   Loaded 0 filterscripts.
+
+[15:16:38] [MySQL] Menghubungkan ke database...
+[15:16:38] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:16:38] ======================================
+[15:16:38] ========| Ryuji-RP Is started |=======
+[15:16:38] ======================================
+
+[15:16:38] Number of vehicle models: 0
+[15:16:52] [connection] incoming connection: 127.0.0.1:57701 id: 0
+[15:16:52] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:17:12] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:21:50] filterscripts = ""  (string)
+[15:21:50] 
+[15:21:50] Server Plugins
+[15:21:50] --------------
+[15:21:50]  Loading plugin: sscanf
+[15:21:50] 
+[15:21:50]  ===============================
+[15:21:50] 
+[15:21:50]       sscanf plugin loaded.     
+[15:21:50] 
+[15:21:50]          Version: 2.13.8
+[15:21:50] 
+[15:21:50]    (c) 2022 Alex "Y_Less" Cole  
+[15:21:50] 
+[15:21:50]  ===============================
+[15:21:50] 
+[15:21:50]   Loaded.
+[15:21:50]  Loading plugin: mysql
+[15:21:50]  >> plugin.mysql: R41-4 successfully loaded.
+[15:21:50]   Loaded.
+[15:21:50]  Loading plugin: pawncmd
+[15:21:50] [Pawn.CMD] plugin v3.4.0 loading...
+[15:21:50] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:21:50]   Loaded.
+[15:21:50]  Loading plugin: streamer
+[15:21:50] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:21:50]   Loaded.
+[15:21:50]  Loading plugin: crashdetect
+[15:21:50]   CrashDetect must be loaded before 'streamer.DLL'
+[15:21:50]   Failed.
+[15:21:50]  Loaded 4 plugins.
+
+[15:21:50] 
+[15:21:50] Filterscripts
+[15:21:50] ---------------
+[15:21:50]   Loaded 0 filterscripts.
+
+[15:21:50] [MySQL] Menghubungkan ke database...
+[15:21:50] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:21:50] ======================================
+[15:21:50] ========| Ryuji-RP Is started |=======
+[15:21:50] ======================================
+
+[15:21:50] Number of vehicle models: 0
+[15:22:03] [connection] incoming connection: 127.0.0.1:62797 id: 0
+[15:22:04] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:22:27] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:26:20] filterscripts = ""  (string)
+[15:26:20] 
+[15:26:20] Server Plugins
+[15:26:20] --------------
+[15:26:20]  Loading plugin: sscanf
+[15:26:20] 
+[15:26:20]  ===============================
+[15:26:20] 
+[15:26:20]       sscanf plugin loaded.     
+[15:26:20] 
+[15:26:20]          Version: 2.13.8
+[15:26:20] 
+[15:26:20]    (c) 2022 Alex "Y_Less" Cole  
+[15:26:20] 
+[15:26:20]  ===============================
+[15:26:20] 
+[15:26:20]   Loaded.
+[15:26:20]  Loading plugin: mysql
+[15:26:20]  >> plugin.mysql: R41-4 successfully loaded.
+[15:26:20]   Loaded.
+[15:26:20]  Loading plugin: pawncmd
+[15:26:20] [Pawn.CMD] plugin v3.4.0 loading...
+[15:26:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:26:20]   Loaded.
+[15:26:20]  Loading plugin: streamer
+[15:26:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:26:20]   Loaded.
+[15:26:20]  Loading plugin: crashdetect
+[15:26:20]   CrashDetect must be loaded before 'streamer.DLL'
+[15:26:20]   Failed.
+[15:26:20]  Loaded 4 plugins.
+
+[15:26:20] 
+[15:26:20] Filterscripts
+[15:26:20] ---------------
+[15:26:20]   Loaded 0 filterscripts.
+
+[15:26:20] [MySQL] Menghubungkan ke database...
+[15:26:20] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:26:20] ======================================
+[15:26:20] ========| Ryuji-RP Is started |=======
+[15:26:20] ======================================
+
+[15:26:20] Number of vehicle models: 0
+[15:26:33] [connection] incoming connection: 127.0.0.1:58340 id: 0
+[15:26:33] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:26:59] [part] R2MU has left the server (0:1)
+[15:27:14] [connection] incoming connection: 127.0.0.1:62413 id: 0
+[15:27:15] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:27:39] [part] R2MU has left the server (0:1)
+[15:29:04] [connection] incoming connection: 127.0.0.1:63659 id: 0
+[15:29:05] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:29:23] [part] R2MU has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:31:30] filterscripts = ""  (string)
+[15:31:30] 
+[15:31:30] Server Plugins
+[15:31:30] --------------
+[15:31:30]  Loading plugin: sscanf
+[15:31:30] 
+[15:31:30]  ===============================
+[15:31:30] 
+[15:31:30]       sscanf plugin loaded.     
+[15:31:30] 
+[15:31:30]          Version: 2.13.8
+[15:31:30] 
+[15:31:30]    (c) 2022 Alex "Y_Less" Cole  
+[15:31:30] 
+[15:31:30]  ===============================
+[15:31:30] 
+[15:31:30]   Loaded.
+[15:31:30]  Loading plugin: mysql
+[15:31:30]  >> plugin.mysql: R41-4 successfully loaded.
+[15:31:30]   Loaded.
+[15:31:30]  Loading plugin: pawncmd
+[15:31:30] [Pawn.CMD] plugin v3.4.0 loading...
+[15:31:30] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:31:30]   Loaded.
+[15:31:30]  Loading plugin: streamer
+[15:31:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:31:30]   Loaded.
+[15:31:30]  Loading plugin: crashdetect
+[15:31:30]   CrashDetect must be loaded before 'streamer.DLL'
+[15:31:30]   Failed.
+[15:31:30]  Loaded 4 plugins.
+
+[15:31:30] 
+[15:31:30] Filterscripts
+[15:31:30] ---------------
+[15:31:30]   Loaded 0 filterscripts.
+
+[15:31:30] [MySQL] Menghubungkan ke database...
+[15:31:30] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:31:30] ======================================
+[15:31:30] ========| Ryuji-RP Is started |=======
+[15:31:30] ======================================
+
+[15:31:30] Number of vehicle models: 0
+[15:32:06] [connection] incoming connection: 127.0.0.1:53290 id: 0
+[15:32:07] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:32:46] [part] Ryuji_Haston has left the server (0:1)
+[15:33:02] [connection] incoming connection: 127.0.0.1:59573 id: 0
+[15:33:02] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:33:13] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:35:43] filterscripts = ""  (string)
+[15:35:43] 
+[15:35:43] Server Plugins
+[15:35:43] --------------
+[15:35:43]  Loading plugin: sscanf
+[15:35:43] 
+[15:35:43]  ===============================
+[15:35:43] 
+[15:35:43]       sscanf plugin loaded.     
+[15:35:43] 
+[15:35:43]          Version: 2.13.8
+[15:35:43] 
+[15:35:43]    (c) 2022 Alex "Y_Less" Cole  
+[15:35:43] 
+[15:35:43]  ===============================
+[15:35:43] 
+[15:35:43]   Loaded.
+[15:35:43]  Loading plugin: mysql
+[15:35:43]  >> plugin.mysql: R41-4 successfully loaded.
+[15:35:43]   Loaded.
+[15:35:43]  Loading plugin: pawncmd
+[15:35:43] [Pawn.CMD] plugin v3.4.0 loading...
+[15:35:43] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:35:43]   Loaded.
+[15:35:43]  Loading plugin: streamer
+[15:35:43] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:35:43]   Loaded.
+[15:35:43]  Loading plugin: crashdetect
+[15:35:43]   CrashDetect must be loaded before 'streamer.DLL'
+[15:35:43]   Failed.
+[15:35:43]  Loaded 4 plugins.
+
+[15:35:43] 
+[15:35:43] Filterscripts
+[15:35:43] ---------------
+[15:35:43]   Loaded 0 filterscripts.
+
+[15:35:43] [MySQL] Menghubungkan ke database...
+[15:35:43] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:35:43] ======================================
+[15:35:43] ========| Ryuji-RP Is started |=======
+[15:35:43] ======================================
+
+[15:35:43] Number of vehicle models: 0
+[15:36:12] [connection] incoming connection: 127.0.0.1:64630 id: 0
+[15:36:13] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:36:30] [part] Ryuji_Haston has left the server (0:1)
+[15:37:02] [connection] incoming connection: 127.0.0.1:63861 id: 0
+[15:37:02] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:37:15] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:41:36] filterscripts = ""  (string)
+[15:41:36] 
+[15:41:36] Server Plugins
+[15:41:36] --------------
+[15:41:36]  Loading plugin: sscanf
+[15:41:36] 
+[15:41:36]  ===============================
+[15:41:36] 
+[15:41:36]       sscanf plugin loaded.     
+[15:41:36] 
+[15:41:36]          Version: 2.13.8
+[15:41:36] 
+[15:41:36]    (c) 2022 Alex "Y_Less" Cole  
+[15:41:36] 
+[15:41:36]  ===============================
+[15:41:36] 
+[15:41:36]   Loaded.
+[15:41:36]  Loading plugin: mysql
+[15:41:36]  >> plugin.mysql: R41-4 successfully loaded.
+[15:41:36]   Loaded.
+[15:41:36]  Loading plugin: pawncmd
+[15:41:36] [Pawn.CMD] plugin v3.4.0 loading...
+[15:41:36] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:41:36]   Loaded.
+[15:41:36]  Loading plugin: streamer
+[15:41:36] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:41:36]   Loaded.
+[15:41:36]  Loading plugin: crashdetect
+[15:41:36]   CrashDetect must be loaded before 'streamer.DLL'
+[15:41:36]   Failed.
+[15:41:36]  Loaded 4 plugins.
+
+[15:41:36] 
+[15:41:36] Filterscripts
+[15:41:36] ---------------
+[15:41:36]   Loaded 0 filterscripts.
+
+[15:41:36] [MySQL] Menghubungkan ke database...
+[15:41:36] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[15:41:36] ======================================
+[15:41:36] ========| Ryuji-RP Is started |=======
+[15:41:36] ======================================
+
+[15:41:36] Number of vehicle models: 0
+[15:41:49] [connection] incoming connection: 127.0.0.1:54129 id: 0
+[15:41:49] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:42:11] [part] Ryuji_Haston has left the server (0:1)
+[15:42:26] [connection] incoming connection: 127.0.0.1:54257 id: 0
+[15:42:26] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:43:40] [part] Ryuji_Haston has left the server (0:1)
+[15:43:55] [connection] incoming connection: 127.0.0.1:51157 id: 0
+[15:43:55] [join] ryujikun has joined the server (0:127.0.0.1)
+[15:44:07] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:41:59] filterscripts = ""  (string)
+[18:41:59] 
+[18:41:59] Server Plugins
+[18:41:59] --------------
+[18:41:59]  Loading plugin: sscanf
+[18:41:59] 
+[18:41:59]  ===============================
+[18:41:59] 
+[18:41:59]       sscanf plugin loaded.     
+[18:41:59] 
+[18:41:59]          Version: 2.13.8
+[18:41:59] 
+[18:41:59]    (c) 2022 Alex "Y_Less" Cole  
+[18:41:59] 
+[18:41:59]  ===============================
+[18:41:59] 
+[18:41:59]   Loaded.
+[18:41:59]  Loading plugin: mysql
+[18:41:59]  >> plugin.mysql: R41-4 successfully loaded.
+[18:41:59]   Loaded.
+[18:41:59]  Loading plugin: pawncmd
+[18:41:59] [Pawn.CMD] plugin v3.4.0 loading...
+[18:41:59] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[18:41:59]   Loaded.
+[18:41:59]  Loading plugin: streamer
+[18:41:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[18:41:59]   Loaded.
+[18:41:59]  Loading plugin: crashdetect
+[18:41:59]   CrashDetect must be loaded before 'streamer.DLL'
+[18:41:59]   Failed.
+[18:41:59]  Loaded 4 plugins.
+
+[18:41:59] 
+[18:41:59] Filterscripts
+[18:41:59] ---------------
+[18:41:59]   Loaded 0 filterscripts.
+
+[18:41:59] [MySQL] Menghubungkan ke database...
+[18:42:00] [MySQL] Koneksi ke database berhasil! Menangani: 1
+[18:42:00] ======================================
+[18:42:00] ========| Ryuji-RP Is started |=======
+[18:42:00] ======================================
+
+[18:42:00] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:08:04] filterscripts = ""  (string)
+[16:08:04] 
+[16:08:04] Server Plugins
+[16:08:04] --------------
+[16:08:04]  Loading plugin: sscanf
+[16:08:04] 
+[16:08:04]  ===============================
+[16:08:04] 
+[16:08:04]       sscanf plugin loaded.     
+[16:08:04] 
+[16:08:04]          Version: 2.13.8
+[16:08:04] 
+[16:08:04]    (c) 2022 Alex "Y_Less" Cole  
+[16:08:04] 
+[16:08:04]  ===============================
+[16:08:04] 
+[16:08:04]   Loaded.
+[16:08:04]  Loading plugin: mysql
+[16:08:04]  >> plugin.mysql: R41-4 successfully loaded.
+[16:08:04]   Loaded.
+[16:08:04]  Loading plugin: pawncmd
+[16:08:04] [Pawn.CMD] plugin v3.4.0 loading...
+[16:08:04] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:08:04]   Loaded.
+[16:08:04]  Loading plugin: streamer
+[16:08:04] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[16:08:04]   Loaded.
+[16:08:04]  Loading plugin: crashdetect
+[16:08:04]   CrashDetect must be loaded before 'streamer.DLL'
+[16:08:04]   Failed.
+[16:08:04]  Loaded 4 plugins.
+
+[16:08:04] 
+[16:08:04] Filterscripts
+[16:08:04] ---------------
+[16:08:04]   Loaded 0 filterscripts.
+
+[16:08:04] [MySQL] Menghubungkan ke database...
+[16:08:04] [MySQL] Connection to database successful! Handle: 1
+[16:08:04] 
+----------------------------------
+[16:08:04]  Blank Gamemode by your name here
+[16:08:04] ----------------------------------
+
+[16:08:04] Number of vehicle models: 0
+[16:08:59] [connection] incoming connection: 127.0.0.1:61075 id: 0
+[16:08:59] [join] Lolicon has joined the server (0:127.0.0.1)
+[16:09:07] [part] Lolicon has left the server (0:1)
+[16:16:16] [connection] incoming connection: 127.0.0.1:58907 id: 0
+[16:16:16] [join] Lolicon has joined the server (0:127.0.0.1)
+[16:16:20] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:16:59] filterscripts = ""  (string)
+[16:16:59] 
+[16:16:59] Server Plugins
+[16:16:59] --------------
+[16:16:59]  Loading plugin: sscanf
+[16:16:59] 
+[16:16:59]  ===============================
+[16:16:59] 
+[16:16:59]       sscanf plugin loaded.     
+[16:16:59] 
+[16:16:59]          Version: 2.13.8
+[16:16:59] 
+[16:16:59]    (c) 2022 Alex "Y_Less" Cole  
+[16:16:59] 
+[16:16:59]  ===============================
+[16:16:59] 
+[16:16:59]   Loaded.
+[16:16:59]  Loading plugin: mysql
+[16:16:59]  >> plugin.mysql: R41-4 successfully loaded.
+[16:16:59]   Loaded.
+[16:16:59]  Loading plugin: pawncmd
+[16:16:59] [Pawn.CMD] plugin v3.4.0 loading...
+[16:16:59] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:16:59]   Loaded.
+[16:16:59]  Loading plugin: streamer
+[16:16:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[16:16:59]   Loaded.
+[16:16:59]  Loading plugin: crashdetect
+[16:16:59]   CrashDetect must be loaded before 'streamer.DLL'
+[16:16:59]   Failed.
+[16:16:59]  Loaded 4 plugins.
+
+[16:16:59] 
+[16:16:59] Filterscripts
+[16:16:59] ---------------
+[16:16:59]   Loaded 0 filterscripts.
+
+[16:16:59] [MySQL] Menghubungkan ke database...
+[16:16:59] [MySQL] Connection to database successful! Handle: 1
+[16:16:59] 
+----------------------------------
+[16:16:59]  Blank Gamemode by your name here
+[16:16:59] ----------------------------------
+
+[16:16:59] Number of vehicle models: 0
+[16:17:13] [connection] incoming connection: 127.0.0.1:49226 id: 0
+[16:17:13] [join] Lolicon has joined the server (0:127.0.0.1)
+[16:17:32] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:30:03] filterscripts = ""  (string)
+[16:30:03] 
+[16:30:03] Server Plugins
+[16:30:03] --------------
+[16:30:03]  Loading plugin: sscanf
+[16:30:03] 
+[16:30:03]  ===============================
+[16:30:03] 
+[16:30:03]       sscanf plugin loaded.     
+[16:30:03] 
+[16:30:03]          Version: 2.13.8
+[16:30:03] 
+[16:30:03]    (c) 2022 Alex "Y_Less" Cole  
+[16:30:03] 
+[16:30:03]  ===============================
+[16:30:03] 
+[16:30:03]   Loaded.
+[16:30:03]  Loading plugin: mysql
+[16:30:03]  >> plugin.mysql: R41-4 successfully loaded.
+[16:30:03]   Loaded.
+[16:30:03]  Loading plugin: pawncmd
+[16:30:03] [Pawn.CMD] plugin v3.4.0 loading...
+[16:30:03] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:30:03]   Loaded.
+[16:30:03]  Loading plugin: streamer
+[16:30:03] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[16:30:03]   Loaded.
+[16:30:03]  Loading plugin: crashdetect
+[16:30:03]   CrashDetect must be loaded before 'streamer.DLL'
+[16:30:03]   Failed.
+[16:30:03]  Loaded 4 plugins.
+
+[16:30:03] 
+[16:30:03] Filterscripts
+[16:30:03] ---------------
+[16:30:03]   Loaded 0 filterscripts.
+
+[16:30:03] [MySQL] Menghubungkan ke database...
+[16:30:03] [MySQL] Connection to database successful! Handle: 1
+[16:30:03] 
+----------------------------------
+[16:30:03]  Blank Gamemode by your name here
+[16:30:03] ----------------------------------
+
+[16:30:03] Number of vehicle models: 0
+[16:30:21] [connection] incoming connection: 127.0.0.1:60235 id: 0
+[16:30:21] [join] Lolicon has joined the server (0:127.0.0.1)
+[16:30:49] [part] Lolicon has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:31:55] filterscripts = ""  (string)
+[16:31:55] 
+[16:31:55] Server Plugins
+[16:31:55] --------------
+[16:31:55]  Loading plugin: sscanf
+[16:31:55] 
+[16:31:55]  ===============================
+[16:31:55] 
+[16:31:55]       sscanf plugin loaded.     
+[16:31:55] 
+[16:31:55]          Version: 2.13.8
+[16:31:55] 
+[16:31:55]    (c) 2022 Alex "Y_Less" Cole  
+[16:31:55] 
+[16:31:55]  ===============================
+[16:31:55] 
+[16:31:55]   Loaded.
+[16:31:55]  Loading plugin: mysql
+[16:31:55]  >> plugin.mysql: R41-4 successfully loaded.
+[16:31:55]   Loaded.
+[16:31:55]  Loading plugin: pawncmd
+[16:31:55] [Pawn.CMD] plugin v3.4.0 loading...
+[16:31:55] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:31:55]   Loaded.
+[16:31:55]  Loading plugin: streamer
+[16:31:55] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[16:31:55]   Loaded.
+[16:31:55]  Loading plugin: crashdetect
+[16:31:55]   CrashDetect must be loaded before 'streamer.DLL'
+[16:31:55]   Failed.
+[16:31:55]  Loaded 4 plugins.
+
+[16:31:55] 
+[16:31:55] Filterscripts
+[16:31:55] ---------------
+[16:31:55]   Loaded 0 filterscripts.
+
+[16:31:55] [MySQL] Menghubungkan ke database...
+[16:31:55] [MySQL] Connection to database successful! Handle: 1
+[16:31:55] 
+----------------------------------
+[16:31:55]  Blank Gamemode by your name here
+[16:31:55] ----------------------------------
+
+[16:31:55] Number of vehicle models: 0
+[16:32:08] [connection] incoming connection: 127.0.0.1:56792 id: 0
+[16:32:08] [join] Lolicon has joined the server (0:127.0.0.1)
+[16:32:54] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:31:23] filterscripts = ""  (string)
+[10:31:23] 
+[10:31:23] Server Plugins
+[10:31:23] --------------
+[10:31:23]  Loading plugin: sscanf
+[10:31:23] 
+[10:31:23]  ===============================
+[10:31:23] 
+[10:31:23]       sscanf plugin loaded.     
+[10:31:23] 
+[10:31:23]          Version: 2.13.8
+[10:31:23] 
+[10:31:23]    (c) 2022 Alex "Y_Less" Cole  
+[10:31:23] 
+[10:31:23]  ===============================
+[10:31:23] 
+[10:31:23]   Loaded.
+[10:31:23]  Loading plugin: mysql
+[10:31:23]  >> plugin.mysql: R41-4 successfully loaded.
+[10:31:23]   Loaded.
+[10:31:23]  Loading plugin: pawncmd
+[10:31:23] [Pawn.CMD] plugin v3.4.0 loading...
+[10:31:23] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:31:23]   Loaded.
+[10:31:23]  Loading plugin: streamer
+[10:31:23] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:31:23]   Loaded.
+[10:31:23]  Loading plugin: crashdetect
+[10:31:23]   CrashDetect must be loaded before 'streamer.DLL'
+[10:31:23]   Failed.
+[10:31:23]  Loaded 4 plugins.
+
+[10:31:23] 
+[10:31:23] Filterscripts
+[10:31:23] ---------------
+[10:31:23]   Loaded 0 filterscripts.
+
+[10:31:23] [MySQL] Menghubungkan ke database...
+[10:31:23] [MySQL] Connection to database successful! Handle: 1
+[10:31:23] 
+----------------------------------
+[10:31:23]  Blank Gamemode by your name here
+[10:31:23] ----------------------------------
+
+[10:31:23] Number of vehicle models: 0
+[10:31:55] [connection] incoming connection: 127.0.0.1:52965 id: 0
+[10:31:55] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:32:25] [part] Lolicon has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:34:59] filterscripts = ""  (string)
+[10:34:59] 
+[10:34:59] Server Plugins
+[10:34:59] --------------
+[10:34:59]  Loading plugin: sscanf
+[10:34:59] 
+[10:34:59]  ===============================
+[10:34:59] 
+[10:34:59]       sscanf plugin loaded.     
+[10:34:59] 
+[10:34:59]          Version: 2.13.8
+[10:34:59] 
+[10:34:59]    (c) 2022 Alex "Y_Less" Cole  
+[10:34:59] 
+[10:34:59]  ===============================
+[10:34:59] 
+[10:34:59]   Loaded.
+[10:34:59]  Loading plugin: mysql
+[10:34:59]  >> plugin.mysql: R41-4 successfully loaded.
+[10:34:59]   Loaded.
+[10:34:59]  Loading plugin: pawncmd
+[10:34:59] [Pawn.CMD] plugin v3.4.0 loading...
+[10:34:59] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:34:59]   Loaded.
+[10:34:59]  Loading plugin: streamer
+[10:34:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:34:59]   Loaded.
+[10:34:59]  Loading plugin: crashdetect
+[10:34:59]   CrashDetect must be loaded before 'streamer.DLL'
+[10:34:59]   Failed.
+[10:34:59]  Loaded 4 plugins.
+
+[10:34:59] 
+[10:34:59] Filterscripts
+[10:34:59] ---------------
+[10:34:59]   Loaded 0 filterscripts.
+
+[10:34:59] [MySQL] Menghubungkan ke database...
+[10:34:59] [MySQL] Connection to database successful! Handle: 1
+[10:34:59] 
+----------------------------------
+[10:34:59]  Blank Gamemode by your name here
+[10:34:59] ----------------------------------
+
+[10:34:59] Number of vehicle models: 0
+[10:35:13] [connection] incoming connection: 127.0.0.1:59718 id: 0
+[10:35:13] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:35:36] [part] Lolicon has left the server (0:1)
+[10:36:25] [connection] incoming connection: 127.0.0.1:64626 id: 0
+[10:36:26] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:36:45] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:38:04] filterscripts = ""  (string)
+[10:38:04] 
+[10:38:04] Server Plugins
+[10:38:04] --------------
+[10:38:04]  Loading plugin: sscanf
+[10:38:04] 
+[10:38:04]  ===============================
+[10:38:04] 
+[10:38:04]       sscanf plugin loaded.     
+[10:38:04] 
+[10:38:04]          Version: 2.13.8
+[10:38:04] 
+[10:38:04]    (c) 2022 Alex "Y_Less" Cole  
+[10:38:04] 
+[10:38:04]  ===============================
+[10:38:04] 
+[10:38:04]   Loaded.
+[10:38:04]  Loading plugin: mysql
+[10:38:04]  >> plugin.mysql: R41-4 successfully loaded.
+[10:38:04]   Loaded.
+[10:38:04]  Loading plugin: pawncmd
+[10:38:04] [Pawn.CMD] plugin v3.4.0 loading...
+[10:38:04] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:38:04]   Loaded.
+[10:38:04]  Loading plugin: streamer
+[10:38:04] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:38:04]   Loaded.
+[10:38:04]  Loading plugin: crashdetect
+[10:38:04]   CrashDetect must be loaded before 'streamer.DLL'
+[10:38:04]   Failed.
+[10:38:04]  Loaded 4 plugins.
+
+[10:38:04] 
+[10:38:04] Filterscripts
+[10:38:04] ---------------
+[10:38:04]   Loaded 0 filterscripts.
+
+[10:38:04] [MySQL] Menghubungkan ke database...
+[10:38:04] [MySQL] Connection to database successful! Handle: 1
+[10:38:04] 
+----------------------------------
+[10:38:04]  Blank Gamemode by your name here
+[10:38:04] ----------------------------------
+
+[10:38:04] Number of vehicle models: 0
+[10:38:18] [connection] incoming connection: 127.0.0.1:52167 id: 0
+[10:38:18] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:38:30] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:42:56] filterscripts = ""  (string)
+[10:42:56] 
+[10:42:56] Server Plugins
+[10:42:56] --------------
+[10:42:56]  Loading plugin: sscanf
+[10:42:56] 
+[10:42:56]  ===============================
+[10:42:56] 
+[10:42:56]       sscanf plugin loaded.     
+[10:42:56] 
+[10:42:56]          Version: 2.13.8
+[10:42:56] 
+[10:42:56]    (c) 2022 Alex "Y_Less" Cole  
+[10:42:56] 
+[10:42:56]  ===============================
+[10:42:56] 
+[10:42:56]   Loaded.
+[10:42:56]  Loading plugin: mysql
+[10:42:56]  >> plugin.mysql: R41-4 successfully loaded.
+[10:42:56]   Loaded.
+[10:42:56]  Loading plugin: pawncmd
+[10:42:56] [Pawn.CMD] plugin v3.4.0 loading...
+[10:42:56] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:42:56]   Loaded.
+[10:42:56]  Loading plugin: streamer
+[10:42:56] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:42:56]   Loaded.
+[10:42:56]  Loading plugin: crashdetect
+[10:42:56]   CrashDetect must be loaded before 'streamer.DLL'
+[10:42:56]   Failed.
+[10:42:56]  Loaded 4 plugins.
+
+[10:42:56] 
+[10:42:56] Filterscripts
+[10:42:56] ---------------
+[10:42:56]   Loaded 0 filterscripts.
+
+[10:42:56] [MySQL] Menghubungkan ke database...
+[10:42:56] [MySQL] Connection to database successful! Handle: 1
+[10:42:56] 
+----------------------------------
+[10:42:56]  Blank Gamemode by your name here
+[10:42:56] ----------------------------------
+
+[10:42:56] Number of vehicle models: 0
+[10:43:10] [connection] incoming connection: 127.0.0.1:62010 id: 0
+[10:43:10] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:43:21] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:45:07] filterscripts = ""  (string)
+[10:45:07] 
+[10:45:07] Server Plugins
+[10:45:07] --------------
+[10:45:07]  Loading plugin: sscanf
+[10:45:07] 
+[10:45:07]  ===============================
+[10:45:07] 
+[10:45:07]       sscanf plugin loaded.     
+[10:45:07] 
+[10:45:07]          Version: 2.13.8
+[10:45:07] 
+[10:45:07]    (c) 2022 Alex "Y_Less" Cole  
+[10:45:07] 
+[10:45:07]  ===============================
+[10:45:07] 
+[10:45:07]   Loaded.
+[10:45:07]  Loading plugin: mysql
+[10:45:07]  >> plugin.mysql: R41-4 successfully loaded.
+[10:45:07]   Loaded.
+[10:45:07]  Loading plugin: pawncmd
+[10:45:07] [Pawn.CMD] plugin v3.4.0 loading...
+[10:45:07] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:45:07]   Loaded.
+[10:45:07]  Loading plugin: streamer
+[10:45:07] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:45:07]   Loaded.
+[10:45:07]  Loading plugin: crashdetect
+[10:45:07]   CrashDetect must be loaded before 'streamer.DLL'
+[10:45:07]   Failed.
+[10:45:07]  Loaded 4 plugins.
+
+[10:45:07] 
+[10:45:07] Filterscripts
+[10:45:07] ---------------
+[10:45:07]   Loaded 0 filterscripts.
+
+[10:45:07] [MySQL] Menghubungkan ke database...
+[10:45:07] [MySQL] Connection to database successful! Handle: 1
+[10:45:07] 
+----------------------------------
+[10:45:07]  Blank Gamemode by your name here
+[10:45:07] ----------------------------------
+
+[10:45:07] Number of vehicle models: 0
+[10:45:22] [connection] incoming connection: 127.0.0.1:52744 id: 0
+[10:45:23] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:45:26] ini loop!!!!!!!
+[10:45:32] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:46:20] filterscripts = ""  (string)
+[10:46:20] 
+[10:46:20] Server Plugins
+[10:46:20] --------------
+[10:46:20]  Loading plugin: sscanf
+[10:46:20] 
+[10:46:20]  ===============================
+[10:46:20] 
+[10:46:20]       sscanf plugin loaded.     
+[10:46:20] 
+[10:46:20]          Version: 2.13.8
+[10:46:20] 
+[10:46:20]    (c) 2022 Alex "Y_Less" Cole  
+[10:46:20] 
+[10:46:20]  ===============================
+[10:46:20] 
+[10:46:20]   Loaded.
+[10:46:20]  Loading plugin: mysql
+[10:46:20]  >> plugin.mysql: R41-4 successfully loaded.
+[10:46:20]   Loaded.
+[10:46:20]  Loading plugin: pawncmd
+[10:46:20] [Pawn.CMD] plugin v3.4.0 loading...
+[10:46:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:46:20]   Loaded.
+[10:46:20]  Loading plugin: streamer
+[10:46:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:46:20]   Loaded.
+[10:46:20]  Loading plugin: crashdetect
+[10:46:20]   CrashDetect must be loaded before 'streamer.DLL'
+[10:46:20]   Failed.
+[10:46:20]  Loaded 4 plugins.
+
+[10:46:20] 
+[10:46:20] Filterscripts
+[10:46:20] ---------------
+[10:46:20]   Loaded 0 filterscripts.
+
+[10:46:20] [MySQL] Menghubungkan ke database...
+[10:46:20] [MySQL] Connection to database successful! Handle: 1
+[10:46:20] 
+----------------------------------
+[10:46:20]  Blank Gamemode by your name here
+[10:46:20] ----------------------------------
+
+[10:46:20] Number of vehicle models: 0
+[10:46:35] [connection] incoming connection: 127.0.0.1:64555 id: 0
+[10:46:35] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:46:45] ini loop!!!!!!!
+[10:46:45] ini loop!!!!!!!
+[10:46:51] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:48:51] filterscripts = ""  (string)
+[10:48:51] 
+[10:48:51] Server Plugins
+[10:48:51] --------------
+[10:48:51]  Loading plugin: sscanf
+[10:48:51] 
+[10:48:51]  ===============================
+[10:48:51] 
+[10:48:51]       sscanf plugin loaded.     
+[10:48:51] 
+[10:48:51]          Version: 2.13.8
+[10:48:51] 
+[10:48:51]    (c) 2022 Alex "Y_Less" Cole  
+[10:48:51] 
+[10:48:51]  ===============================
+[10:48:51] 
+[10:48:51]   Loaded.
+[10:48:51]  Loading plugin: mysql
+[10:48:51]  >> plugin.mysql: R41-4 successfully loaded.
+[10:48:51]   Loaded.
+[10:48:51]  Loading plugin: pawncmd
+[10:48:51] [Pawn.CMD] plugin v3.4.0 loading...
+[10:48:51] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:48:51]   Loaded.
+[10:48:51]  Loading plugin: streamer
+[10:48:51] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:48:51]   Loaded.
+[10:48:51]  Loading plugin: crashdetect
+[10:48:51]   CrashDetect must be loaded before 'streamer.DLL'
+[10:48:51]   Failed.
+[10:48:51]  Loaded 4 plugins.
+
+[10:48:51] 
+[10:48:51] Filterscripts
+[10:48:51] ---------------
+[10:48:51]   Loaded 0 filterscripts.
+
+[10:48:51] [MySQL] Menghubungkan ke database...
+[10:48:51] [MySQL] Connection to database successful! Handle: 1
+[10:48:51] 
+----------------------------------
+[10:48:51]  Blank Gamemode by your name here
+[10:48:51] ----------------------------------
+
+[10:48:51] Number of vehicle models: 0
+[10:49:05] [connection] incoming connection: 127.0.0.1:49832 id: 0
+[10:49:05] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:49:09] ini loop!!!!!!!
+[10:49:12] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:51:25] filterscripts = ""  (string)
+[10:51:25] 
+[10:51:25] Server Plugins
+[10:51:25] --------------
+[10:51:25]  Loading plugin: sscanf
+[10:51:25] 
+[10:51:25]  ===============================
+[10:51:25] 
+[10:51:25]       sscanf plugin loaded.     
+[10:51:25] 
+[10:51:25]          Version: 2.13.8
+[10:51:25] 
+[10:51:25]    (c) 2022 Alex "Y_Less" Cole  
+[10:51:25] 
+[10:51:25]  ===============================
+[10:51:25] 
+[10:51:25]   Loaded.
+[10:51:25]  Loading plugin: mysql
+[10:51:25]  >> plugin.mysql: R41-4 successfully loaded.
+[10:51:25]   Loaded.
+[10:51:25]  Loading plugin: pawncmd
+[10:51:25] [Pawn.CMD] plugin v3.4.0 loading...
+[10:51:25] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:51:25]   Loaded.
+[10:51:25]  Loading plugin: streamer
+[10:51:25] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:51:25]   Loaded.
+[10:51:25]  Loading plugin: crashdetect
+[10:51:25]   CrashDetect must be loaded before 'streamer.DLL'
+[10:51:25]   Failed.
+[10:51:25]  Loaded 4 plugins.
+
+[10:51:25] 
+[10:51:25] Filterscripts
+[10:51:25] ---------------
+[10:51:25]   Loaded 0 filterscripts.
+
+[10:51:25] [MySQL] Menghubungkan ke database...
+[10:51:25] [MySQL] Connection to database successful! Handle: 1
+[10:51:25] 
+----------------------------------
+[10:51:25]  Blank Gamemode by your name here
+[10:51:25] ----------------------------------
+
+[10:51:25] Number of vehicle models: 0
+[10:51:40] [connection] incoming connection: 127.0.0.1:64751 id: 0
+[10:51:40] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:51:46] ini loop!!!!!!!
+[10:51:53] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:52:53] filterscripts = ""  (string)
+[10:52:53] 
+[10:52:53] Server Plugins
+[10:52:53] --------------
+[10:52:53]  Loading plugin: sscanf
+[10:52:53] 
+[10:52:53]  ===============================
+[10:52:53] 
+[10:52:53]       sscanf plugin loaded.     
+[10:52:53] 
+[10:52:53]          Version: 2.13.8
+[10:52:53] 
+[10:52:53]    (c) 2022 Alex "Y_Less" Cole  
+[10:52:53] 
+[10:52:53]  ===============================
+[10:52:53] 
+[10:52:53]   Loaded.
+[10:52:53]  Loading plugin: mysql
+[10:52:53]  >> plugin.mysql: R41-4 successfully loaded.
+[10:52:53]   Loaded.
+[10:52:53]  Loading plugin: pawncmd
+[10:52:53] [Pawn.CMD] plugin v3.4.0 loading...
+[10:52:53] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:52:53]   Loaded.
+[10:52:53]  Loading plugin: streamer
+[10:52:53] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:52:53]   Loaded.
+[10:52:53]  Loading plugin: crashdetect
+[10:52:53]   CrashDetect must be loaded before 'streamer.DLL'
+[10:52:53]   Failed.
+[10:52:53]  Loaded 4 plugins.
+
+[10:52:53] 
+[10:52:53] Filterscripts
+[10:52:53] ---------------
+[10:52:53]   Loaded 0 filterscripts.
+
+[10:52:53] [MySQL] Menghubungkan ke database...
+[10:52:53] [MySQL] Connection to database successful! Handle: 1
+[10:52:53] 
+----------------------------------
+[10:52:53]  Blank Gamemode by your name here
+[10:52:53] ----------------------------------
+
+[10:52:53] Number of vehicle models: 0
+[10:53:21] [connection] incoming connection: 127.0.0.1:55599 id: 0
+[10:53:21] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:53:24] ini loop!!!!!!!
+[10:53:28] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:55:13] filterscripts = ""  (string)
+[10:55:13] 
+[10:55:13] Server Plugins
+[10:55:13] --------------
+[10:55:13]  Loading plugin: sscanf
+[10:55:13] 
+[10:55:13]  ===============================
+[10:55:13] 
+[10:55:13]       sscanf plugin loaded.     
+[10:55:13] 
+[10:55:13]          Version: 2.13.8
+[10:55:13] 
+[10:55:13]    (c) 2022 Alex "Y_Less" Cole  
+[10:55:13] 
+[10:55:13]  ===============================
+[10:55:13] 
+[10:55:13]   Loaded.
+[10:55:13]  Loading plugin: mysql
+[10:55:13]  >> plugin.mysql: R41-4 successfully loaded.
+[10:55:13]   Loaded.
+[10:55:13]  Loading plugin: pawncmd
+[10:55:13] [Pawn.CMD] plugin v3.4.0 loading...
+[10:55:13] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:55:13]   Loaded.
+[10:55:13]  Loading plugin: streamer
+[10:55:13] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:55:13]   Loaded.
+[10:55:13]  Loading plugin: crashdetect
+[10:55:13]   CrashDetect must be loaded before 'streamer.DLL'
+[10:55:13]   Failed.
+[10:55:13]  Loaded 4 plugins.
+
+[10:55:13] 
+[10:55:13] Filterscripts
+[10:55:13] ---------------
+[10:55:13]   Loaded 0 filterscripts.
+
+[10:55:13] [MySQL] Menghubungkan ke database...
+[10:55:13] [MySQL] Connection to database successful! Handle: 1
+[10:55:13] 
+----------------------------------
+[10:55:13]  Blank Gamemode by your name here
+[10:55:13] ----------------------------------
+
+[10:55:13] Number of vehicle models: 0
+[10:55:25] [connection] incoming connection: 127.0.0.1:60316 id: 0
+[10:55:25] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:55:29] ini loop!!!!!!!
+[10:55:33] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:56:43] filterscripts = ""  (string)
+[10:56:43] 
+[10:56:43] Server Plugins
+[10:56:43] --------------
+[10:56:43]  Loading plugin: sscanf
+[10:56:43] 
+[10:56:43]  ===============================
+[10:56:43] 
+[10:56:43]       sscanf plugin loaded.     
+[10:56:43] 
+[10:56:43]          Version: 2.13.8
+[10:56:43] 
+[10:56:43]    (c) 2022 Alex "Y_Less" Cole  
+[10:56:43] 
+[10:56:43]  ===============================
+[10:56:43] 
+[10:56:43]   Loaded.
+[10:56:43]  Loading plugin: mysql
+[10:56:43]  >> plugin.mysql: R41-4 successfully loaded.
+[10:56:43]   Loaded.
+[10:56:43]  Loading plugin: pawncmd
+[10:56:43] [Pawn.CMD] plugin v3.4.0 loading...
+[10:56:43] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:56:43]   Loaded.
+[10:56:43]  Loading plugin: streamer
+[10:56:43] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:56:43]   Loaded.
+[10:56:43]  Loading plugin: crashdetect
+[10:56:43]   CrashDetect must be loaded before 'streamer.DLL'
+[10:56:43]   Failed.
+[10:56:43]  Loaded 4 plugins.
+
+[10:56:43] 
+[10:56:43] Filterscripts
+[10:56:43] ---------------
+[10:56:43]   Loaded 0 filterscripts.
+
+[10:56:43] [MySQL] Menghubungkan ke database...
+[10:56:43] [MySQL] Connection to database successful! Handle: 1
+[10:56:43] 
+----------------------------------
+[10:56:43]  Blank Gamemode by your name here
+[10:56:43] ----------------------------------
+
+[10:56:43] Number of vehicle models: 0
+[10:56:55] [connection] incoming connection: 127.0.0.1:57247 id: 0
+[10:56:56] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:56:59] ini loop!!!!!!!
+[10:57:06] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:57:34] filterscripts = ""  (string)
+[10:57:34] 
+[10:57:34] Server Plugins
+[10:57:34] --------------
+[10:57:34]  Loading plugin: sscanf
+[10:57:34] 
+[10:57:34]  ===============================
+[10:57:34] 
+[10:57:34]       sscanf plugin loaded.     
+[10:57:34] 
+[10:57:34]          Version: 2.13.8
+[10:57:34] 
+[10:57:34]    (c) 2022 Alex "Y_Less" Cole  
+[10:57:34] 
+[10:57:34]  ===============================
+[10:57:34] 
+[10:57:34]   Loaded.
+[10:57:34]  Loading plugin: mysql
+[10:57:34]  >> plugin.mysql: R41-4 successfully loaded.
+[10:57:34]   Loaded.
+[10:57:34]  Loading plugin: pawncmd
+[10:57:34] [Pawn.CMD] plugin v3.4.0 loading...
+[10:57:34] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:57:34]   Loaded.
+[10:57:34]  Loading plugin: streamer
+[10:57:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:57:34]   Loaded.
+[10:57:34]  Loading plugin: crashdetect
+[10:57:34]   CrashDetect must be loaded before 'streamer.DLL'
+[10:57:34]   Failed.
+[10:57:34]  Loaded 4 plugins.
+
+[10:57:34] 
+[10:57:34] Filterscripts
+[10:57:34] ---------------
+[10:57:34]   Loaded 0 filterscripts.
+
+[10:57:34] [MySQL] Menghubungkan ke database...
+[10:57:34] [MySQL] Connection to database successful! Handle: 1
+[10:57:34] 
+----------------------------------
+[10:57:34]  Blank Gamemode by your name here
+[10:57:34] ----------------------------------
+
+[10:57:34] Number of vehicle models: 0
+[10:57:47] [connection] incoming connection: 127.0.0.1:55588 id: 0
+[10:57:47] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:57:55] ini loop!!!!!!!
+[10:58:02] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:01:20] filterscripts = ""  (string)
+[11:01:20] 
+[11:01:20] Server Plugins
+[11:01:20] --------------
+[11:01:20]  Loading plugin: sscanf
+[11:01:20] 
+[11:01:20]  ===============================
+[11:01:20] 
+[11:01:20]       sscanf plugin loaded.     
+[11:01:20] 
+[11:01:20]          Version: 2.13.8
+[11:01:20] 
+[11:01:20]    (c) 2022 Alex "Y_Less" Cole  
+[11:01:20] 
+[11:01:20]  ===============================
+[11:01:20] 
+[11:01:20]   Loaded.
+[11:01:20]  Loading plugin: mysql
+[11:01:20]  >> plugin.mysql: R41-4 successfully loaded.
+[11:01:20]   Loaded.
+[11:01:20]  Loading plugin: pawncmd
+[11:01:20] [Pawn.CMD] plugin v3.4.0 loading...
+[11:01:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:01:20]   Loaded.
+[11:01:20]  Loading plugin: streamer
+[11:01:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:01:20]   Loaded.
+[11:01:20]  Loading plugin: crashdetect
+[11:01:20]   CrashDetect must be loaded before 'streamer.DLL'
+[11:01:20]   Failed.
+[11:01:20]  Loaded 4 plugins.
+
+[11:01:20] 
+[11:01:20] Filterscripts
+[11:01:20] ---------------
+[11:01:20]   Loaded 0 filterscripts.
+
+[11:01:20] [MySQL] Menghubungkan ke database...
+[11:01:20] [MySQL] Connection to database successful! Handle: 1
+[11:01:20] 
+----------------------------------
+[11:01:20]  Blank Gamemode by your name here
+[11:01:20] ----------------------------------
+
+[11:01:20] Number of vehicle models: 0
+[11:01:34] [connection] incoming connection: 127.0.0.1:58138 id: 0
+[11:01:35] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:01:41] ini loop!!!!!!!
+[11:01:49] [part] Lolicon has left the server (0:1)
+[11:02:29] [connection] incoming connection: 127.0.0.1:55792 id: 0
+[11:02:30] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:02:36] ini loop!!!!!!!
+[11:02:36] ini loop!!!!!!!
+[11:02:41] [part] Lolicon has left the server (0:1)
+[11:03:22] [connection] incoming connection: 127.0.0.1:65013 id: 0
+[11:03:22] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:03:25] ini loop!!!!!!!
+[11:03:25] ini loop!!!!!!!
+[11:03:25] ini loop!!!!!!!
+[11:03:35] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:39:41] filterscripts = ""  (string)
+[11:39:41] 
+[11:39:41] Server Plugins
+[11:39:41] --------------
+[11:39:41]  Loading plugin: sscanf
+[11:39:41] 
+[11:39:41]  ===============================
+[11:39:41] 
+[11:39:41]       sscanf plugin loaded.     
+[11:39:41] 
+[11:39:41]          Version: 2.13.8
+[11:39:41] 
+[11:39:41]    (c) 2022 Alex "Y_Less" Cole  
+[11:39:41] 
+[11:39:41]  ===============================
+[11:39:41] 
+[11:39:41]   Loaded.
+[11:39:41]  Loading plugin: mysql
+[11:39:41]  >> plugin.mysql: R41-4 successfully loaded.
+[11:39:41]   Loaded.
+[11:39:41]  Loading plugin: pawncmd
+[11:39:41] [Pawn.CMD] plugin v3.4.0 loading...
+[11:39:41] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:39:41]   Loaded.
+[11:39:41]  Loading plugin: streamer
+[11:39:41] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:39:41]   Loaded.
+[11:39:41]  Loading plugin: crashdetect
+[11:39:41]   CrashDetect must be loaded before 'streamer.DLL'
+[11:39:41]   Failed.
+[11:39:41]  Loaded 4 plugins.
+
+[11:39:41] 
+[11:39:41] Filterscripts
+[11:39:41] ---------------
+[11:39:41]   Loaded 0 filterscripts.
+
+[11:39:41] [MySQL] Menghubungkan ke database...
+[11:39:41] [MySQL] Connection to database successful! Handle: 1
+[11:39:41] 
+----------------------------------
+[11:39:41]  Blank Gamemode by your name here
+[11:39:41] ----------------------------------
+
+[11:39:41] Number of vehicle models: 0
+[11:39:54] [connection] incoming connection: 127.0.0.1:57918 id: 0
+[11:39:54] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:39:59] ini loop!!!!!!!
+[11:40:03] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:43:01] filterscripts = ""  (string)
+[14:43:01] 
+[14:43:01] Server Plugins
+[14:43:01] --------------
+[14:43:01]  Loading plugin: sscanf
+[14:43:01] 
+[14:43:01]  ===============================
+[14:43:01] 
+[14:43:01]       sscanf plugin loaded.     
+[14:43:01] 
+[14:43:01]          Version: 2.13.8
+[14:43:01] 
+[14:43:01]    (c) 2022 Alex "Y_Less" Cole  
+[14:43:01] 
+[14:43:01]  ===============================
+[14:43:01] 
+[14:43:01]   Loaded.
+[14:43:01]  Loading plugin: mysql
+[14:43:01]  >> plugin.mysql: R41-4 successfully loaded.
+[14:43:01]   Loaded.
+[14:43:01]  Loading plugin: pawncmd
+[14:43:01] [Pawn.CMD] plugin v3.4.0 loading...
+[14:43:01] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:43:01]   Loaded.
+[14:43:01]  Loading plugin: streamer
+[14:43:01] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:43:01]   Loaded.
+[14:43:01]  Loading plugin: crashdetect
+[14:43:01]   CrashDetect must be loaded before 'streamer.DLL'
+[14:43:01]   Failed.
+[14:43:01]  Loaded 4 plugins.
+
+[14:43:01] 
+[14:43:01] Filterscripts
+[14:43:01] ---------------
+[14:43:01]   Loaded 0 filterscripts.
+
+[14:43:01] [MySQL] Menghubungkan ke database...
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:43:20] filterscripts = ""  (string)
+[14:43:20] 
+[14:43:20] Server Plugins
+[14:43:20] --------------
+[14:43:20]  Loading plugin: sscanf
+[14:43:20] 
+[14:43:20]  ===============================
+[14:43:20] 
+[14:43:20]       sscanf plugin loaded.     
+[14:43:20] 
+[14:43:20]          Version: 2.13.8
+[14:43:20] 
+[14:43:20]    (c) 2022 Alex "Y_Less" Cole  
+[14:43:20] 
+[14:43:20]  ===============================
+[14:43:20] 
+[14:43:20]   Loaded.
+[14:43:20]  Loading plugin: mysql
+[14:43:20]  >> plugin.mysql: R41-4 successfully loaded.
+[14:43:20]   Loaded.
+[14:43:20]  Loading plugin: pawncmd
+[14:43:20] [Pawn.CMD] plugin v3.4.0 loading...
+[14:43:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:43:20]   Loaded.
+[14:43:20]  Loading plugin: streamer
+[14:43:20] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:43:20]   Loaded.
+[14:43:20]  Loading plugin: crashdetect
+[14:43:20]   CrashDetect must be loaded before 'streamer.DLL'
+[14:43:20]   Failed.
+[14:43:20]  Loaded 4 plugins.
+
+[14:43:20] 
+[14:43:20] Filterscripts
+[14:43:20] ---------------
+[14:43:20]   Loaded 0 filterscripts.
+
+[14:43:20] [MySQL] Menghubungkan ke database...
+[14:43:20] [MySQL] Connection to database successful! Handle: 1
+[14:43:20] 
+----------------------------------
+[14:43:20]  Blank Gamemode by your name here
+[14:43:20] ----------------------------------
+
+[14:43:20] Number of vehicle models: 0
+[14:43:44] [connection] incoming connection: 127.0.0.1:55629 id: 0
+[14:43:44] [join] Lolicon has joined the server (0:127.0.0.1)
+[14:43:48] ini loop!!!!!!!
+[14:43:49] Name: R
+[14:43:55] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:47:06] filterscripts = ""  (string)
+[14:47:06] 
+[14:47:06] Server Plugins
+[14:47:06] --------------
+[14:47:06]  Loading plugin: sscanf
+[14:47:06] 
+[14:47:06]  ===============================
+[14:47:06] 
+[14:47:06]       sscanf plugin loaded.     
+[14:47:06] 
+[14:47:06]          Version: 2.13.8
+[14:47:06] 
+[14:47:06]    (c) 2022 Alex "Y_Less" Cole  
+[14:47:06] 
+[14:47:06]  ===============================
+[14:47:06] 
+[14:47:06]   Loaded.
+[14:47:06]  Loading plugin: mysql
+[14:47:06]  >> plugin.mysql: R41-4 successfully loaded.
+[14:47:06]   Loaded.
+[14:47:06]  Loading plugin: pawncmd
+[14:47:06] [Pawn.CMD] plugin v3.4.0 loading...
+[14:47:06] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:47:06]   Loaded.
+[14:47:06]  Loading plugin: streamer
+[14:47:06] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:47:06]   Loaded.
+[14:47:06]  Loading plugin: crashdetect
+[14:47:06]   CrashDetect must be loaded before 'streamer.DLL'
+[14:47:06]   Failed.
+[14:47:06]  Loaded 4 plugins.
+
+[14:47:06] 
+[14:47:06] Filterscripts
+[14:47:06] ---------------
+[14:47:06]   Loaded 0 filterscripts.
+
+[14:47:06] [MySQL] Menghubungkan ke database...
+[14:47:06] [MySQL] Connection to database successful! Handle: 1
+[14:47:06] 
+----------------------------------
+[14:47:06]  Blank Gamemode by your name here
+[14:47:06] ----------------------------------
+
+[14:47:06] Number of vehicle models: 0
+[14:47:25] [connection] incoming connection: 127.0.0.1:63623 id: 0
+[14:47:25] [join] Lolicon has joined the server (0:127.0.0.1)
+[14:47:33] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:51:33] filterscripts = ""  (string)
+[14:51:33] 
+[14:51:33] Server Plugins
+[14:51:33] --------------
+[14:51:33]  Loading plugin: sscanf
+[14:51:33] 
+[14:51:34]  ===============================
+[14:51:34] 
+[14:51:34]       sscanf plugin loaded.     
+[14:51:34] 
+[14:51:34]          Version: 2.13.8
+[14:51:34] 
+[14:51:34]    (c) 2022 Alex "Y_Less" Cole  
+[14:51:34] 
+[14:51:34]  ===============================
+[14:51:34] 
+[14:51:34]   Loaded.
+[14:51:34]  Loading plugin: mysql
+[14:51:34]  >> plugin.mysql: R41-4 successfully loaded.
+[14:51:34]   Loaded.
+[14:51:34]  Loading plugin: pawncmd
+[14:51:34] [Pawn.CMD] plugin v3.4.0 loading...
+[14:51:34] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:51:34]   Loaded.
+[14:51:34]  Loading plugin: streamer
+[14:51:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:51:34]   Loaded.
+[14:51:34]  Loading plugin: crashdetect
+[14:51:34]   CrashDetect must be loaded before 'streamer.DLL'
+[14:51:34]   Failed.
+[14:51:34]  Loaded 4 plugins.
+
+[14:51:34] 
+[14:51:34] Filterscripts
+[14:51:34] ---------------
+[14:51:34]   Loaded 0 filterscripts.
+
+[14:51:34] [MySQL] Menghubungkan ke database...
+[14:51:34] [MySQL] Connection to database successful! Handle: 1
+[14:51:34] 
+----------------------------------
+[14:51:34]  Blank Gamemode by your name here
+[14:51:34] ----------------------------------
+
+[14:51:34] Number of vehicle models: 0
+[14:51:45] [connection] incoming connection: 127.0.0.1:64914 id: 0
+[14:51:45] [join] Lolicon has joined the server (0:127.0.0.1)
+[14:51:51] Name: R
+[14:52:03] [part] Lolicon has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:54:37] filterscripts = ""  (string)
+[14:54:37] 
+[14:54:37] Server Plugins
+[14:54:37] --------------
+[14:54:37]  Loading plugin: sscanf
+[14:54:37] 
+[14:54:37]  ===============================
+[14:54:37] 
+[14:54:37]       sscanf plugin loaded.     
+[14:54:37] 
+[14:54:37]          Version: 2.13.8
+[14:54:37] 
+[14:54:37]    (c) 2022 Alex "Y_Less" Cole  
+[14:54:37] 
+[14:54:37]  ===============================
+[14:54:37] 
+[14:54:37]   Loaded.
+[14:54:37]  Loading plugin: mysql
+[14:54:37]  >> plugin.mysql: R41-4 successfully loaded.
+[14:54:37]   Loaded.
+[14:54:37]  Loading plugin: pawncmd
+[14:54:37] [Pawn.CMD] plugin v3.4.0 loading...
+[14:54:37] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:54:37]   Loaded.
+[14:54:37]  Loading plugin: streamer
+[14:54:37] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[14:54:37]   Loaded.
+[14:54:37]  Loading plugin: crashdetect
+[14:54:37]   CrashDetect must be loaded before 'streamer.DLL'
+[14:54:37]   Failed.
+[14:54:37]  Loaded 4 plugins.
+
+[14:54:37] 
+[14:54:37] Filterscripts
+[14:54:37] ---------------
+[14:54:37]   Loaded 0 filterscripts.
+
+[14:54:37] [MySQL] Menghubungkan ke database...
+[14:54:37] [MySQL] Connection to database successful! Handle: 1
+[14:54:37] 
+----------------------------------
+[14:54:37]  Blank Gamemode by your name here
+[14:54:37] ----------------------------------
+
+[14:54:37] Number of vehicle models: 0
+[14:54:49] [connection] incoming connection: 127.0.0.1:57835 id: 0
+[14:54:49] [join] Lolicon has joined the server (0:127.0.0.1)
+[14:55:04] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:01:09] filterscripts = ""  (string)
+[15:01:09] 
+[15:01:09] Server Plugins
+[15:01:09] --------------
+[15:01:09]  Loading plugin: sscanf
+[15:01:09] 
+[15:01:09]  ===============================
+[15:01:09] 
+[15:01:09]       sscanf plugin loaded.     
+[15:01:09] 
+[15:01:09]          Version: 2.13.8
+[15:01:09] 
+[15:01:09]    (c) 2022 Alex "Y_Less" Cole  
+[15:01:09] 
+[15:01:09]  ===============================
+[15:01:09] 
+[15:01:09]   Loaded.
+[15:01:09]  Loading plugin: mysql
+[15:01:09]  >> plugin.mysql: R41-4 successfully loaded.
+[15:01:09]   Loaded.
+[15:01:09]  Loading plugin: pawncmd
+[15:01:09] [Pawn.CMD] plugin v3.4.0 loading...
+[15:01:09] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:01:09]   Loaded.
+[15:01:09]  Loading plugin: streamer
+[15:01:09] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:01:09]   Loaded.
+[15:01:09]  Loading plugin: crashdetect
+[15:01:09]   CrashDetect must be loaded before 'streamer.DLL'
+[15:01:09]   Failed.
+[15:01:09]  Loaded 4 plugins.
+
+[15:01:09] 
+[15:01:09] Filterscripts
+[15:01:09] ---------------
+[15:01:09]   Loaded 0 filterscripts.
+
+[15:01:09] [MySQL] Menghubungkan ke database...
+[15:01:09] [MySQL] Connection to database successful! Handle: 1
+[15:01:09] 
+----------------------------------
+[15:01:09]  Blank Gamemode by your name here
+[15:01:09] ----------------------------------
+
+[15:01:09] Number of vehicle models: 0
+[15:01:20] [connection] incoming connection: 127.0.0.1:61911 id: 0
+[15:01:20] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:01:25] Nama hasil cache: R
+[15:01:30] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:06:04] filterscripts = ""  (string)
+[15:06:04] 
+[15:06:04] Server Plugins
+[15:06:04] --------------
+[15:06:04]  Loading plugin: sscanf
+[15:06:04] 
+[15:06:04]  ===============================
+[15:06:04] 
+[15:06:04]       sscanf plugin loaded.     
+[15:06:04] 
+[15:06:04]          Version: 2.13.8
+[15:06:04] 
+[15:06:04]    (c) 2022 Alex "Y_Less" Cole  
+[15:06:04] 
+[15:06:04]  ===============================
+[15:06:04] 
+[15:06:04]   Loaded.
+[15:06:04]  Loading plugin: mysql
+[15:06:04]  >> plugin.mysql: R41-4 successfully loaded.
+[15:06:04]   Loaded.
+[15:06:04]  Loading plugin: pawncmd
+[15:06:04] [Pawn.CMD] plugin v3.4.0 loading...
+[15:06:04] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:06:04]   Loaded.
+[15:06:04]  Loading plugin: streamer
+[15:06:04] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:06:04]   Loaded.
+[15:06:04]  Loading plugin: crashdetect
+[15:06:04]   CrashDetect must be loaded before 'streamer.DLL'
+[15:06:04]   Failed.
+[15:06:04]  Loaded 4 plugins.
+
+[15:06:05] 
+[15:06:05] Filterscripts
+[15:06:05] ---------------
+[15:06:05]   Loaded 0 filterscripts.
+
+[15:06:05] [MySQL] Menghubungkan ke database...
+[15:06:05] [MySQL] Connection to database successful! Handle: 1
+[15:06:05] 
+----------------------------------
+[15:06:05]  Blank Gamemode by your name here
+[15:06:05] ----------------------------------
+
+[15:06:05] Number of vehicle models: 0
+[15:06:38] [connection] incoming connection: 127.0.0.1:63613 id: 0
+[15:06:38] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:12:06] [part] R has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:13:08] filterscripts = ""  (string)
+[15:13:08] 
+[15:13:08] Server Plugins
+[15:13:08] --------------
+[15:13:08]  Loading plugin: sscanf
+[15:13:08] 
+[15:13:08]  ===============================
+[15:13:08] 
+[15:13:08]       sscanf plugin loaded.     
+[15:13:08] 
+[15:13:08]          Version: 2.13.8
+[15:13:08] 
+[15:13:08]    (c) 2022 Alex "Y_Less" Cole  
+[15:13:08] 
+[15:13:08]  ===============================
+[15:13:08] 
+[15:13:08]   Loaded.
+[15:13:08]  Loading plugin: mysql
+[15:13:08]  >> plugin.mysql: R41-4 successfully loaded.
+[15:13:08]   Loaded.
+[15:13:08]  Loading plugin: pawncmd
+[15:13:08] [Pawn.CMD] plugin v3.4.0 loading...
+[15:13:08] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:13:08]   Loaded.
+[15:13:08]  Loading plugin: streamer
+[15:13:08] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:13:08]   Loaded.
+[15:13:08]  Loading plugin: crashdetect
+[15:13:08]   CrashDetect must be loaded before 'streamer.DLL'
+[15:13:08]   Failed.
+[15:13:08]  Loaded 4 plugins.
+
+[15:13:08] 
+[15:13:08] Filterscripts
+[15:13:08] ---------------
+[15:13:08]   Loaded 0 filterscripts.
+
+[15:13:08] [MySQL] Menghubungkan ke database...
+[15:13:08] [MySQL] Connection to database successful! Handle: 1
+[15:13:08] 
+----------------------------------
+[15:13:08]  Blank Gamemode by your name here
+[15:13:08] ----------------------------------
+
+[15:13:08] Number of vehicle models: 0
+[15:13:21] [connection] incoming connection: 127.0.0.1:57499 id: 0
+[15:13:21] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:14:03] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:15:49] filterscripts = ""  (string)
+[15:15:49] 
+[15:15:49] Server Plugins
+[15:15:49] --------------
+[15:15:49]  Loading plugin: sscanf
+[15:15:49] 
+[15:15:49]  ===============================
+[15:15:49] 
+[15:15:49]       sscanf plugin loaded.     
+[15:15:49] 
+[15:15:49]          Version: 2.13.8
+[15:15:49] 
+[15:15:49]    (c) 2022 Alex "Y_Less" Cole  
+[15:15:49] 
+[15:15:49]  ===============================
+[15:15:49] 
+[15:15:49]   Loaded.
+[15:15:49]  Loading plugin: mysql
+[15:15:49]  >> plugin.mysql: R41-4 successfully loaded.
+[15:15:49]   Loaded.
+[15:15:49]  Loading plugin: pawncmd
+[15:15:49] [Pawn.CMD] plugin v3.4.0 loading...
+[15:15:49] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:15:49]   Loaded.
+[15:15:49]  Loading plugin: streamer
+[15:15:49] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:15:49]   Loaded.
+[15:15:49]  Loading plugin: crashdetect
+[15:15:49]   CrashDetect must be loaded before 'streamer.DLL'
+[15:15:49]   Failed.
+[15:15:49]  Loaded 4 plugins.
+
+[15:15:49] 
+[15:15:49] Filterscripts
+[15:15:49] ---------------
+[15:15:49]   Loaded 0 filterscripts.
+
+[15:15:49] [MySQL] Menghubungkan ke database...
+[15:15:49] [MySQL] Connection to database successful! Handle: 1
+[15:15:49] 
+----------------------------------
+[15:15:49]  Blank Gamemode by your name here
+[15:15:49] ----------------------------------
+
+[15:15:49] Number of vehicle models: 0
+[15:16:04] [connection] incoming connection: 127.0.0.1:53433 id: 0
+[15:16:04] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:16:22] [part] Ryuji_Haston has left the server (0:1)
+[15:16:56] [connection] incoming connection: 127.0.0.1:50442 id: 0
+[15:16:56] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:17:05] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:32:45] filterscripts = ""  (string)
+[15:32:45] 
+[15:32:45] Server Plugins
+[15:32:45] --------------
+[15:32:45]  Loading plugin: sscanf
+[15:32:45] 
+[15:32:45]  ===============================
+[15:32:45] 
+[15:32:45]       sscanf plugin loaded.     
+[15:32:45] 
+[15:32:45]          Version: 2.13.8
+[15:32:45] 
+[15:32:45]    (c) 2022 Alex "Y_Less" Cole  
+[15:32:45] 
+[15:32:45]  ===============================
+[15:32:45] 
+[15:32:45]   Loaded.
+[15:32:45]  Loading plugin: mysql
+[15:32:45]  >> plugin.mysql: R41-4 successfully loaded.
+[15:32:45]   Loaded.
+[15:32:45]  Loading plugin: pawncmd
+[15:32:45] [Pawn.CMD] plugin v3.4.0 loading...
+[15:32:45] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:32:45]   Loaded.
+[15:32:45]  Loading plugin: streamer
+[15:32:45] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:32:45]   Loaded.
+[15:32:45]  Loading plugin: crashdetect
+[15:32:45]   CrashDetect must be loaded before 'streamer.DLL'
+[15:32:45]   Failed.
+[15:32:45]  Loaded 4 plugins.
+
+[15:32:45] 
+[15:32:45] Filterscripts
+[15:32:45] ---------------
+[15:32:45]   Loaded 0 filterscripts.
+
+[15:32:45] [MySQL] Menghubungkan ke database...
+[15:32:45] [MySQL] Connection to database successful! Handle: 1
+[15:32:45] 
+----------------------------------
+[15:32:45]  Blank Gamemode by your name here
+[15:32:45] ----------------------------------
+
+[15:32:45] Number of vehicle models: 0
+[15:32:59] [connection] incoming connection: 127.0.0.1:65348 id: 0
+[15:32:59] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:34:15] [part] Ryuji_Haston has left the server (0:1)
+[15:34:51] [connection] incoming connection: 127.0.0.1:58449 id: 0
+[15:34:52] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:35:05] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:49:12] filterscripts = ""  (string)
+[15:49:12] 
+[15:49:12] Server Plugins
+[15:49:12] --------------
+[15:49:12]  Loading plugin: sscanf
+[15:49:12] 
+[15:49:12]  ===============================
+[15:49:12] 
+[15:49:12]       sscanf plugin loaded.     
+[15:49:12] 
+[15:49:12]          Version: 2.13.8
+[15:49:12] 
+[15:49:12]    (c) 2022 Alex "Y_Less" Cole  
+[15:49:12] 
+[15:49:12]  ===============================
+[15:49:12] 
+[15:49:12]   Loaded.
+[15:49:12]  Loading plugin: mysql
+[15:49:12]  >> plugin.mysql: R41-4 successfully loaded.
+[15:49:12]   Loaded.
+[15:49:12]  Loading plugin: pawncmd
+[15:49:12] [Pawn.CMD] plugin v3.4.0 loading...
+[15:49:12] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:49:12]   Loaded.
+[15:49:12]  Loading plugin: streamer
+[15:49:12] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:49:12]   Loaded.
+[15:49:12]  Loading plugin: crashdetect
+[15:49:12]   CrashDetect must be loaded before 'streamer.DLL'
+[15:49:12]   Failed.
+[15:49:12]  Loaded 4 plugins.
+
+[15:49:12] 
+[15:49:12] Filterscripts
+[15:49:12] ---------------
+[15:49:12]   Loaded 0 filterscripts.
+
+[15:49:12] [MySQL] Menghubungkan ke database...
+[15:49:12] [MySQL] Connection to database successful! Handle: 1
+[15:49:12] 
+----------------------------------
+[15:49:12]  Blank Gamemode by your name here
+[15:49:12] ----------------------------------
+
+[15:49:12] Number of vehicle models: 0
+[15:49:23] [connection] incoming connection: 127.0.0.1:58285 id: 0
+[15:49:23] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:49:50] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:50:22] filterscripts = ""  (string)
+[15:50:22] 
+[15:50:22] Server Plugins
+[15:50:22] --------------
+[15:50:22]  Loading plugin: sscanf
+[15:50:22] 
+[15:50:22]  ===============================
+[15:50:22] 
+[15:50:22]       sscanf plugin loaded.     
+[15:50:22] 
+[15:50:22]          Version: 2.13.8
+[15:50:22] 
+[15:50:22]    (c) 2022 Alex "Y_Less" Cole  
+[15:50:22] 
+[15:50:22]  ===============================
+[15:50:22] 
+[15:50:22]   Loaded.
+[15:50:22]  Loading plugin: mysql
+[15:50:22]  >> plugin.mysql: R41-4 successfully loaded.
+[15:50:22]   Loaded.
+[15:50:22]  Loading plugin: pawncmd
+[15:50:22] [Pawn.CMD] plugin v3.4.0 loading...
+[15:50:22] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:50:22]   Loaded.
+[15:50:22]  Loading plugin: streamer
+[15:50:22] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:50:22]   Loaded.
+[15:50:22]  Loading plugin: crashdetect
+[15:50:22]   CrashDetect must be loaded before 'streamer.DLL'
+[15:50:22]   Failed.
+[15:50:22]  Loaded 4 plugins.
+
+[15:50:22] 
+[15:50:22] Filterscripts
+[15:50:22] ---------------
+[15:50:22]   Loaded 0 filterscripts.
+
+[15:50:22] [MySQL] Menghubungkan ke database...
+[15:50:22] [MySQL] Connection to database successful! Handle: 1
+[15:50:22] 
+----------------------------------
+[15:50:22]  Blank Gamemode by your name here
+[15:50:22] ----------------------------------
+
+[15:50:22] Number of vehicle models: 0
+[15:50:33] [connection] incoming connection: 127.0.0.1:56883 id: 0
+[15:50:34] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:50:42] [part] Ryuji_Haston has left the server (0:1)
+[15:51:31] [connection] incoming connection: 127.0.0.1:51833 id: 0
+[15:51:31] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:51:42] [part] Ryuji_Haston has left the server (0:1)
+[15:51:54] [connection] incoming connection: 127.0.0.1:59187 id: 0
+[15:51:55] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:52:06] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:54:12] filterscripts = ""  (string)
+[15:54:12] 
+[15:54:12] Server Plugins
+[15:54:12] --------------
+[15:54:12]  Loading plugin: sscanf
+[15:54:12] 
+[15:54:12]  ===============================
+[15:54:12] 
+[15:54:12]       sscanf plugin loaded.     
+[15:54:12] 
+[15:54:12]          Version: 2.13.8
+[15:54:12] 
+[15:54:12]    (c) 2022 Alex "Y_Less" Cole  
+[15:54:12] 
+[15:54:12]  ===============================
+[15:54:12] 
+[15:54:12]   Loaded.
+[15:54:12]  Loading plugin: mysql
+[15:54:12]  >> plugin.mysql: R41-4 successfully loaded.
+[15:54:12]   Loaded.
+[15:54:12]  Loading plugin: pawncmd
+[15:54:12] [Pawn.CMD] plugin v3.4.0 loading...
+[15:54:12] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:54:12]   Loaded.
+[15:54:12]  Loading plugin: streamer
+[15:54:12] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[15:54:12]   Loaded.
+[15:54:12]  Loading plugin: crashdetect
+[15:54:12]   CrashDetect must be loaded before 'streamer.DLL'
+[15:54:12]   Failed.
+[15:54:12]  Loaded 4 plugins.
+
+[15:54:12] 
+[15:54:12] Filterscripts
+[15:54:12] ---------------
+[15:54:12]   Loaded 0 filterscripts.
+
+[15:54:12] [MySQL] Menghubungkan ke database...
+[15:54:12] [MySQL] Connection to database successful! Handle: 1
+[15:54:12] 
+----------------------------------
+[15:54:12]  Blank Gamemode by your name here
+[15:54:12] ----------------------------------
+
+[15:54:12] Number of vehicle models: 0
+[15:54:24] [connection] incoming connection: 127.0.0.1:64835 id: 0
+[15:54:25] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:54:36] [part] Ryuji_Haston has left the server (0:1)
+[15:54:49] [connection] incoming connection: 127.0.0.1:49163 id: 0
+[15:54:49] [join] Lolicon has joined the server (0:127.0.0.1)
+[15:55:00] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:56:35] filterscripts = ""  (string)
+[18:56:35] 
+[18:56:35] Server Plugins
+[18:56:35] --------------
+[18:56:35]  Loading plugin: sscanf
+[18:56:35] 
+[18:56:35]  ===============================
+[18:56:35] 
+[18:56:35]       sscanf plugin loaded.     
+[18:56:35] 
+[18:56:35]          Version: 2.13.8
+[18:56:35] 
+[18:56:35]    (c) 2022 Alex "Y_Less" Cole  
+[18:56:35] 
+[18:56:35]  ===============================
+[18:56:35] 
+[18:56:35]   Loaded.
+[18:56:35]  Loading plugin: mysql
+[18:56:35]  >> plugin.mysql: R41-4 successfully loaded.
+[18:56:35]   Loaded.
+[18:56:35]  Loading plugin: pawncmd
+[18:56:35] [Pawn.CMD] plugin v3.4.0 loading...
+[18:56:35] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[18:56:35]   Loaded.
+[18:56:35]  Loading plugin: streamer
+[18:56:35] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[18:56:35]   Loaded.
+[18:56:35]  Loading plugin: crashdetect
+[18:56:35]   CrashDetect must be loaded before 'streamer.DLL'
+[18:56:35]   Failed.
+[18:56:35]  Loaded 4 plugins.
+
+[18:56:36] 
+[18:56:36] Filterscripts
+[18:56:36] ---------------
+[18:56:36]   Loaded 0 filterscripts.
+
+[18:56:36] [MySQL] Menghubungkan ke database...
+[18:56:36] [MySQL] Connection to database successful! Handle: 1
+[18:56:36] 
+----------------------------------
+[18:56:36]  Blank Gamemode by your name here
+[18:56:36] ----------------------------------
+
+[18:56:36] Number of vehicle models: 0
+[18:58:34] [connection] incoming connection: 192.168.99.199:59283 id: 0
+[18:58:44] [connection] incoming connection: 192.168.99.199:55711 id: 0
+[18:58:45] [join] Lolicon has joined the server (0:192.168.99.199)
+[18:59:28] [part] Ryuji_Haston has left the server (0:1)
+[19:01:27] [connection] incoming connection: 127.0.0.1:60390 id: 0
+[19:01:27] [join] Lolicon has joined the server (0:127.0.0.1)
+[19:01:36] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:02:31] filterscripts = ""  (string)
+[19:02:31] 
+[19:02:31] Server Plugins
+[19:02:31] --------------
+[19:02:31]  Loading plugin: sscanf
+[19:02:31] 
+[19:02:31]  ===============================
+[19:02:31] 
+[19:02:31]       sscanf plugin loaded.     
+[19:02:31] 
+[19:02:31]          Version: 2.13.8
+[19:02:31] 
+[19:02:31]    (c) 2022 Alex "Y_Less" Cole  
+[19:02:31] 
+[19:02:31]  ===============================
+[19:02:31] 
+[19:02:31]   Loaded.
+[19:02:31]  Loading plugin: mysql
+[19:02:31]  >> plugin.mysql: R41-4 successfully loaded.
+[19:02:31]   Loaded.
+[19:02:31]  Loading plugin: pawncmd
+[19:02:31] [Pawn.CMD] plugin v3.4.0 loading...
+[19:02:31] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[19:02:31]   Loaded.
+[19:02:31]  Loading plugin: streamer
+[19:02:31] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[19:02:31]   Loaded.
+[19:02:31]  Loading plugin: crashdetect
+[19:02:31]   CrashDetect must be loaded before 'streamer.DLL'
+[19:02:31]   Failed.
+[19:02:31]  Loaded 4 plugins.
+
+[19:02:31] 
+[19:02:31] Filterscripts
+[19:02:31] ---------------
+[19:02:31]   Loaded 0 filterscripts.
+
+[19:02:31] [MySQL] Menghubungkan ke database...
+[19:02:31] [MySQL] Connection to database successful! Handle: 1
+[19:02:31] 
+----------------------------------
+[19:02:31]  Blank Gamemode by your name here
+[19:02:31] ----------------------------------
+
+[19:02:31] Number of vehicle models: 0
+[19:02:50] [connection] incoming connection: 127.0.0.1:50772 id: 0
+[19:02:51] [join] Lolicon has joined the server (0:127.0.0.1)
+[19:03:04] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:06:02] filterscripts = ""  (string)
+[19:06:02] 
+[19:06:02] Server Plugins
+[19:06:02] --------------
+[19:06:02]  Loading plugin: sscanf
+[19:06:02] 
+[19:06:02]  ===============================
+[19:06:02] 
+[19:06:02]       sscanf plugin loaded.     
+[19:06:02] 
+[19:06:02]          Version: 2.13.8
+[19:06:02] 
+[19:06:02]    (c) 2022 Alex "Y_Less" Cole  
+[19:06:02] 
+[19:06:02]  ===============================
+[19:06:02] 
+[19:06:02]   Loaded.
+[19:06:02]  Loading plugin: mysql
+[19:06:03]  >> plugin.mysql: R41-4 successfully loaded.
+[19:06:03]   Loaded.
+[19:06:03]  Loading plugin: pawncmd
+[19:06:03] [Pawn.CMD] plugin v3.4.0 loading...
+[19:06:03] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[19:06:03]   Loaded.
+[19:06:03]  Loading plugin: streamer
+[19:06:03] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[19:06:03]   Loaded.
+[19:06:03]  Loading plugin: crashdetect
+[19:06:03]   CrashDetect must be loaded before 'streamer.DLL'
+[19:06:03]   Failed.
+[19:06:03]  Loaded 4 plugins.
+
+[19:06:03] 
+[19:06:03] Filterscripts
+[19:06:03] ---------------
+[19:06:03]   Loaded 0 filterscripts.
+
+[19:06:03] [MySQL] Menghubungkan ke database...
+[19:06:03] [MySQL] Connection to database successful! Handle: 1
+[19:06:03] 
+----------------------------------
+[19:06:03]  Blank Gamemode by your name here
+[19:06:03] ----------------------------------
+
+[19:06:03] Number of vehicle models: 0
+[19:06:21] [connection] incoming connection: 127.0.0.1:64507 id: 0
+[19:06:21] [join] Lolicon has joined the server (0:127.0.0.1)
+[19:06:32] [GetDateTime] datetime: 01/06/2025 19:06:32
+[19:06:32] [part] Ryuji_Haston has left the server (0:1)
+[19:08:37] [connection] incoming connection: 127.0.0.1:65118 id: 0
+[19:08:37] [join] Lolicon has joined the server (0:127.0.0.1)
+[19:09:00] [GetDateTime] datetime: 01/06/2025 19:09:00
+[19:09:00] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:12:28] filterscripts = ""  (string)
+[19:12:28] 
+[19:12:28] Server Plugins
+[19:12:28] --------------
+[19:12:28]  Loading plugin: sscanf
+[19:12:28] 
+[19:12:28]  ===============================
+[19:12:28] 
+[19:12:28]       sscanf plugin loaded.     
+[19:12:28] 
+[19:12:28]          Version: 2.13.8
+[19:12:28] 
+[19:12:28]    (c) 2022 Alex "Y_Less" Cole  
+[19:12:28] 
+[19:12:28]  ===============================
+[19:12:28] 
+[19:12:28]   Loaded.
+[19:12:28]  Loading plugin: mysql
+[19:12:28]  >> plugin.mysql: R41-4 successfully loaded.
+[19:12:28]   Loaded.
+[19:12:28]  Loading plugin: pawncmd
+[19:12:28] [Pawn.CMD] plugin v3.4.0 loading...
+[19:12:28] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[19:12:28]   Loaded.
+[19:12:28]  Loading plugin: streamer
+[19:12:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[19:12:28]   Loaded.
+[19:12:28]  Loading plugin: crashdetect
+[19:12:28]   CrashDetect must be loaded before 'streamer.DLL'
+[19:12:28]   Failed.
+[19:12:28]  Loaded 4 plugins.
+
+[19:12:28] 
+[19:12:28] Filterscripts
+[19:12:28] ---------------
+[19:12:28]   Loaded 0 filterscripts.
+
+[19:12:28] [MySQL] Menghubungkan ke database...
+[19:12:28] [MySQL] Connection to database successful! Handle: 1
+[19:12:28] 
+----------------------------------
+[19:12:28]  Blank Gamemode by your name here
+[19:12:28] ----------------------------------
+
+[19:12:28] Number of vehicle models: 0
+[19:12:49] [connection] incoming connection: 127.0.0.1:63261 id: 0
+[19:12:50] [join] Lolicon has joined the server (0:127.0.0.1)
+[19:12:58] [GetDateTime] datetime: 01/06/2025 19:12:58
+[19:12:58] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:17:50] filterscripts = ""  (string)
+[19:17:50] 
+[19:17:50] Server Plugins
+[19:17:50] --------------
+[19:17:50]  Loading plugin: sscanf
+[19:17:50] 
+[19:17:50]  ===============================
+[19:17:50] 
+[19:17:50]       sscanf plugin loaded.     
+[19:17:50] 
+[19:17:50]          Version: 2.13.8
+[19:17:50] 
+[19:17:50]    (c) 2022 Alex "Y_Less" Cole  
+[19:17:50] 
+[19:17:50]  ===============================
+[19:17:50] 
+[19:17:50]   Loaded.
+[19:17:50]  Loading plugin: mysql
+[19:17:50]  >> plugin.mysql: R41-4 successfully loaded.
+[19:17:50]   Loaded.
+[19:17:50]  Loading plugin: pawncmd
+[19:17:50] [Pawn.CMD] plugin v3.4.0 loading...
+[19:17:50] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[19:17:50]   Loaded.
+[19:17:50]  Loading plugin: streamer
+[19:17:50] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[19:17:50]   Loaded.
+[19:17:50]  Loading plugin: crashdetect
+[19:17:50]   CrashDetect must be loaded before 'streamer.DLL'
+[19:17:50]   Failed.
+[19:17:50]  Loaded 4 plugins.
+
+[19:17:50] 
+[19:17:50] Filterscripts
+[19:17:50] ---------------
+[19:17:50]   Loaded 0 filterscripts.
+
+[19:17:50] [MySQL] Menghubungkan ke database...
+[19:17:50] [MySQL] Connection to database successful! Handle: 1
+[19:17:50] 
+----------------------------------
+[19:17:50]  Blank Gamemode by your name here
+[19:17:50] ----------------------------------
+
+[19:17:50] Number of vehicle models: 0
+[19:18:12] [connection] incoming connection: 127.0.0.1:54362 id: 0
+[19:18:12] [join] Lolicon has joined the server (0:127.0.0.1)
+[19:18:22] [GetDateTime] datetime: 01/06/2025 19:18:22
+[19:18:22] 01/06/2025 19:18:22
+[19:18:22] [GetDateTime] datetime: 01/06/2025 19:18:22
+[19:18:22] [part] Ryuji_Haston has left the server (0:1)
