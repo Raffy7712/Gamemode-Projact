@@ -2,7 +2,8 @@
 // uncomment the line below if you want to write a filterscript
 //#define FILTERSCRIPT
 
-//kontol
+//ABCDEFGHIJKLMNOPQRSTUVWXYZ
+//Cihuy
 
 #include <a_samp>
 #include <a_mysql>
@@ -31,8 +32,9 @@ enum{
 }
 enum pDataEnum{
 	bool:pLoggedIn,
-	pUCP,
+	pUCP[MAX_PLAYER_NAME],
 	pName[MAX_PLAYER_NAME],
+	pLastLogin,
 	Float:pHealth, Float:pArmour,
 	Float:pPosX, Float:pPosY, Float:pPosZ, Float:pAngle,
 	pInterior,
@@ -100,16 +102,13 @@ public OnPlayerRequestClass(playerid, classid){
 public OnPlayerConnect(playerid){
 	ResetEnum(playerid);
 	GetName(playerid);
+	GetLastLogin(playerid);
 	return 1;
 }
 
 public OnPlayerDisconnect(playerid, reason){
-	new query[256];
 	SavePlayerData(playerid);
 	ResetEnum(playerid);
-	print(GetDateTime("datetime"));
-	mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `LastLogin` = '%e' WHERE `ucp` = '%e'", GetDateTime("datetime"), pInfo[playerid][pUCP]);
-	mysql_query(handle, query);
 	return 1;
 }
 
@@ -466,7 +465,7 @@ FUNC::UCPCheck(playerid){
 }
 FUNC::ShowDialogCreatePassword(playerid){
 	new dialogtext[256];
-	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nLast Login: %s\nPlease create a password for your account.", pInfo[playerid][pUCP]);
+	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nLast Login: %s\nPlease create a password for your account.", pInfo[playerid][pUCP], pInfo[playerid][pLastLogin]);
 	ShowPlayerDialog(playerid, DIALOG_CREATE_PASSWORD, DIALOG_STYLE_PASSWORD, "Create Password", dialogtext, "Create", "Cancel");
 	return 1;
 }
@@ -478,7 +477,7 @@ FUNC::ShowDialogOTP(playerid){
 }
 FUNC::ShowDialogLogin(playerid){
 	new dialogtext[256];
-	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nLast Login: %s\nPlease enter your password to continue.", pInfo[playerid][pUCP], "Unknown");
+	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nLast Login: %s\nPlease enter your password to continue.", pInfo[playerid][pUCP], pInfo[playerid][pLastLogin]);
 	ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", dialogtext, "Login", "Cancel");
 	return 1;
 }
@@ -490,6 +489,23 @@ FUNC::ShowDialogRegisterAlert(playerid){
 }
 
 //#########################################################################//
+stock GetLastLogin(playerid){
+	new query[256], row, datetime[64];
+	mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE ucp = '%e'", pInfo[playerid][pUCP]);
+	mysql_query(handle, query);
+	cache_get_row_count(row);
+	cache_get_value_name(0, "LastLogin", datetime, sizeof(datetime));
+	if(row == 1){
+		if(strlen(datetime) > 0){
+			format(pInfo[playerid][pLastLogin], 64, "%s", datetime);
+		}else{
+			format(pInfo[playerid][pLastLogin], 64, "Unknown");
+		}
+	}else{
+		format(pInfo[playerid][pLastLogin], 64, "Unknown");
+	}
+	return 1;
+}
 stock GetDateTime(const type[]){
     new year, month, day;
     new hour, minute, second;
@@ -517,6 +533,7 @@ stock SavePlayerData(playerid){
 		Float:Health, Float:Armour, Money, 
 		Level, Interior, VirtualWorld, Skin;
 	new query[1024];
+	new datetime[64];
 
 	GetPlayerPos(playerid, PosX, PosY, PosZ);
 	GetPlayerFacingAngle(playerid, Angle);
@@ -527,6 +544,7 @@ stock SavePlayerData(playerid){
 	Interior = GetPlayerInterior(playerid);
 	VirtualWorld = GetPlayerVirtualWorld(playerid);
 	Skin = GetPlayerSkin(playerid);
+	datetime = GetDateTime("datetime");
 
 	pInfo[playerid][pPosX] = PosX;
 	pInfo[playerid][pPosY] = PosY;
@@ -553,6 +571,8 @@ stock SavePlayerData(playerid){
 		pInfo[playerid][pSkin], pInfo[playerid][pName]
 	);
 	mysql_query(handle, query);
+	mysql_format(handle, query, sizeof(query), "UPDATE `account` SET LastLogin = '%e' WHERE ucp = '%e'", datetime, pInfo[playerid][pUCP]);
+	mysql_query(handle, query);
 	return 1;
 }
 stock bool:NameValidation(const nama[]){
@@ -575,6 +595,19 @@ stock ResetEnum(playerid){
 	pInfo[playerid][pLoggedIn] = false;
 	pInfo[playerid][pUCP] = 0;
 	pInfo[playerid][pName] = 0;
+	pInfo[playerid][pLastLogin] = 0;
+	pInfo[playerid][pHealth] = 100;
+	pInfo[playerid][pArmour] = 0;
+	pInfo[playerid][pPosX] = 0.0;
+	pInfo[playerid][pPosY] = 0.0;
+	pInfo[playerid][pPosZ] = 0.0;
+	pInfo[playerid][pAngle] = 0.0;
+	pInfo[playerid][pMoney] = 0;
+	pInfo[playerid][pLevel] = 0;
+	pInfo[playerid][pExp] = 0.0;
+	pInfo[playerid][pInterior] = 0;
+	pInfo[playerid][pVirtualWorld] = 0;
+	pInfo[playerid][pSkin] = 0;
 	return 1;
 }
 stock MySQL_SetupConnection(ttl = 3){

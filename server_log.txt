@@ -5622,3 +5622,220 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [19:18:22] 01/06/2025 19:18:22
 [19:18:22] [GetDateTime] datetime: 01/06/2025 19:18:22
 [19:18:22] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:08:31] filterscripts = ""  (string)
+[11:08:31] 
+[11:08:31] Server Plugins
+[11:08:31] --------------
+[11:08:31]  Loading plugin: sscanf
+[11:08:31] 
+[11:08:31]  ===============================
+[11:08:31] 
+[11:08:31]       sscanf plugin loaded.     
+[11:08:31] 
+[11:08:31]          Version: 2.13.8
+[11:08:31] 
+[11:08:31]    (c) 2022 Alex "Y_Less" Cole  
+[11:08:31] 
+[11:08:31]  ===============================
+[11:08:31] 
+[11:08:31]   Loaded.
+[11:08:31]  Loading plugin: mysql
+[11:08:31]  >> plugin.mysql: R41-4 successfully loaded.
+[11:08:31]   Loaded.
+[11:08:31]  Loading plugin: pawncmd
+[11:08:31] [Pawn.CMD] plugin v3.4.0 loading...
+[11:08:31] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:08:31]   Loaded.
+[11:08:31]  Loading plugin: streamer
+[11:08:31] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:08:31]   Loaded.
+[11:08:31]  Loading plugin: crashdetect
+[11:08:31]   CrashDetect must be loaded before 'streamer.DLL'
+[11:08:31]   Failed.
+[11:08:31]  Loaded 4 plugins.
+
+[11:08:31] 
+[11:08:31] Filterscripts
+[11:08:31] ---------------
+[11:08:31]   Loaded 0 filterscripts.
+
+[11:08:31] [MySQL] Menghubungkan ke database...
+[11:08:31] [MySQL] Connection to database successful! Handle: 1
+[11:08:31] 
+----------------------------------
+[11:08:31]  Blank Gamemode by your name here
+[11:08:31] ----------------------------------
+
+[11:08:31] Number of vehicle models: 0
+[11:08:56] [connection] incoming connection: 127.0.0.1:61179 id: 0
+[11:08:56] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:09:10] [GetDateTime] datetime: 02/06/2025 11:09:10
+[11:09:10] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:13:06] filterscripts = ""  (string)
+[11:13:06] 
+[11:13:06] Server Plugins
+[11:13:06] --------------
+[11:13:06]  Loading plugin: sscanf
+[11:13:06] 
+[11:13:06]  ===============================
+[11:13:06] 
+[11:13:06]       sscanf plugin loaded.     
+[11:13:06] 
+[11:13:06]          Version: 2.13.8
+[11:13:06] 
+[11:13:06]    (c) 2022 Alex "Y_Less" Cole  
+[11:13:06] 
+[11:13:06]  ===============================
+[11:13:06] 
+[11:13:06]   Loaded.
+[11:13:06]  Loading plugin: mysql
+[11:13:06]  >> plugin.mysql: R41-4 successfully loaded.
+[11:13:06]   Loaded.
+[11:13:06]  Loading plugin: pawncmd
+[11:13:06] [Pawn.CMD] plugin v3.4.0 loading...
+[11:13:06] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:13:06]   Loaded.
+[11:13:06]  Loading plugin: streamer
+[11:13:06] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:13:06]   Loaded.
+[11:13:06]  Loading plugin: crashdetect
+[11:13:06]   CrashDetect must be loaded before 'streamer.DLL'
+[11:13:06]   Failed.
+[11:13:06]  Loaded 4 plugins.
+
+[11:13:06] 
+[11:13:06] Filterscripts
+[11:13:06] ---------------
+[11:13:06]   Loaded 0 filterscripts.
+
+[11:13:06] [MySQL] Menghubungkan ke database...
+[11:13:06] [MySQL] Connection to database successful! Handle: 1
+[11:13:06] 
+----------------------------------
+[11:13:06]  Blank Gamemode by your name here
+[11:13:06] ----------------------------------
+
+[11:13:06] Number of vehicle models: 0
+[11:13:21] [connection] incoming connection: 127.0.0.1:55658 id: 0
+[11:13:22] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:13:36] [GetDateTime] datetime: 02/06/2025 11:13:36
+[11:13:36] [part] Ryuji_Haston has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:44:36] filterscripts = ""  (string)
+[11:44:36] 
+[11:44:36] Server Plugins
+[11:44:36] --------------
+[11:44:36]  Loading plugin: sscanf
+[11:44:36] 
+[11:44:36]  ===============================
+[11:44:36] 
+[11:44:36]       sscanf plugin loaded.     
+[11:44:36] 
+[11:44:36]          Version: 2.13.8
+[11:44:36] 
+[11:44:36]    (c) 2022 Alex "Y_Less" Cole  
+[11:44:36] 
+[11:44:36]  ===============================
+[11:44:36] 
+[11:44:36]   Loaded.
+[11:44:36]  Loading plugin: mysql
+[11:44:36]  >> plugin.mysql: R41-4 successfully loaded.
+[11:44:36]   Loaded.
+[11:44:36]  Loading plugin: pawncmd
+[11:44:36] [Pawn.CMD] plugin v3.4.0 loading...
+[11:44:36] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[11:44:36]   Loaded.
+[11:44:36]  Loading plugin: streamer
+[11:44:36] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:44:36]   Loaded.
+[11:44:36]  Loading plugin: crashdetect
+[11:44:36]   CrashDetect must be loaded before 'streamer.DLL'
+[11:44:36]   Failed.
+[11:44:36]  Loaded 4 plugins.
+
+[11:44:36] 
+[11:44:36] Filterscripts
+[11:44:36] ---------------
+[11:44:36]   Loaded 0 filterscripts.
+
+[11:44:36] [MySQL] Menghubungkan ke database...
+[11:44:36] [MySQL] Connection to database successful! Handle: 1
+[11:44:36] 
+----------------------------------
+[11:44:36]  Blank Gamemode by your name here
+[11:44:36] ----------------------------------
+
+[11:44:36] Number of vehicle models: 0
+[11:44:52] [connection] incoming connection: 127.0.0.1:51025 id: 0
+[11:44:53] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:45:01] [GetDateTime] datetime: 02/06/2025 11:45:01
+[11:45:01] [part] Ryuji_Haston has left the server (0:1)
+[11:45:14] [connection] incoming connection: 127.0.0.1:60813 id: 0
+[11:45:14] [join] Lolicon has joined the server (0:127.0.0.1)
+[11:45:20] [GetDateTime] datetime: 02/06/2025 11:45:20
+[11:45:20] [part] Lolicon has left the server (0:2)
