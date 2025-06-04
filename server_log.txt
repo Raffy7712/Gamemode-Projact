@@ -5839,3 +5839,75 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [11:45:14] [join] Lolicon has joined the server (0:127.0.0.1)
 [11:45:20] [GetDateTime] datetime: 02/06/2025 11:45:20
 [11:45:20] [part] Lolicon has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:11:53] filterscripts = ""  (string)
+[21:11:53] 
+[21:11:53] Server Plugins
+[21:11:53] --------------
+[21:11:53]  Loading plugin: sscanf
+[21:11:54] 
+[21:11:54]  ===============================
+[21:11:54] 
+[21:11:54]       sscanf plugin loaded.     
+[21:11:54] 
+[21:11:54]          Version: 2.13.8
+[21:11:54] 
+[21:11:54]    (c) 2022 Alex "Y_Less" Cole  
+[21:11:54] 
+[21:11:54]  ===============================
+[21:11:54] 
+[21:11:54]   Loaded.
+[21:11:54]  Loading plugin: mysql
+[21:11:54]  >> plugin.mysql: R41-4 successfully loaded.
+[21:11:54]   Loaded.
+[21:11:54]  Loading plugin: pawncmd
+[21:11:54] [Pawn.CMD] plugin v3.4.0 loading...
+[21:11:54] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[21:11:54]   Loaded.
+[21:11:54]  Loading plugin: streamer
+[21:11:54] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:11:54]   Loaded.
+[21:11:54]  Loading plugin: crashdetect
+[21:11:54]   CrashDetect must be loaded before 'streamer.DLL'
+[21:11:54]   Failed.
+[21:11:54]  Loaded 4 plugins.
+
+[21:11:54] 
+[21:11:54] Filterscripts
+[21:11:54] ---------------
+[21:11:54]   Loaded 0 filterscripts.
+
+[21:11:54] [MySQL] Menghubungkan ke database...
+[21:11:54] [MySQL] Connection to database successful! Handle: 1
+[21:11:54] 
+----------------------------------
+[21:11:54]  Blank Gamemode by your name here
+[21:11:54] ----------------------------------
+
+[21:11:54] Number of vehicle models: 0
+[21:12:44] [connection] incoming connection: 192.168.99.199:40482 id: 0
+[21:12:55] [connection] incoming connection: 192.168.99.199:36173 id: 0
+[21:12:56] [join] Lolicon has joined the server (0:192.168.99.199)
+[21:13:30] [GetDateTime] datetime: 04/06/2025 21:13:30
+[21:13:30] [part] Ryuji_Haston has left the server (0:1)

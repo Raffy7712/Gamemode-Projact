@@ -1,21 +1,46 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "build-normal",
-        "type": "shell",
-        "command": "${workspaceRoot}/pawno/pawncc.exe",
-        "args": ["${file}", "--%", "-Dgamemodes", "-;+", "-(+", "-d3"],
-        "group": {
-          "kind": "build",
-          "isDefault": true
-        },
-        "isBackground": false,
-        "presentation": {
-          "reveal": "silent",
-          "panel": "dedicated"
-        },
-        "problemMatcher": "$pawncc"
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-normal",
+      "type": "shell",
+      "command": "${workspaceFolder}/pawno/pawncc.exe",
+      "args": ["${file}", "--%", "-Dgamemodes", "-;+", "-(+", "-d3"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": false,
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      },
+      "problemMatcher": "$pawncc"
+    },
+    {
+      "label": "Run SA-MP Server",
+      "type": "shell",
+      "command": "${workspaceFolder}/samp-server.exe",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build and Run Server",
+      "dependsOn": ["build-normal", "Run SA-MP Server"],
+      "dependsOrder": "sequence",
+      "group": {
+        "kind": "build",
+        "isDefault": false
       }
-    ]
-  }  
+    }
+  ]
+}
