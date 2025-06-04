@@ -1,9 +1,19 @@
-// This is a comment
-// uncomment the line below if you want to write a filterscript
-//#define FILTERSCRIPT
-
-//ABCDEFGHIJKLMNOPQRSTUVWXYZ
-//Cihuy
+// ############################################################################################################################################################################### //
+// ##########################################################################| Ryuji-RP Basic Gamemode |########################################################################## //
+// ############################################################################################################################################################################### //
+// #| Developer: 																																								|# //
+// #| 1. Ryuji   																																								|# //
+// #| 2. Raffy   																																								|# //
+// #| 3. Daniel  																																								|# //
+// ############################################################################################################################################################################### //
+// #| Thanks To:																																								|# //
+// #| 1. LNH Shironeko   		: Has been an inspiration for us																												|# //
+// #| 2. Ryuji  		 		: For the idea of this gamemode																													|# //
+// #| 3. Raffy 			 		: have participated in development																												|# //
+// #| 4. Daniel			 		: have participated in development																												|# //
+// ############################################################################################################################################################################### //
+// #####################################################################| Do Not Delete This Credits |############################################################################ //
+// ############################################################################################################################################################################### //
 
 #include <a_samp>
 #include <a_mysql>
@@ -16,6 +26,15 @@
 #define MYSQL_USER "root"
 #define MYSQL_PASSWORD ""
 #define MYSQL_DATABASE "ryujirp"
+#define MAX_CHARACTERS 3
+//COLOR
+#define COLOR_RED   			0xFF0000FF
+#define COLOR_GREEN 			0x00FF00FF
+#define COLOR_BLUE  			0x0000FFFF
+#define COLOR_ORANGE 			0xFFA500FF
+#define COLOR_YELLOW 			0xFFFF00FF
+#define COLOR_WHITE  			0xFFFFFFFF
+
 
 enum{
 	DIALOG_OTP,
@@ -47,14 +66,12 @@ enum pDataEnum{
 
 new pInfo[MAX_PLAYERS][pDataEnum];
 new MySQL:handle;
+new PlayerChar[MAX_PLAYERS][MAX_CHARACTERS][MAX_PLAYER_NAME + 1];
 
 forward bool:NameValidation(const nama[]);
 
 #if defined FILTERSCRIPT
 public OnFilterScriptInit(){
-	print("\n--------------------------------------");
-	print(" Blank Filterscript by your name here");
-	print("--------------------------------------\n");
 	return 1;
 }
 
@@ -66,7 +83,8 @@ public OnFilterScriptExit(){
 
 main(){
 	print("\n----------------------------------");
-	print(" Blank Gamemode by your name here");
+	print(" Ryuji-RP Basic Gamemode");
+	print(" Version: 1.0");
 	print("----------------------------------\n");
 }
 
@@ -92,7 +110,7 @@ public OnPlayerRequestClass(playerid, classid){
     SetPlayerCameraPos(playerid, 1958.3783, 1343.1572, 15.3746);
     SetPlayerCameraLookAt(playerid, 1958.3783, 1343.1572, 15.3746);
     if (pInfo[playerid][pUCP] == 0) {
-        SendClientMessage(playerid, 0xFF0000AA, "ERROR: UCP is not initialized.");
+        SendClientMessage(playerid, COLOR_RED, "ERROR: UCP is not initialized.");
         return 0;
     }
 	UCPCheck(playerid);
@@ -173,7 +191,7 @@ public OnRconCommand(cmd[]){
 }
 
 public OnPlayerRequestSpawn(playerid){
-	SendClientMessage(playerid, 0xed0000AA , "ERROR: You are not allowed to spawn yet.");
+	SendClientMessage(playerid, COLOR_RED , "ERROR: You are not allowed to spawn yet.");
 	return 0;
 }
 
@@ -244,7 +262,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 	if(dialogid == DIALOG_LOGIN){
 		if(response){
 			if(strlen(inputtext) < 4 || strlen(inputtext) > 20){
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: Password must be between 4 and 20 characters.");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Password must be between 4 and 20 characters.");
 				return ShowDialogLogin(playerid);
 			}
 			new 
@@ -255,20 +273,20 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 			cache_get_row_count(row);
 			if(row == 1){
 				pInfo[playerid][pLoggedIn] = true;
-				SendClientMessage(playerid, 0x00FF00AA, "INFO: Login successful!");
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Login successful!");
 				return ShowDialogClist(playerid);
 			}else{
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: Invalid UCP or password.");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid UCP or password.");
 				return ShowDialogLogin(playerid);
 			}
 		}else{
-			SendClientMessage(playerid, 0xFF0000AA, "INFO: Login cancelled.");
+			SendClientMessage(playerid, COLOR_RED, "INFO: Login cancelled.");
 			return Kick(playerid);
 		}
 	}else if(dialogid == DIALOG_OTP){
 		if(response){
 			if(strlen(inputtext) < 6 || strlen(inputtext) > 6){
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: OTP must be exactly 6 characters.");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: OTP must be exactly 6 characters.");
 				return ShowDialogOTP(playerid);
 			}
 			new 
@@ -278,33 +296,33 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 			mysql_query(handle, query);
 			cache_get_row_count(row);
 			if(row != 1){
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: Invalid OTP.");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid OTP.");
 				return ShowDialogOTP(playerid);
 			}else{
 				pInfo[playerid][pLoggedIn] = true;
-				SendClientMessage(playerid, 0x00FF00AA, "INFO: OTP verified successfully!");
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: OTP verified successfully!");
 				mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `activated` = 1, `otp` = NULL WHERE `ucp` = '%e'", pInfo[playerid][pUCP]);
 				mysql_query(handle, query);
 				return ShowDialogCreatePassword(playerid);
 			}
 		}else{
-			SendClientMessage(playerid, 0xFF0000AA, "INFO: OTP verification cancelled.");
+			SendClientMessage(playerid, COLOR_RED, "INFO: OTP verification cancelled.");
 			return Kick(playerid);
 		}
 	}else if(dialogid == DIALOG_CREATE_PASSWORD){
 		if(response){
 			if(strlen(inputtext) < 4 || strlen(inputtext) > 20){
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: Password must be between 4 and 20 characters.");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Password must be between 4 and 20 characters.");
 				return ShowDialogCreatePassword(playerid);
 			}
 			new query[256];
 			mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `password` = MD5('%e') WHERE `ucp` = '%e'", inputtext, pInfo[playerid][pUCP]);
 			mysql_query(handle, query);
 			pInfo[playerid][pLoggedIn] = true;
-			SendClientMessage(playerid, 0x00FF00AA, "INFO: Password created successfully!");
+			SendClientMessage(playerid, COLOR_GREEN, "INFO: Password created successfully!");
 			return ShowDialogLogin(playerid);
 		}else{
-			SendClientMessage(playerid, 0xFF0000AA, "INFO: Password creation cancelled.");
+			SendClientMessage(playerid, COLOR_RED, "INFO: Password creation cancelled.");
 			return Kick(playerid);
 		}
 	}else if(dialogid == DIALOG_UCP_CLIST){
@@ -318,7 +336,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 	}else if(dialogid == DIALOG_NAME){
 		if(response){
 			if(strlen(inputtext) < 5 || strlen(inputtext) > 25){
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: Maximum name 20 characters.");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Maximum name 20 characters.");
 				return ShowDialogName(playerid);
 			}
 			if(NameValidation(inputtext)){
@@ -330,15 +348,15 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 				if(rows == 0){
 					InsertChar(playerid, inputtext);
 				}else{
-					SendClientMessage(playerid, 0xFF0000AA, "ERROR: Character names have been registered");
+					SendClientMessage(playerid, COLOR_RED, "ERROR: Character names have been registered");
 					ShowDialogName(playerid);
 				}
 			}else{
-				SendClientMessage(playerid, 0xFF0000AA, "ERROR: Invalid character name");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid character name");
 				ShowDialogName(playerid);
 			}
 		}else{
-			SendClientMessage(playerid, 0xFF0000AA, "INFO: Character name creation cancelled.");
+			SendClientMessage(playerid, COLOR_RED, "INFO: Character name creation cancelled.");
 			return ShowDialogClist(playerid);
 		}
 	}
@@ -392,15 +410,15 @@ FUNC::LoadChar(playerid, name[]){
 		SetPlayerScore(playerid, pInfo[playerid][pLevel]);
         SetPlayerInterior(playerid, 0);
         SetPlayerVirtualWorld(playerid, 0);
-        SetPlayerColor(playerid, 0xFF0000AA);
+        SetPlayerColor(playerid, COLOR_RED);
         SetPlayerName(playerid, pInfo[playerid][pName]);
         SetPlayerSkin(playerid, 1);
 		GivePlayerMoney(playerid, pInfo[playerid][pMoney]);
 
-        SendClientMessage(playerid, 0x00ff00AA, "You have successfully spawned.");
+        SendClientMessage(playerid, COLOR_GREEN, "You have successfully spawned.");
         return 1;
 	}else{
-		SendClientMessage(playerid, 0xFF0000AA, "ERROR: Character not found.");
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Character not found.");
 		return ShowDialogClist(playerid);
 	}
 }
@@ -418,28 +436,33 @@ FUNC::ShowDialogName(playerid){
 }
 FUNC::ShowDialogClist(playerid){
 	new 
-		query[256],
-		dialogtext[256],
-		row,
-		clist[256];
+		name[256], 
+		count, 
+		sgstr[128], 
+		query[256];
+
 	mysql_format(handle, query, sizeof(query), "SELECT * FROM `character` WHERE `ucp` = '%e'", pInfo[playerid][pUCP]);
 	mysql_query(handle, query);
-	cache_get_row_count(row);
-	if(row != 0){
-		for(new i; i < row; i++){
-			new name[256];
-			new level;
-			cache_get_value_name(i, "Name", name, sizeof(name));
-			cache_get_value_name_int(i, "Level", level);
-			format(clist, sizeof(clist), "%s\n%s\t%d", clist, name, level);
-		}
+
+	for(new i = 0; i < MAX_CHARACTERS; i ++){
+		PlayerChar[playerid][i][0] = EOS;
 	}
-	if(row < 3){
-		format(dialogtext, sizeof(dialogtext), "Name\tLevel\n%s\n<Create Character>", clist);
-	}else{
-		format(dialogtext, sizeof(dialogtext), "Name\tLevel\n%s", clist);
+
+	for (new i = 0; i < cache_num_rows(); i ++){
+		cache_get_value_name(i, "Name", PlayerChar[playerid][i]);
 	}
-	ShowPlayerDialog(playerid, DIALOG_UCP_CLIST, DIALOG_STYLE_TABLIST_HEADERS, "User Control Panel", dialogtext, "Select", "Cancel");
+
+	for(new i; i < MAX_CHARACTERS; i ++) if(PlayerChar[playerid][i][0] != EOS){
+	    format(sgstr, sizeof(sgstr), "%s\n", PlayerChar[playerid][i]);
+		strcat(name, sgstr);
+		count++;
+	}
+
+	if(count < MAX_CHARACTERS){
+		strcat(name, "< Create Character >");
+	}
+
+	ShowPlayerDialog(playerid, DIALOG_UCP_CLIST, DIALOG_STYLE_LIST, "Character List", name, "Select", "Cancel");
 	return 1;
 }
 FUNC::UCPCheck(playerid){
@@ -524,7 +547,6 @@ stock GetDateTime(const type[]){
     }else{
         format(result, sizeof(result), "Invalid type");
     }
-	printf("[GetDateTime] %s: %s", type, result);
     return result;
 }
 stock SavePlayerData(playerid){
