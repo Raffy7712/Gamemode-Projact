@@ -326,13 +326,18 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 			return Kick(playerid);
 		}
 	}else if(dialogid == DIALOG_UCP_CLIST){
-		if(response){
-			if(strcmp(inputtext, "<Create Character>", true) == 0){
+		if(response)
+		{
+			if(PlayerChar[playerid][listitem][0] == EOS){
 				return ShowDialogName(playerid);
-			}else{
-				return LoadChar(playerid, inputtext);
 			}
+			pInfo[playerid][pName] = listitem;
+			SetPlayerName(playerid, PlayerChar[playerid][listitem]);
+			return LoadChar(playerid, PlayerChar[playerid][listitem]);
+			
 		}
+
+
 	}else if(dialogid == DIALOG_NAME){
 		if(response){
 			if(strlen(inputtext) < 5 || strlen(inputtext) > 25){
@@ -424,7 +429,7 @@ FUNC::LoadChar(playerid, name[]){
 }
 FUNC::InsertChar(playerid, name[]){
 	new query[256];
-	mysql_format(handle, query, sizeof(query), "INSERT INTO `character` (`ucp`, `name`) VALUES ('%e', '%e'", pInfo[playerid][pUCP], name);
+	mysql_format(handle, query, sizeof(query), "INSERT INTO `character` (`UCP`, `Name`) VALUES ('%e', '%e')", pInfo[playerid][pUCP], name);
 	mysql_query(handle, query);
 	return ShowDialogClist(playerid);
 }
