@@ -599,7 +599,7 @@ stock bool:DateValidation(playerid, const dateStr[]){
 	if(strlen(dateStr) != 10){
 		SendClientMessage(playerid, COLOR_RED, "ERROR: Date must be in the format DD/MM/YYYY.");
 		return false;
-	}
+	} 
 	for(new i = 0; i < 10; i++){
         switch(i){
             case 2, 5:{ // Posisi separator
