@@ -466,7 +466,7 @@ FUNC::ShowDialogName(playerid){
 }
 FUNC::ShowDialogClist(playerid){
 	new 
-		name[512], 
+		name[512],
 		count, 
 		sgstr[512], 
 		query[256];
