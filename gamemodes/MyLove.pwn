@@ -67,7 +67,7 @@ new pCactived[MAX_PLAYERS][MAX_CHARACTERS];
 new pCselect[MAX_PLAYERS];
 
 forward bool:NameValidation(const nama[]);
-forward bool:IsValidDate(playerid, const dateStr[]);
+forward bool:DateValidation(playerid, const dateStr[]);
 
 #if defined FILTERSCRIPT
 public OnFilterScriptInit(){
@@ -369,11 +369,25 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 		}
 	}else if(dialogid == DIALOG_BIRTHDATE){
 		if(response){
-			if(IsValidDate(playerid, inputtext)){
+			if(DateValidation(playerid, inputtext)){
 				if(pCactived[playerid][pCselect[playerid]] == 0){
+					new 
+						query[256],
+						datestring[32];
+					format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
+					mysql_format(handle, query, sizeof(query), "UPDATE `character` SET birthdate = '%e' WHERE name = '%e' AND ucp = '%e'", datestring, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+					mysql_query(handle, query);
+					printf("[MySQL] 1 Player %s has changed their birth date to %s", pInfo[playerid][pName], datestring);
 					SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
 					//return ShowDialogGender(playerid);
 				}else{
+					new 
+						query[256],
+						datestring[32];
+					format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
+					mysql_format(handle, query, sizeof(query), "UPDATE `character` SET birthdate = '%e' WHERE name = '%e' AND ucp = '%e'", datestring, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+					mysql_query(handle, query);
+					printf("[MySQL] 2 Player %s has changed their birth date to %s", pInfo[playerid][pName], datestring);
 					SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
 					return 1;
 				}
@@ -466,7 +480,7 @@ FUNC::ShowDialogName(playerid){
 }
 FUNC::ShowDialogClist(playerid){
 	new 
-		name[512],
+		name[512], 
 		count, 
 		sgstr[512], 
 		query[256];
@@ -558,15 +572,35 @@ FUNC::ShowDialogRegisterAlert(playerid){
 stock IsLeapYear(year){
     return(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
-stock bool:IsValidDate(playerid, const dateStr[]){
-    // Cek panjang string
-    if(strlen(dateStr) != 10){
+stock ConvertDateFormat(const type, const dateStr[]){
+	//type 1 untuk konvert tanggal ke database YYYY/MM/DD
+	//type 2 untuk konvert tanggal dari database DD/MM/YYYY
+	new datestring[32];
+	new day = (dateStr[0] - '0') * 10 + (dateStr[1] - '0');
+    new month = (dateStr[3] - '0') * 10 + (dateStr[4] - '0');
+    new year = (dateStr[6] - '0') * 1000 + 
+               (dateStr[7] - '0') * 100 + 
+               (dateStr[8] - '0') * 10 + 
+               (dateStr[9] - '0');
+	switch(type){
+		case 1:{
+			format(datestring, sizeof(datestring), "%04d/%02d/%02d", year, month, day);
+		}
+		case 2:{
+			format(datestring, sizeof(datestring), "%02d/%02d/%04d", day, month, year);
+		}
+		default:{
+			format(datestring, sizeof(datestring), "");
+		}
+	}
+	return datestring;
+}
+stock bool:DateValidation(playerid, const dateStr[]){
+	if(strlen(dateStr) != 10){
 		SendClientMessage(playerid, COLOR_RED, "ERROR: Date must be in the format DD/MM/YYYY.");
 		return false;
 	}
-    
-    // Validasi karakter per karakter
-    for(new i = 0; i < 10; i++){
+	for(new i = 0; i < 10; i++){
         switch(i){
             case 2, 5:{ // Posisi separator
                 if(dateStr[i] != '/'){
@@ -582,9 +616,7 @@ stock bool:IsValidDate(playerid, const dateStr[]){
             }
         }
     }
-
-    // Ekstrak angka langsung dari karakter
-    new day = (dateStr[0] - '0') * 10 + (dateStr[1] - '0');
+	new day = (dateStr[0] - '0') * 10 + (dateStr[1] - '0');
     new month = (dateStr[3] - '0') * 10 + (dateStr[4] - '0');
     new year = (dateStr[6] - '0') * 1000 + 
                (dateStr[7] - '0') * 100 + 
@@ -612,15 +644,9 @@ stock bool:IsValidDate(playerid, const dateStr[]){
 		SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid day for the specified month.");
 		return false;
 	}
-
-	// Jika semua valid, format tanggal dan simpan ke database
-	new datestring[32];
-	new query[256];
-	format(datestring, sizeof(datestring), "%02d/%02d/%04d", year, month, day);
-	mysql_format(handle, query, sizeof(query), "UPDATE `character` SET BirthDate = '%e' WHERE ucp = '%e' AND name = '%e'", datestring, pInfo[playerid][pUCP], pCname[playerid][pCselect[playerid]]);
-	mysql_query(handle, query);
-    return true;
+	return true;
 }
+
 stock GetLastLogin(playerid){
 	new query[256], row, datetime[64];
 	mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE ucp = '%e'", pInfo[playerid][pUCP]);
