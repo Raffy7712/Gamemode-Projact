@@ -1,16 +1,11 @@
 // ############################################################################################################################################################################### //
 // ##########################################################################| Ryuji-RP Basic Gamemode |########################################################################## //
 // ############################################################################################################################################################################### //
-// #| Developer: 																				|# //																				|# //
-// #| 1. Ryuji   																				|# //																				|# //
-// #| 2. Raffy   																				|# //																				|# //
-// #| 3. Daniel  																				|# //																				|# //
-// ############################################################################################################################################################################### //
-// #| Thanks To:																				|# //																				|# //
-// #| 1. LNH Shironeko   			: Has been an inspiration for us												|# //																|# //
-// #| 2. Ryuji  		 		: For the idea of this gamemode													|# //																|# //
-// #| 3. Raffy 			 		: have participated in development												|# //																|# //
-// #| 4. Daniel			 		: have participated in development												|# //																|# //
+// #| Developer: 																	|| Thanks To:																				|# //
+// #| 1. Ryuji   																	|| 1. LNH Shironeko		: Has been an inspiration for us									|# //
+// #| 2. Raffy   																	|| 2. Ryuji  		 	: For the idea of this gamemode										|# //
+// #| 3. Daniel  																	|| 3. Raffy 			: have participated in development									|# //
+// #| 																				|| 4. Daniel 			: For the idea of this gamemode										|# //
 // ############################################################################################################################################################################### //
 // #####################################################################| Do Not Delete This Credits |############################################################################ //
 // ############################################################################################################################################################################### //
@@ -24,7 +19,7 @@
 #define FUNC::%0(%1) forward %0(%1); public %0(%1)
 #define MYSQL_HOST "localhost"
 #define MYSQL_USER "root"
-#define MYSQL_PASSWORD ""
+#define MYSQL_PASSWORD "root"
 #define MYSQL_DATABASE "ryujirp"
 #define MAX_CHARACTERS 3
 //COLOR
@@ -66,9 +61,13 @@ enum pDataEnum{
 
 new pInfo[MAX_PLAYERS][pDataEnum];
 new MySQL:handle;
-new PlayerChar[MAX_PLAYERS][MAX_CHARACTERS][MAX_PLAYER_NAME + 1];
+new pCname[MAX_PLAYERS][MAX_CHARACTERS][MAX_PLAYER_NAME + 1];
+new pClevel[MAX_PLAYERS][MAX_CHARACTERS];
+new pCactived[MAX_PLAYERS][MAX_CHARACTERS];
+new pCselect[MAX_PLAYERS];
 
 forward bool:NameValidation(const nama[]);
+forward bool:IsValidDate(playerid, const dateStr[]);
 
 #if defined FILTERSCRIPT
 public OnFilterScriptInit(){
@@ -328,13 +327,17 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 	}else if(dialogid == DIALOG_UCP_CLIST){
 		if(response)
 		{
-			if(PlayerChar[playerid][listitem][0] == EOS){
+			if(pCname[playerid][listitem][0] == EOS){
 				return ShowDialogName(playerid);
+			}else if(pCactived[playerid][listitem] == 0){
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: This character is not active.");
+				pCselect[playerid] = listitem;
+				return ShowDialogBirthDate(playerid);
 			}
+			pCselect[playerid] = listitem;
 			pInfo[playerid][pName] = listitem;
-			SetPlayerName(playerid, PlayerChar[playerid][listitem]);
-			return LoadChar(playerid, PlayerChar[playerid][listitem]);
-			
+			SetPlayerName(playerid, pCname[playerid][listitem]);
+			return LoadChar(playerid, pCname[playerid][listitem]);
 		}
 
 
@@ -362,6 +365,22 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 			}
 		}else{
 			SendClientMessage(playerid, COLOR_RED, "INFO: Character name creation cancelled.");
+			return ShowDialogClist(playerid);
+		}
+	}else if(dialogid == DIALOG_BIRTHDATE){
+		if(response){
+			if(IsValidDate(playerid, inputtext)){
+				if(pCactived[playerid][pCselect[playerid]] == 0){
+					SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
+					//return ShowDialogGender(playerid);
+				}else{
+					SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
+					return 1;
+				}
+			}else{
+				return ShowDialogBirthDate(playerid);
+			}
+		}else{
 			return ShowDialogClist(playerid);
 		}
 	}
@@ -433,6 +452,12 @@ FUNC::InsertChar(playerid, name[]){
 	mysql_query(handle, query);
 	return ShowDialogClist(playerid);
 }
+FUNC::ShowDialogBirthDate(playerid){
+	new dialogtext[256];
+	format(dialogtext, sizeof(dialogtext), "Please enter your character's birth date.\n\nExample: 01/01/2000");
+	ShowPlayerDialog(playerid, DIALOG_BIRTHDATE, DIALOG_STYLE_INPUT, "Character Birth Date", dialogtext, "Next", "Cancel");
+	return 1;
+}
 FUNC::ShowDialogName(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Please enter your character name.\n\nExample: Daniel_Alexander");
@@ -441,33 +466,44 @@ FUNC::ShowDialogName(playerid){
 }
 FUNC::ShowDialogClist(playerid){
 	new 
-		name[256], 
+		name[512], 
 		count, 
-		sgstr[128], 
+		sgstr[512], 
 		query[256];
 
+	name[0] = EOS;
 	mysql_format(handle, query, sizeof(query), "SELECT * FROM `character` WHERE `ucp` = '%e'", pInfo[playerid][pUCP]);
 	mysql_query(handle, query);
-
+	format(name, sizeof(name), "Name\tLevel\n");
 	for(new i = 0; i < MAX_CHARACTERS; i ++){
-		PlayerChar[playerid][i][0] = EOS;
+		pCname[playerid][i][0] = EOS;
+		pClevel[playerid][i] = 0;
+		pCname[playerid][i][0] = 0;
 	}
 
-	for (new i = 0; i < cache_num_rows(); i ++){
-		cache_get_value_name(i, "Name", PlayerChar[playerid][i]);
+	for(new i = 0; i < cache_num_rows(); i ++){
+		cache_get_value_name(i, "Name", pCname[playerid][i], MAX_PLAYER_NAME);
+		cache_get_value_name_int(i, "Level", pClevel[playerid][i]);
+		cache_get_value_name_int(i, "Actived", pCactived[playerid][i]);
 	}
 
-	for(new i; i < MAX_CHARACTERS; i ++) if(PlayerChar[playerid][i][0] != EOS){
-	    format(sgstr, sizeof(sgstr), "%s\n", PlayerChar[playerid][i]);
-		strcat(name, sgstr);
-		count++;
+
+	for(new i = 0; i < MAX_CHARACTERS; i++){
+	    if(pCname[playerid][i][0] != EOS){
+    	    format(sgstr, sizeof sgstr, "%s\t%d\n",
+    	        pCname[playerid][i],
+    	        pClevel[playerid][i]
+			);
+    	    strcat(name, sgstr);
+    	    count++;
+    	}
 	}
 
 	if(count < MAX_CHARACTERS){
 		strcat(name, "< Create Character >");
 	}
 
-	ShowPlayerDialog(playerid, DIALOG_UCP_CLIST, DIALOG_STYLE_LIST, "Character List", name, "Select", "Cancel");
+	ShowPlayerDialog(playerid, DIALOG_UCP_CLIST, DIALOG_STYLE_TABLIST_HEADERS, "Character List", name, "Select", "Cancel");
 	return 1;
 }
 FUNC::UCPCheck(playerid){
@@ -517,6 +553,74 @@ FUNC::ShowDialogRegisterAlert(playerid){
 }
 
 //#########################################################################//
+//################################| STOCK |################################//
+//#########################################################################//
+stock IsLeapYear(year){
+    return(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+}
+stock bool:IsValidDate(playerid, const dateStr[]){
+    // Cek panjang string
+    if(strlen(dateStr) != 10){
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Date must be in the format DD/MM/YYYY.");
+		return false;
+	}
+    
+    // Validasi karakter per karakter
+    for(new i = 0; i < 10; i++){
+        switch(i){
+            case 2, 5:{ // Posisi separator
+                if(dateStr[i] != '/'){
+					SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid date format. Please use DD/MM/YYYY.");
+					return false;
+				}
+            }
+            default:{ // Posisi digit
+                if(dateStr[i] < '0' || dateStr[i] > '9'){
+					SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid character in date. Only digits are allowed.");
+					return false;
+				}
+            }
+        }
+    }
+
+    // Ekstrak angka langsung dari karakter
+    new day = (dateStr[0] - '0') * 10 + (dateStr[1] - '0');
+    new month = (dateStr[3] - '0') * 10 + (dateStr[4] - '0');
+    new year = (dateStr[6] - '0') * 1000 + 
+               (dateStr[7] - '0') * 100 + 
+               (dateStr[8] - '0') * 10 + 
+               (dateStr[9] - '0');
+
+    // Validasi rentang
+    if(year < 1950 || year > 2025){
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Year must be between 1950 and 2025.");
+		return false;
+	}
+    if(month < 1 || month > 12){
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Month must be between 01 and 12.");
+		return false;
+	}
+    
+    // Validasi hari berdasarkan bulan
+    new maxDays;
+    switch(month){
+        case 2: maxDays = IsLeapYear(year) ? 29 : 28;
+        case 4, 6, 9, 11: maxDays = 30;
+        default: maxDays = 31;
+    }
+	if(day < 1 || day > maxDays){
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid day for the specified month.");
+		return false;
+	}
+
+	// Jika semua valid, format tanggal dan simpan ke database
+	new datestring[32];
+	new query[256];
+	format(datestring, sizeof(datestring), "%02d/%02d/%04d", year, month, day);
+	mysql_format(handle, query, sizeof(query), "UPDATE `character` SET BirthDate = '%e' WHERE ucp = '%e' AND name = '%e'", datestring, pInfo[playerid][pUCP], pCname[playerid][pCselect[playerid]]);
+	mysql_query(handle, query);
+    return true;
+}
 stock GetLastLogin(playerid){
 	new query[256], row, datetime[64];
 	mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE ucp = '%e'", pInfo[playerid][pUCP]);
