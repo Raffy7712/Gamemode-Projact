@@ -466,6 +466,7 @@ FUNC::InsertChar(playerid, name[]){
 	mysql_query(handle, query);
 	return ShowDialogClist(playerid);
 }
+//////abcd
 FUNC::ShowDialogBirthDate(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Please enter your character's birth date.\n\nExample: 01/01/2000");
@@ -599,7 +600,7 @@ stock bool:DateValidation(playerid, const dateStr[]){
 	if(strlen(dateStr) != 10){
 		SendClientMessage(playerid, COLOR_RED, "ERROR: Date must be in the format DD/MM/YYYY.");
 		return false;
-	} 
+	}
 	for(new i = 0; i < 10; i++){
         switch(i){
             case 2, 5:{ // Posisi separator
