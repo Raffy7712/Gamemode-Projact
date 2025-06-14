@@ -1,13 +1,13 @@
 // ############################################################################################################################################################################### //
-// ##########################################################################| Ryuji-RP Basic Gamemode |########################################################################## //
+// ##################################################################| Ryuji-RP Basic Gamemode |################################################################################## //
 // ############################################################################################################################################################################### //
-// #| Developer: 																	|| Thanks To:																				|# //
-// #| 1. Ryuji   																	|| 1. LNH Shironeko		: Has been an inspiration for us									|# //
-// #| 2. Raffy   																	|| 2. Ryuji  		 	: For the idea of this gamemode										|# //
-// #| 3. Daniel  																	|| 3. Raffy 			: have participated in development									|# //
-// #| 																				|| 4. Daniel 			: For the idea of this gamemode										|# //
+// #| Developer: 																|| Thanks To:																					|# //
+// #| 1. Ryuji   																|| 1. LNH Shironeko		: Has been an inspiration for us										|# //
+// #| 2. Raffy   																|| 2. Ryuji  		 	: For the idea of this gamemode											|# //
+// #| 3. Daniel  																|| 3. Raffy 			: have participated in development										|# //
+// #| 																			|| 4. Daniel 			: For the idea of this gamemode											|# //
 // ############################################################################################################################################################################### //
-// #####################################################################| Do Not Delete This Credits |############################################################################ //
+// ##################################################################| Do Not Delete This Credits |############################################################################### //
 // ############################################################################################################################################################################### //
 
 #include <a_samp>
@@ -15,6 +15,7 @@
 #include <Pawn.CMD>
 #include <crashdetect>
 #include <sscanf2>
+#include <easydialog>
 
 #define FUNC::%0(%1) forward %0(%1); public %0(%1)
 #define MYSQL_HOST "localhost"
@@ -31,24 +32,11 @@
 #define COLOR_WHITE  			0xFFFFFFFF
 
 
-enum{
-	DIALOG_OTP,
-	DIALOG_LOGIN,
-	DIALOG_CREATE_PASSWORD,
-	DIALOG_REGISTER_ALERT,
-	DIALOG_UCP_CLIST,
-	DIALOG_NAME,
-	DIALOG_BIRTHDATE,
-	DIALOG_GENDER,
-	DIALOG_REGION,
-	DIALOG_WEIGHT,
-	DIALOG_HEIGHT,
-}
 enum pDataEnum{
 	bool:pLoggedIn,
 	pUCP[MAX_PLAYER_NAME],
 	pName[MAX_PLAYER_NAME],
-	pLastLogin,
+	pLastLogin[32],
 	Float:pHealth, Float:pArmour,
 	Float:pPosX, Float:pPosY, Float:pPosZ, Float:pAngle,
 	pInterior,
@@ -57,6 +45,11 @@ enum pDataEnum{
 	pLevel,
 	Float:pExp,
 	pMoney,
+	pBirthDate[32],
+	pWeight,
+	pHeight,
+	pGender[32],
+	pRegion[32]
 }
 
 new pInfo[MAX_PLAYERS][pDataEnum];
@@ -68,6 +61,7 @@ new pCselect[MAX_PLAYERS];
 
 forward bool:NameValidation(const nama[]);
 forward bool:DateValidation(playerid, const dateStr[]);
+forward bool:WeightValidation(playerid, const weight[]);
 
 #if defined FILTERSCRIPT
 public OnFilterScriptInit(){
@@ -257,146 +251,170 @@ public OnVehicleStreamIn(vehicleid, forplayerid){
 public OnVehicleStreamOut(vehicleid, forplayerid){
 	return 1;
 }
-public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
-	if(dialogid == DIALOG_LOGIN){
-		if(response){
-			if(strlen(inputtext) < 4 || strlen(inputtext) > 20){
-				SendClientMessage(playerid, COLOR_RED, "ERROR: Password must be between 4 and 20 characters.");
-				return ShowDialogLogin(playerid);
-			}
-			new 
-				query[256],
-				row;
-			mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE `ucp` = '%e' AND `password` = MD5('%e')", pInfo[playerid][pUCP], inputtext);
-			mysql_query(handle, query);
-			cache_get_row_count(row);
-			if(row == 1){
-				pInfo[playerid][pLoggedIn] = true;
-				SendClientMessage(playerid, COLOR_GREEN, "INFO: Login successful!");
-				return ShowDialogClist(playerid);
-			}else{
-				SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid UCP or password.");
-				return ShowDialogLogin(playerid);
-			}
-		}else{
-			SendClientMessage(playerid, COLOR_RED, "INFO: Login cancelled.");
-			return Kick(playerid);
-		}
-	}else if(dialogid == DIALOG_OTP){
-		if(response){
-			if(strlen(inputtext) < 6 || strlen(inputtext) > 6){
-				SendClientMessage(playerid, COLOR_RED, "ERROR: OTP must be exactly 6 characters.");
-				return ShowDialogOTP(playerid);
-			}
-			new 
-				query[256],
-				row;
-			mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE `ucp` = '%e' AND `otp` = '%e'", pInfo[playerid][pUCP], inputtext);
-			mysql_query(handle, query);
-			cache_get_row_count(row);
-			if(row != 1){
-				SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid OTP.");
-				return ShowDialogOTP(playerid);
-			}else{
-				pInfo[playerid][pLoggedIn] = true;
-				SendClientMessage(playerid, COLOR_GREEN, "INFO: OTP verified successfully!");
-				mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `activated` = 1, `otp` = NULL WHERE `ucp` = '%e'", pInfo[playerid][pUCP]);
-				mysql_query(handle, query);
-				return ShowDialogCreatePassword(playerid);
-			}
-		}else{
-			SendClientMessage(playerid, COLOR_RED, "INFO: OTP verification cancelled.");
-			return Kick(playerid);
-		}
-	}else if(dialogid == DIALOG_CREATE_PASSWORD){
-		if(response){
-			if(strlen(inputtext) < 4 || strlen(inputtext) > 20){
-				SendClientMessage(playerid, COLOR_RED, "ERROR: Password must be between 4 and 20 characters.");
-				return ShowDialogCreatePassword(playerid);
-			}
-			new query[256];
-			mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `password` = MD5('%e') WHERE `ucp` = '%e'", inputtext, pInfo[playerid][pUCP]);
-			mysql_query(handle, query);
-			pInfo[playerid][pLoggedIn] = true;
-			SendClientMessage(playerid, COLOR_GREEN, "INFO: Password created successfully!");
+
+//#########################################################################//
+//###########################| DIALOG RESPONSE |###########################//
+//#########################################################################//
+Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[]){
+	if(response){
+		if(strlen(inputtext) < 4 || strlen(inputtext) > 20){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Password must be between 4 and 20 characters.");
 			return ShowDialogLogin(playerid);
+		}
+		new 
+			query[256],
+			row;
+		mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE `ucp` = '%e' AND `password` = MD5('%e')", pInfo[playerid][pUCP], inputtext);
+		mysql_query(handle, query);
+		cache_get_row_count(row);
+		if(row == 1){
+			pInfo[playerid][pLoggedIn] = true;
+			SendClientMessage(playerid, COLOR_GREEN, "INFO: Login successful!");
+			return ShowDialogClist(playerid);
 		}else{
-			SendClientMessage(playerid, COLOR_RED, "INFO: Password creation cancelled.");
-			return Kick(playerid);
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid UCP or password.");
+			return ShowDialogLogin(playerid);
 		}
-	}else if(dialogid == DIALOG_UCP_CLIST){
-		if(response)
-		{
-			if(pCname[playerid][listitem][0] == EOS){
-				return ShowDialogName(playerid);
-			}else if(pCactived[playerid][listitem] == 0){
-				SendClientMessage(playerid, COLOR_GREEN, "INFO: This character is not active.");
-				pCselect[playerid] = listitem;
-				return ShowDialogBirthDate(playerid);
-			}
+	}else{
+		SendClientMessage(playerid, COLOR_RED, "INFO: Login cancelled.");
+		return Kick(playerid);
+	}
+}
+Dialog:DIALOG_OTP(playerid, response, listitem, inputtext[]){
+	if(response){
+		if(strlen(inputtext) < 6 || strlen(inputtext) > 6){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: OTP must be exactly 6 characters.");
+			return ShowDialogOTP(playerid);
+		}
+		new 
+			query[256],
+			row;
+		mysql_format(handle, query, sizeof(query), "SELECT * FROM `account` WHERE `ucp` = '%e' AND `otp` = '%e'", pInfo[playerid][pUCP], inputtext);
+		mysql_query(handle, query);
+		cache_get_row_count(row);
+		if(row != 1){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid OTP.");
+			return ShowDialogOTP(playerid);
+		}else{
+			pInfo[playerid][pLoggedIn] = true;
+			SendClientMessage(playerid, COLOR_GREEN, "INFO: OTP verified successfully!");
+			mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `activated` = 1, `otp` = NULL WHERE `ucp` = '%e'", pInfo[playerid][pUCP]);
+			mysql_query(handle, query);
+			return ShowDialogCreatePassword(playerid);
+		}
+	}else{
+		SendClientMessage(playerid, COLOR_RED, "INFO: OTP verification cancelled.");
+		return Kick(playerid);
+	}
+}
+Dialog:DIALOG_CREATE_PASSWORD(playerid, response, listitem, inputtext[]){
+	if(response){
+		if(strlen(inputtext) < 4 || strlen(inputtext) > 20){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Password must be between 4 and 20 characters.");
+			return ShowDialogCreatePassword(playerid);
+		}
+		new query[256];
+		mysql_format(handle, query, sizeof(query), "UPDATE `account` SET `password` = MD5('%e') WHERE `ucp` = '%e'", inputtext, pInfo[playerid][pUCP]);
+		mysql_query(handle, query);
+		pInfo[playerid][pLoggedIn] = true;
+		SendClientMessage(playerid, COLOR_GREEN, "INFO: Password created successfully!");
+		return ShowDialogLogin(playerid);
+	}else{
+		SendClientMessage(playerid, COLOR_RED, "INFO: Password creation cancelled.");
+		return Kick(playerid);
+	}
+}
+Dialog:DIALOG_UCP_CLIST(playerid, response, listitem, inputtext[]){
+	if(response){
+		if(pCname[playerid][listitem][0] == EOS){
+			return ShowDialogName(playerid);
+		}else if(pCactived[playerid][listitem] == 0){
+			SendClientMessage(playerid, COLOR_GREEN, "INFO: This character is not active.");
 			pCselect[playerid] = listitem;
-			pInfo[playerid][pName] = listitem;
-			SetPlayerName(playerid, pCname[playerid][listitem]);
-			return LoadChar(playerid, pCname[playerid][listitem]);
+			return ShowDialogBirthDate(playerid);
 		}
-
-
-	}else if(dialogid == DIALOG_NAME){
-		if(response){
-			if(strlen(inputtext) < 5 || strlen(inputtext) > 25){
-				SendClientMessage(playerid, COLOR_RED, "ERROR: Maximum name 20 characters.");
-				return ShowDialogName(playerid);
-			}
-			if(NameValidation(inputtext)){
-				new query[256];
-				new rows;
-				mysql_format(handle, query, sizeof(query), "SELECT * FROM `character` WHERE name = '%e'", inputtext);
-				mysql_query(handle, query);
-				cache_get_row_count(rows);
-				if(rows == 0){
-					InsertChar(playerid, inputtext);
-				}else{
-					SendClientMessage(playerid, COLOR_RED, "ERROR: Character names have been registered");
-					ShowDialogName(playerid);
-				}
+		pCselect[playerid] = listitem;
+		pInfo[playerid][pName] = listitem;
+		SetPlayerName(playerid, pCname[playerid][listitem]);
+		return LoadChar(playerid, pCname[playerid][listitem]);
+	}
+	return 1;
+}
+Dialog:DIALOG_NAME(playerid, response, listitem, inputtext[]){
+	if(response){
+		if(strlen(inputtext) < 5 || strlen(inputtext) > 25){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Maximum name 20 characters.");
+			return ShowDialogName(playerid);
+		}
+		if(NameValidation(inputtext)){
+			new query[256];
+			new rows;
+			mysql_format(handle, query, sizeof(query), "SELECT * FROM `character` WHERE name = '%e'", inputtext);
+			mysql_query(handle, query);
+			cache_get_row_count(rows);
+			if(rows == 0){
+				InsertChar(playerid, inputtext);
 			}else{
-				SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid character name");
+				SendClientMessage(playerid, COLOR_RED, "ERROR: Character names have been registered");
 				ShowDialogName(playerid);
 			}
 		}else{
-			SendClientMessage(playerid, COLOR_RED, "INFO: Character name creation cancelled.");
-			return ShowDialogClist(playerid);
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Invalid character name");
+			ShowDialogName(playerid);
 		}
-	}else if(dialogid == DIALOG_BIRTHDATE){
-		if(response){
-			if(DateValidation(playerid, inputtext)){
-				if(pCactived[playerid][pCselect[playerid]] == 0){
-					new 
-						query[256],
-						datestring[32];
-					format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
-					mysql_format(handle, query, sizeof(query), "UPDATE `character` SET birthdate = '%e' WHERE name = '%e' AND ucp = '%e'", datestring, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
-					mysql_query(handle, query);
-					printf("[MySQL] 1 Player %s has changed their birth date to %s", pInfo[playerid][pName], datestring);
-					SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
-					//return ShowDialogGender(playerid);
-				}else{
-					new 
-						query[256],
-						datestring[32];
-					format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
-					mysql_format(handle, query, sizeof(query), "UPDATE `character` SET birthdate = '%e' WHERE name = '%e' AND ucp = '%e'", datestring, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
-					mysql_query(handle, query);
-					printf("[MySQL] 2 Player %s has changed their birth date to %s", pInfo[playerid][pName], datestring);
-					SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
-					return 1;
-				}
+	}else{
+		SendClientMessage(playerid, COLOR_RED, "INFO: Character name creation cancelled.");
+		return ShowDialogClist(playerid);
+	}
+	return 1;
+}
+Dialog:DIALOG_BIRTHDATE(playerid, response, listitem, inputtext[]){
+	if(response){
+		new 
+			query[256],
+			datestring[32];
+		if(DateValidation(playerid, inputtext)){
+			if(pCactived[playerid][pCselect[playerid]] == 0){
+				format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
+				pInfo[playerid][pBirthDate] = datestring;
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
+				return ShowDialogWeight(playerid);
 			}else{
-				return ShowDialogBirthDate(playerid);
+				format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
+				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET birthdate = '%e' WHERE name = '%e' AND ucp = '%e'", datestring, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+				mysql_query(handle, query);
+				printf("[MySQL] 2 Player %s has changed their birth date to %s", pInfo[playerid][pName], datestring);
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
+				return 1;
 			}
 		}else{
-			return ShowDialogClist(playerid);
+			return ShowDialogBirthDate(playerid);
 		}
+	}else{
+		return ShowDialogClist(playerid);
+	}
+}
+Dialog:DIALOG_WEIGHT(playerid, response, listitem, inputtext[]){
+	if(response){
+		new 
+			query[256];
+		if(WeightValidation(playerid, inputtext)){
+			if(pCactived[playerid][pCselect[playerid]] == 0){
+				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET weight = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+				mysql_query(handle, query);
+				printf("[MySQL] 1 Player %s has changed their weight to %s", pInfo[playerid][pName], inputtext);
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed weight");
+			}else{
+				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET weight = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+				mysql_query(handle, query);
+				printf("[MySQL] 2 Player %s has changed their weight to %s", pInfo[playerid][pName], inputtext);
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed weight");
+			}
+		}else{
+			return ShowDialogWeight(playerid);
+		}
+	}else{
+		return ShowDialogClist(playerid);
 	}
 	return 1;
 }
@@ -466,17 +484,22 @@ FUNC::InsertChar(playerid, name[]){
 	mysql_query(handle, query);
 	return ShowDialogClist(playerid);
 }
-//////abcd
+FUNC::ShowDialogWeight(playerid){
+	new dialogtext[256];
+	format(dialogtext, sizeof(dialogtext), "Please enter your character's weight.\n\nExample: 70 (in kg)");
+	Dialog_Show(playerid, DIALOG_WEIGHT, DIALOG_STYLE_INPUT, "Character Weight", dialogtext, "Next", "Cancel");
+	return 1;
+}
 FUNC::ShowDialogBirthDate(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Please enter your character's birth date.\n\nExample: 01/01/2000");
-	ShowPlayerDialog(playerid, DIALOG_BIRTHDATE, DIALOG_STYLE_INPUT, "Character Birth Date", dialogtext, "Next", "Cancel");
+	Dialog_Show(playerid, DIALOG_BIRTHDATE, DIALOG_STYLE_INPUT, "Character Birth Date", dialogtext, "Next", "Cancel");
 	return 1;
 }
 FUNC::ShowDialogName(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Please enter your character name.\n\nExample: Daniel_Alexander");
-	ShowPlayerDialog(playerid, DIALOG_NAME, DIALOG_STYLE_INPUT, "Character Name", dialogtext, "Next", "Cancel");
+	Dialog_Show(playerid, DIALOG_NAME, DIALOG_STYLE_INPUT, "Character Name", dialogtext, "Next", "Cancel");
 	return 1;
 }
 FUNC::ShowDialogClist(playerid){
@@ -517,8 +540,7 @@ FUNC::ShowDialogClist(playerid){
 	if(count < MAX_CHARACTERS){
 		strcat(name, "< Create Character >");
 	}
-
-	ShowPlayerDialog(playerid, DIALOG_UCP_CLIST, DIALOG_STYLE_TABLIST_HEADERS, "Character List", name, "Select", "Cancel");
+	Dialog_Show(playerid, DIALOG_UCP_CLIST, DIALOG_STYLE_TABLIST_HEADERS, "Character List", name, "Select", "Cancel");
 	return 1;
 }
 FUNC::UCPCheck(playerid){
@@ -545,31 +567,44 @@ FUNC::UCPCheck(playerid){
 FUNC::ShowDialogCreatePassword(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nLast Login: %s\nPlease create a password for your account.", pInfo[playerid][pUCP], pInfo[playerid][pLastLogin]);
-	ShowPlayerDialog(playerid, DIALOG_CREATE_PASSWORD, DIALOG_STYLE_PASSWORD, "Create Password", dialogtext, "Create", "Cancel");
+	Dialog_Show(playerid, DIALOG_CREATE_PASSWORD, DIALOG_STYLE_PASSWORD, "Create Password", dialogtext, "Create", "Cancel");
 	return 1;
 }
 FUNC::ShowDialogOTP(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nPlease enter the OTP code that has been sent by the bot.", pInfo[playerid][pUCP]);
-	ShowPlayerDialog(playerid, DIALOG_OTP, DIALOG_STYLE_INPUT, "OTP Verification", dialogtext, "Verify", "Cancel");
+	Dialog_Show(playerid, DIALOG_OTP, DIALOG_STYLE_INPUT, "OTP Verification", dialogtext, "Verify", "Cancel");
 	return 1;
 }
 FUNC::ShowDialogLogin(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\nLast Login: %s\nPlease enter your password to continue.", pInfo[playerid][pUCP], pInfo[playerid][pLastLogin]);
-	ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", dialogtext, "Login", "Cancel");
+	Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", dialogtext, "Login", "Cancel");
 	return 1;
 }
 FUNC::ShowDialogRegisterAlert(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Welcome to Ryuji-RP\nUCP Account: %s\n\nYour UCP account is not registered.\nPlease register your account to continue.", pInfo[playerid][pUCP]);
-	ShowPlayerDialog(playerid, DIALOG_REGISTER_ALERT, DIALOG_STYLE_MSGBOX, "Register Alert", dialogtext, "OK", "");
+	Dialog_Show(playerid, DIALOG_REGISTER_ALERT, DIALOG_STYLE_MSGBOX, "Register Alert", dialogtext, "OK", "");
 	return 1;
 }
 
 //#########################################################################//
 //################################| STOCK |################################//
 //#########################################################################//
+stock bool:WeightValidation(playerid, const weight[]){
+	for(new i; i < strlen(weight); i++){
+		if(weight[i] < '0' || weight[i] > '9'){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Weight must be a number.");
+			return false;
+		}
+	}
+	if(strval(weight) < 40 || strval(weight) > 80){
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Weight must be between 40 and 80.");
+		return false;
+	}
+	return true;
+}
 stock IsLeapYear(year){
     return(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
