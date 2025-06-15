@@ -5,3 +5,4 @@
 forward bool:NameValidation(const nama[]);
 forward bool:DateValidation(playerid, const dateStr[]);
 forward bool:WeightValidation(playerid, const weight[]);
+forward bool:HeightValidation(playerid, const Height[]);

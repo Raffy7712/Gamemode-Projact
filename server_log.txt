@@ -8330,3 +8330,77 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [14:02:58] [join] Lolicon has joined the server (0:127.0.0.1)
 [14:03:12] [MySQL] 1 Player  has changed their weight to 45
 [14:03:14] [part] Lolicon has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:49:31] filterscripts = ""  (string)
+[10:49:31] 
+[10:49:31] Server Plugins
+[10:49:31] --------------
+[10:49:31]  Loading plugin: sscanf
+[10:49:31] 
+[10:49:31]  ===============================
+[10:49:31] 
+[10:49:31]       sscanf plugin loaded.     
+[10:49:31] 
+[10:49:31]          Version: 2.13.8
+[10:49:31] 
+[10:49:31]    (c) 2022 Alex "Y_Less" Cole  
+[10:49:31] 
+[10:49:31]  ===============================
+[10:49:31] 
+[10:49:31]   Loaded.
+[10:49:31]  Loading plugin: mysql
+[10:49:31]  >> plugin.mysql: R41-4 successfully loaded.
+[10:49:31]   Loaded.
+[10:49:31]  Loading plugin: pawncmd
+[10:49:31] [Pawn.CMD] plugin v3.4.0 loading...
+[10:49:32] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:49:32]   Loaded.
+[10:49:32]  Loading plugin: streamer
+[10:49:32] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:49:32]   Loaded.
+[10:49:32]  Loading plugin: crashdetect
+[10:49:32]   CrashDetect must be loaded before 'streamer.DLL'
+[10:49:32]   Failed.
+[10:49:32]  Loaded 4 plugins.
+
+[10:49:32] 
+[10:49:32] Filterscripts
+[10:49:32] ---------------
+[10:49:32]   Loaded 0 filterscripts.
+
+[10:49:32] [MySQL] Menghubungkan ke database...
+[10:49:32] [MySQL] Connection to database successful! Handle: 1
+[10:49:32] 
+----------------------------------
+[10:49:32]  Ryuji-RP Basic Gamemode
+[10:49:32]  Version: 1.0
+[10:49:32] ----------------------------------
+
+[10:49:32] Number of vehicle models: 0
+[10:49:54] [connection] incoming connection: 127.0.0.1:50359 id: 0
+[10:49:55] [join] Lolicon has joined the server (0:127.0.0.1)
+[10:50:04] [MySQL] 1 Player  has changed their birth date to 1999/01/21
+[10:50:10] [MySQL] 1 Player  has changed their weight to 67
+[10:50:21] [MySQL] 1 Player  has changed their height to 160
+[10:50:38] [part] Lolicon has left the server (0:0)

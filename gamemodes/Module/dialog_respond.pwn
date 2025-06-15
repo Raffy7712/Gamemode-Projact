@@ -122,7 +122,9 @@ Dialog:DIALOG_BIRTHDATE(playerid, response, listitem, inputtext[]){
 		if(DateValidation(playerid, inputtext)){
 			if(pCactived[playerid][pCselect[playerid]] == 0){
 				format(datestring, sizeof(datestring), "%s", ConvertDateFormat(1, inputtext));
-				pInfo[playerid][pBirthDate] = datestring;
+				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET birthdate = '%e' WHERE name = '%e' AND ucp = '%e'", datestring, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+				mysql_query(handle, query);
+				printf("[MySQL] 1 Player %s has changed their birth date to %s", pInfo[playerid][pName], datestring);
 				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed date of birth");
 				return ShowDialogWeight(playerid);
 			}else{
@@ -142,14 +144,14 @@ Dialog:DIALOG_BIRTHDATE(playerid, response, listitem, inputtext[]){
 }
 Dialog:DIALOG_WEIGHT(playerid, response, listitem, inputtext[]){
 	if(response){
-		new 
-			query[256];
+		new query[256];
 		if(WeightValidation(playerid, inputtext)){
 			if(pCactived[playerid][pCselect[playerid]] == 0){
 				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET weight = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
 				mysql_query(handle, query);
 				printf("[MySQL] 1 Player %s has changed their weight to %s", pInfo[playerid][pName], inputtext);
 				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed weight");
+				return ShowDialogHeight(playerid);
 			}else{
 				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET weight = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
 				mysql_query(handle, query);
@@ -158,6 +160,29 @@ Dialog:DIALOG_WEIGHT(playerid, response, listitem, inputtext[]){
 			}
 		}else{
 			return ShowDialogWeight(playerid);
+		}
+	}else{
+		return ShowDialogClist(playerid);
+	}
+	return 1;
+}
+Dialog:DIALOG_HEIGHT(playerid, response, listitem, inputtext[]){
+	if(response){
+		new query[256];
+		if(HeightValidation(playerid, inputtext)){
+			if(pCactived[playerid][pCselect[playerid]] == 0){
+				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET height = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+				mysql_query(handle, query);
+				printf("[MySQL] 1 Player %s has changed their height to %s", pInfo[playerid][pName], inputtext);
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed height");
+			}else{
+				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET height = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+				mysql_query(handle, query);
+				printf("[MySQL] 2 Player %s has changed their height to %s", pInfo[playerid][pName], inputtext);
+				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed height");
+			}
+		}else{
+			return ShowDialogHeight(playerid);
 		}
 	}else{
 		return ShowDialogClist(playerid);
