@@ -1,6 +1,19 @@
 //#########################################################################//
 //############################| FUNCTION STOCK |###########################//
 //#########################################################################//
+stock bool:HeightValidation(playerid, const Height[]){
+	for(new i; i < strlen(Height); i++){
+		if(Height[i] < '0' || Height[i] > '9'){
+			SendClientMessage(playerid, COLOR_RED, "ERROR: Height must be a number.");
+			return false;
+		}
+	}
+	if(strval(Height) < 150 || strval(Height) > 250){
+		SendClientMessage(playerid, COLOR_RED, "ERROR: Height must be between 150 and 250 cm.");
+		return false;
+	}
+	return true;
+}
 stock bool:WeightValidation(playerid, const weight[]){
 	for(new i; i < strlen(weight); i++){
 		if(weight[i] < '0' || weight[i] > '9'){

@@ -60,6 +60,12 @@ FUNC::InsertChar(playerid, name[]){
 	mysql_query(handle, query);
 	return ShowDialogClist(playerid);
 }
+FUNC::ShowDialogHeight(playerid){
+	new dialogtext[256];
+	format(dialogtext, sizeof(dialogtext), "Please enter your character's height.\n\nExample: 180 (in cm)");
+	Dialog_Show(playerid, DIALOG_HEIGHT, DIALOG_STYLE_INPUT, "Character Height", dialogtext, "Next", "Cancel");
+	return 1;
+}
 FUNC::ShowDialogWeight(playerid){
 	new dialogtext[256];
 	format(dialogtext, sizeof(dialogtext), "Please enter your character's weight.\n\nExample: 70 (in kg)");
