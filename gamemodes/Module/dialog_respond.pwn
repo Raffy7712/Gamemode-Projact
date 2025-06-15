@@ -175,6 +175,7 @@ Dialog:DIALOG_HEIGHT(playerid, response, listitem, inputtext[]){
 				mysql_query(handle, query);
 				printf("[MySQL] 1 Player %s has changed their height to %s", pInfo[playerid][pName], inputtext);
 				SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed height");
+				return ShowDialogGender(playerid);
 			}else{
 				mysql_format(handle, query, sizeof(query), "UPDATE `character` SET height = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
 				mysql_query(handle, query);
@@ -184,6 +185,18 @@ Dialog:DIALOG_HEIGHT(playerid, response, listitem, inputtext[]){
 		}else{
 			return ShowDialogHeight(playerid);
 		}
+	}else{
+		return ShowDialogClist(playerid);
+	}
+	return 1;
+}
+Dialog:DIALOG_GENDER(playerid, response, listitem, inputtext[]){
+	if(response){
+		new query[256];
+		mysql_format(handle, query, sizeof(query), "UPDATE `character` SET gender = '%e' WHERE name = '%e' AND ucp = '%e'", inputtext, pCname[playerid][pCselect[playerid]], pInfo[playerid][pUCP]);
+		mysql_query(handle, query);
+		printf("[MySQL] 1 Player %s has changed their gender to %s", pInfo[playerid][pName], inputtext);
+		SendClientMessage(playerid, COLOR_GREEN, "INFO: Successfully changed gender");
 	}else{
 		return ShowDialogClist(playerid);
 	}
