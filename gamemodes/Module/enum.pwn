@@ -15,8 +15,12 @@ enum pDataEnum{
 	Float:pExp,
 	pMoney,
 	pBirthDate[32],
+	pAge[4],
 	pWeight,
 	pHeight,
 	pGender[32],
 	pRegion[32]
+}
+enum CountryListEnum{
+	CountryName[32],
 }

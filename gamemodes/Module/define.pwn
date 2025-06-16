@@ -7,6 +7,7 @@
 #define MYSQL_PASSWORD "root"
 #define MYSQL_DATABASE "ryujirp"
 #define MAX_CHARACTERS 3
+#define MAX_COUNTRY 30 //Maximum number of countries
 //COLOR
 #define COLOR_RED   			0xFF0000FF
 #define COLOR_GREEN 			0x00FF00FF

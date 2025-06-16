@@ -4,7 +4,8 @@
 FUNC::LoadChar(playerid, name[]){
 	new 
 		query[256],
-		row;
+		row,
+		birthdate[32];
 	mysql_format(handle, query, sizeof(query), "SELECT * FROM `character` WHERE `ucp` = '%e' AND `name` = '%e'", pInfo[playerid][pUCP], name);
 	mysql_query(handle, query);
 	cache_get_row_count(row);
@@ -22,6 +23,13 @@ FUNC::LoadChar(playerid, name[]){
 		cache_get_value_name_int(0, "Level", pInfo[playerid][pLevel]);
 		cache_get_value_name_float(0, "Exp", pInfo[playerid][pExp]);
 		cache_get_value_name_int(0, "Money", pInfo[playerid][pMoney]);
+		cache_get_value_name(0, "BirthDate", birthdate, 32);
+		format(pInfo[playerid][pBirthDate], 32, "%s", ConvertDateFormat(2, birthdate));
+		format(pInfo[playerid][pAge], 4, "%d", CalculateCharacterAge(pInfo[playerid][pBirthDate]));
+		cache_get_value_name_int(0, "Weight", pInfo[playerid][pWeight]);
+		cache_get_value_name_int(0, "Height", pInfo[playerid][pHeight]);
+		cache_get_value_name(0, "Gender", pInfo[playerid][pGender], 32);
+		cache_get_value_name(0, "Region", pInfo[playerid][pRegion], 32);
         if(pInfo[playerid][pPosX] == 0.0 && pInfo[playerid][pPosY] == 0.0 && pInfo[playerid][pPosZ] == 0.0){
             pInfo[playerid][pPosX] = 1642.1681;
             pInfo[playerid][pPosY] = -2333.3689;
@@ -47,6 +55,7 @@ FUNC::LoadChar(playerid, name[]){
         SetPlayerSkin(playerid, 1);
 		GivePlayerMoney(playerid, pInfo[playerid][pMoney]);
 
+		
         SendClientMessage(playerid, COLOR_GREEN, "You have successfully spawned.");
         return 1;
 	}else{
@@ -59,6 +68,19 @@ FUNC::InsertChar(playerid, name[]){
 	mysql_format(handle, query, sizeof(query), "INSERT INTO `character` (`UCP`, `Name`) VALUES ('%e', '%e')", pInfo[playerid][pUCP], name);
 	mysql_query(handle, query);
 	return ShowDialogClist(playerid);
+}
+FUNC::ShowDialogRegion(playerid){
+	new dialogtext[512]; // sesuaikan dengan jumlah karakter pada CountryList
+	for(new i; i < MAX_COUNTRY; i++){
+		if(CountryList[i][CountryName] != EOS){
+			format(dialogtext, sizeof(dialogtext), "%s\n%s", dialogtext, CountryList[i][CountryName]);
+			if(i < MAX_COUNTRY - 1){
+				strcat(dialogtext, "\n");
+			}
+		}
+	}
+	Dialog_Show(playerid, DIALOG_REGION, DIALOG_STYLE_LIST, "Character Region", dialogtext, "Next", "Cancel");
+	return 1;
 }
 FUNC::ShowDialogGender(playerid){
 	new dialogtext[256];

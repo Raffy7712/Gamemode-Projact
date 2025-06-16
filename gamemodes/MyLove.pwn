@@ -16,6 +16,7 @@
 #include <crashdetect>
 #include <sscanf2>
 #include <easydialog>
+#include <Pawn.CMD>
 #include "./module/core.pwn"
 
 #if defined FILTERSCRIPT
