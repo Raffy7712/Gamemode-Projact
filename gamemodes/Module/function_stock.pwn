@@ -30,22 +30,155 @@ stock bool:WeightValidation(playerid, const weight[]){
 stock IsLeapYear(year){
     return(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
+stock CalculateCharacterAge(const dateStr[]){
+	new day[4],
+		month[4],
+		year[8],
+		step = 0,
+		yIndex = 0,
+		mIndex = 0,
+		dIndex = 0;
+	new cDay[4],
+		cMonth[4],
+		cYear[8];
+
+	new cDate[64];
+	strcat(cDate, GetDateTime("date"), sizeof(cDate));
+	for(new i = 0; dateStr[i] != EOS; i++){
+		if(dateStr[i] == '/'){
+			step++;
+		}else{
+			switch(step){
+				case 0:{ // Hari (DD)
+					if(dIndex < sizeof(day)-2){
+						day[dIndex] = dateStr[i];
+						cDay[dIndex] = cDate[i];
+						dIndex++;
+					}
+				}
+				case 1:{ // Bulan (MM)
+					if(mIndex < sizeof(month)-2){
+						month[mIndex] = dateStr[i];
+						cMonth[mIndex] = cDate[i];
+						mIndex++;
+					}
+				}
+				case 2:{ // Tahun (YYYY)
+					if(yIndex < sizeof(year)-4){
+						year[yIndex] = dateStr[i];
+						cYear[yIndex] = cDate[i];
+						yIndex++;
+					}
+				}
+			}
+		}
+	}
+	new iDay = strval(day);
+    new iMonth = strval(month);
+    new iYear = strval(year);
+	new icDay = strval(cDay);
+    new icMonth = strval(cMonth);
+    new icYear = strval(cYear);
+	step = 0;
+	dIndex = 0;
+	mIndex = 0;
+	yIndex = 0;
+	year[yIndex] = EOS;
+	month[mIndex] = EOS;
+	day[dIndex] = EOS;
+	new age = icYear - iYear;
+    // Koreksi jika belum ulang tahun di tahun ini
+    if(icMonth < iMonth || (icMonth == iMonth && icDay < iDay))
+    {
+        age--;
+    }
+    // Pastikan umur tidak negatif
+    return (age < 0) ? 0 : age;
+}
 stock ConvertDateFormat(const type, const dateStr[]){
 	//type 1 untuk konvert tanggal ke database YYYY/MM/DD
 	//type 2 untuk konvert tanggal dari database DD/MM/YYYY
 	new datestring[32];
-	new day = (dateStr[0] - '0') * 10 + (dateStr[1] - '0');
-    new month = (dateStr[3] - '0') * 10 + (dateStr[4] - '0');
-    new year = (dateStr[6] - '0') * 1000 + 
-               (dateStr[7] - '0') * 100 + 
-               (dateStr[8] - '0') * 10 + 
-               (dateStr[9] - '0');
 	switch(type){
 		case 1:{
-			format(datestring, sizeof(datestring), "%04d/%02d/%02d", year, month, day);
+			new day[4],
+				month[4],
+				year[8],
+				step = 0,
+				yIndex = 0,
+				mIndex = 0,
+				dIndex = 0;
+			for(new i = 0; dateStr[i] != EOS; i++){
+				if(dateStr[i] == '/'){
+					step++;
+				}else{
+					switch(step){
+						case 0:{ // Hari (DD)
+							if(dIndex < sizeof(day)-2){
+								day[dIndex] = dateStr[i];
+								dIndex++;
+							}
+						}
+						case 1:{ // Bulan (MM)
+							if(mIndex < sizeof(month)-2){
+								month[mIndex] = dateStr[i];
+								mIndex++;
+							}
+						}
+						case 2:{ // Tahun (YYYY)
+							if(yIndex < sizeof(year)-4){
+								year[yIndex] = dateStr[i];
+								yIndex++;
+							}
+						}
+					}
+				}
+			}
+			year[yIndex] = EOS;
+			month[mIndex] = EOS;
+			day[dIndex] = EOS;
+			step = 0;
+			format(datestring, sizeof(datestring), "%s-%s-%s", year, month, day);
 		}
 		case 2:{
-			format(datestring, sizeof(datestring), "%02d/%02d/%04d", day, month, year);
+			new day[4],
+				month[4],
+				year[8],
+				step = 0,
+				yIndex = 0,
+				mIndex = 0,
+				dIndex = 0;
+			for(new i = 0; dateStr[i] != EOS; i++){
+				if(dateStr[i] == '-'){
+					step++;
+				}else{
+					switch(step){
+						case 0:{ // Tahun (YYYY)
+							if(yIndex < sizeof(year)-4){
+								year[yIndex] = dateStr[i];
+								yIndex++;
+							}
+						}
+						case 1:{ // Bulan (MM)
+							if(mIndex < sizeof(month)-2){
+								month[mIndex] = dateStr[i];
+								mIndex++;
+							}
+						}
+						case 2:{ // Hari (DD)
+							if(dIndex < sizeof(day)-2){
+								day[dIndex] = dateStr[i];
+								dIndex++;
+							}
+						}
+					}
+				}
+			}
+			year[yIndex] = EOS;
+			month[mIndex] = EOS;
+			day[dIndex] = EOS;
+			step = 0;
+			format(datestring, sizeof(datestring), "%s/%s/%s", day, month, year);
 		}
 		default:{
 			format(datestring, sizeof(datestring), "");
